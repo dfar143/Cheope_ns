@@ -1,0 +1,7 @@
+{
+"name": "dfar143/cheope_ns",
+"description": "It generates generic parser written in php",
+"require" : {
+"php":"5.0"
+}
+}
