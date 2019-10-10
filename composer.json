@@ -3,6 +3,6 @@
 "version":"1.0.0",
 "description": "General purpose framework written in php",
 "require" : {
-"php":"5.0"
+"php":">=5.0"
 }
 }
