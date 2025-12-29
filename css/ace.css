@@ -1,1 +1,28 @@
-
+//
+// usare l'ID del div dell'editor
+//
+#editor { 
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+    
+        #statusBar {
+        margin: 0;
+        padding: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 20px;
+        background-color: rgb(245, 245, 245);
+        color: gray;
+        border 0px;
+        text-align:right;
+    }
+    .ace_status-indicator {
+        color: gray;
+        right: 0;
+        border-left: 0px;
+    }
