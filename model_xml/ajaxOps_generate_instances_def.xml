@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<Items>
+  <sections name="SEZIONE Generate instances">
+  	<section name="Generates instances">
+     <def name="">
+        <var name="">ajaxOpJavascriptInjection</var>
+        <constructor_call name="AjaxOpJavascriptInjection"/>
+      </def>
+     <def name="">
+        <var name="">ajaxOpLocalization</var>
+        <constructor_call name="AjaxOpLocalization"/>
+      </def>
+	 </section>
+	</sections>
+</Items>

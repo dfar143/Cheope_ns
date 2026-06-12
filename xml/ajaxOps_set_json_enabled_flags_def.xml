@@ -1,0 +1,1737 @@
+<?xml version="1.0"?>
+<Items>
+  <sections name="SEZIONE Set Json enabled flags.">
+    <section name="Set Json enabled flags.">
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpJavascriptInjection</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpLocalization</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">true</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpTestDir</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpGetScrollData</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpGetSheetData</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpGetFile</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpOp1</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpOp2</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpOp3</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpOp4</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpOp5</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpOp6</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpOp7</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpSendFile</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpGetDbObjsDefProps</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpSetDbObjsDefProps</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpGetAllFieldsDefProps</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpUnblockApp</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpSetFieldsDefFieldsProps</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpSetFieldsDefAllFieldsProps</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpSetFieldsDefCandKeyFieldsProps</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpSetFieldsDefExtKeyFieldsProps</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpSet1NRelationsDefinitionProps</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpGet1NRelations</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpGetMNRelations</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpSetMNRelationsDefinitionProps</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpCreateDbStruct</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpPostSendInterfaceData</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpDeleteFile</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpCreateFile</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpRenameFile</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpCreatePage</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpGetQuery</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpSetQuery</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpSetAllQueries</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpCreateQueriesStruct</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpDumpAjaxOpsConstsFile</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpAddAjaxOpsFromPhpArray</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpGetParents</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpCheckIfIs1NRelationFather</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpCheckIfIs1NRelationFatherOf</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpCheckIfIs1NRelation</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpCheckIfExistMNRelationLinkTable</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpGetFieldsDefProps</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpGetCandKeyFieldsProps</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpGetExtKeyFieldsProps</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpGetPkKeyField</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpSetPk</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpCheckIfIsSuitablePkKey</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpCheckIfIsSuitableField</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpSetFieldsDef</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpSetFieldsConstsDef</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpSetFieldsDefWithoutExtKeys</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpSqlServerImport</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpTestConnection</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpViewAllFieldsOp1</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpViewAllFieldsOp2</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpSqlServerCreateTable</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpCheckIfKeyCollides</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpViewAllTablesOp1</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpViewAllTablesOp2</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpViewAllRelationsOp1</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpViewAllRelationsOp2</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpRenameAllItems</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpCheckIfKeyCollidesWithSonsKeys</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpCheckIfIsDataSourceQuery</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpViewAllQueriesOp1</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpViewAllQueriesOp2</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpSetSessionActiveApp</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpExportQueryToCsv</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpGetDbOpPars</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpGetConnection</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpSetConnection</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpCreateConnectionsStruct</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpViewAllConnectionsOp2</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpCopyConnectionToDbPars</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpViewAllAliasesOp1</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpViewAllAliasesOp2</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpSetAllAliases</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpCheckIfAliasExists</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpCheckIfTableExists</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpViewTablesAndQueriesOp1</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpViewTablesAndQueriesOp2</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpViewTablesAndQueriesOp3</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpGetNodeType</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpSetAllTablesAndQueriesBinds</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpCreateDbBinds</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpUpdateBinds</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpGetTableFromAlias</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpGetLayouts</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpLayoutsOp1</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpLayoutsOp2</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpSaveLayout</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpCreateLayoutPreview</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpGetLayout</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpCreatePreview</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpManageOp1</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpManageOp2</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpGetNamedInterfacesContainer</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpGetAllTableFields</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpGetAllAliasFields</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpGetAllQueryFields</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpGetAllModuleFields</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpGetAllBindFields</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpManageFieldsOp2</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpManageFieldsOp1</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpGetAllInterfacesOfPage</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpFilterParentsInterfacesFiles</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpGetInterfaceIds</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpExport</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpGetSingleMenus</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpGetMultiMenus</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpViewSingleMenuFieldsOp1</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpViewSingleMenuFieldsOp2</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpSetSingleMenu</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpViewMultiMenuFieldsOp1</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpViewMultiMenuFieldsOp2</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpSetMultiMenu</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpGetFreeInterfaceCanonicalName</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpViewBindsOp1</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpViewBindsOp2</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpViewBindsOp3</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpViewBindsOp4</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpSetAllBinds</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpRenameAliasName</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpGetBindNodeName</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpGetBindNodeType</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpCheckIfNodeIsUsed</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpCheckIfConnectionIsUsed</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpViewBoundInterfacesOp2</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpViewBoundInterfacesOp3</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpSetAllBoundInterfaces</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpCatalogOp2</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpCatalogOp3</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpCatalogOp4</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpSetAllCatalogInterfaces</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpGetInterfaceItemsNum</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpIsInterfaceBusy</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpExportChanges</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpScanForItem</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpManageAjaxOp1</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpManageAjaxOp2</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpSetAllAjaxOps</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpManageAjaxClassesOp1</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpManageAjaxClassesOp2</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpSetAllAjaxOpsClasses</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpGenerateAjaxOpsConfigurationFiles</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpGenerateAjaxOpsClassesFiles</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpPagesInterfacesExportChanges</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpViewFormsSectionGridOp1</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpSaveFormSection</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpGetFormSections</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpViewPdfTemplateGridOp1</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpSavePdfTemplate</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpGetPdfTemplates</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpGetObjTypeByShortName</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpGetFpdfIntProps</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpGetPredInterfaces</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpInterfaceExists</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpCreatePdf</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpDeleteFile2</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpGetPredInterfaces2</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpFileExists</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpCreatePdf</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpDeleteFile2</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpGetPdfTemplates</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpDojoInPreview</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpCheckIfIsInRelation</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpDeleteRelationsDefs</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpGetPkKeyByTableName</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+     <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpLogEnable</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+    <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpTestIntFormat</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+   <def name="">
+        <method_call instanceName="" parent="" name="setIsJsonEnabled">
+          <arg name="">
+            <var name="">ajaxOpFixDbXmlFiles</var>
+          </arg>
+          <arg name="">
+            <string type="no_quoted" name="">false</string>
+          </arg>
+        </method_call>
+      </def>
+    </section>
+  </sections>
+</Items>

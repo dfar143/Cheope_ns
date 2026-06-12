@@ -1,0 +1,1737 @@
+<?xml version="1.0"?>
+<Items>
+  <sections name="SEZIONE add instances to container.">
+    <section name="Add instances to container.">
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpJavascriptInjection</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpLocalization</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpTestDir</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpGetScrollData</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpGetSheetData</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpGetFile</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpOp1</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpOp2</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpOp3</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpOp4</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpOp5</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpOp6</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpOp7</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpSendFile</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpGetDbObjsDefProps</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpSetDbObjsDefProps</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpGetAllFieldsDefProps</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpUnblockApp</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpSetFieldsDefFieldsProps</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpSetFieldsDefAllFieldsProps</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpSetFieldsDefCandKeyFieldsProps</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpSetFieldsDefExtKeyFieldsProps</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpSet1NRelationsDefinitionProps</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpGet1NRelations</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpGetMNRelations</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpSetMNRelationsDefinitionProps</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpCreateDbStruct</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpPostSendInterfaceData</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpDeleteFile</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpCreateFile</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpRenameFile</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpCreatePage</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpGetQuery</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpSetQuery</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpSetAllQueries</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpCreateQueriesStruct</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpDumpAjaxOpsConstsFile</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpAddAjaxOpsFromPhpArray</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpGetParents</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpCheckIfIs1NRelationFather</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpCheckIfIs1NRelationFatherOf</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpCheckIfIs1NRelation</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpCheckIfExistMNRelationLinkTable</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpGetFieldsDefProps</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpGetCandKeyFieldsProps</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpGetExtKeyFieldsProps</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpGetPkKeyField</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpSetPk</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpCheckIfIsSuitablePkKey</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpCheckIfIsSuitableField</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpSetFieldsDef</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpSetFieldsConstsDef</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpSetFieldsDefWithoutExtKeys</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpSqlServerImport</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpTestConnection</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpViewAllFieldsOp1</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpViewAllFieldsOp2</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpSqlServerCreateTable</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpCheckIfKeyCollides</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpViewAllTablesOp1</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpViewAllTablesOp2</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpViewAllRelationsOp1</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpViewAllRelationsOp2</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpRenameAllItems</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpCheckIfKeyCollidesWithSonsKeys</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpCheckIfIsDataSourceQuery</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpViewAllQueriesOp1</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpViewAllQueriesOp2</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpSetSessionActiveApp</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpExportQueryToCsv</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpGetDbOpPars</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpGetConnection</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpSetConnection</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpCreateConnectionsStruct</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpViewAllConnectionsOp2</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpCopyConnectionToDbPars</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpViewAllAliasesOp1</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpViewAllAliasesOp2</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpSetAllAliases</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpCheckIfAliasExists</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpCheckIfTableExists</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpViewTablesAndQueriesOp1</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpViewTablesAndQueriesOp2</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpViewTablesAndQueriesOp3</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpGetNodeType</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpSetAllTablesAndQueriesBinds</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpCreateDbBinds</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpUpdateBinds</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpGetTableFromAlias</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpGetLayouts</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpLayoutsOp1</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpLayoutsOp2</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpSaveLayout</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpCreateLayoutPreview</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpGetLayout</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpCreatePreview</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpManageOp1</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpManageOp2</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpGetNamedInterfacesContainer</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpGetAllTableFields</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpGetAllAliasFields</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpGetAllQueryFields</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpGetAllModuleFields</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpGetAllBindFields</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpManageFieldsOp2</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpManageFieldsOp1</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpGetAllInterfacesOfPage</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpFilterParentsInterfacesFiles</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpGetInterfaceIds</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpExport</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpGetSingleMenus</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpGetMultiMenus</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpViewSingleMenuFieldsOp1</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpViewSingleMenuFieldsOp2</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpSetSingleMenu</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpViewMultiMenuFieldsOp1</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpViewMultiMenuFieldsOp2</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpSetMultiMenu</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpGetFreeInterfaceCanonicalName</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpViewBindsOp1</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpViewBindsOp2</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpViewBindsOp3</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpViewBindsOp4</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpSetAllBinds</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpRenameAliasName</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpGetBindNodeName</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpGetBindNodeType</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpCheckIfNodeIsUsed</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpCheckIfConnectionIsUsed</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpViewBoundInterfacesOp2</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpViewBoundInterfacesOp3</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpSetAllBoundInterfaces</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpCatalogOp2</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpCatalogOp3</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpCatalogOp4</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpSetAllCatalogInterfaces</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpGetInterfaceItemsNum</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpIsInterfaceBusy</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpExportChanges</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpScanForItem</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpManageAjaxOp1</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpManageAjaxOp2</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpSetAllAjaxOps</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpManageAjaxClassesOp1</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpManageAjaxClassesOp2</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpSetAllAjaxOpsClasses</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpGenerateAjaxOpsConfigurationFiles</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpGenerateAjaxOpsClassesFiles</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpPagesInterfacesExportChanges</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpViewFormsSectionGridOp1</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpSaveFormSection</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpGetFormSections</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpViewPdfTemplateGridOp1</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpSavePdfTemplate</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpGetPdfTemplates</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpGetObjTypeByShortName</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpGetFpdfIntProps</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpGetPredInterfaces</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpInterfaceExists</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpCreatePdf</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpDeleteFile2</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpGetPredInterfaces2</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpFileExists</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpCreatePdf</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpDeleteFile2</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpGetPdfTemplates</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpDojoInPreview</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpCheckIfIsInRelation</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpDeleteRelationsDefs</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpGetPkKeyByTableName</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpLogEnable</var>
+          </arg>
+        </method_call>
+      </def>
+     <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpTestIntFormat</var>
+          </arg>
+        </method_call>
+      </def>
+     <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <arg name="">
+            <var name="">ajaxOps</var>
+          </arg>
+          <arg name="">
+            <var name="">ajaxOpFixDbXmlFiles</var>
+          </arg>
+        </method_call>
+      </def>
+    </section>
+  </sections>
+</Items>

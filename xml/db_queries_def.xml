@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Items>
+<sections  name="SEZIONE PRINCIPALE">
+	<section   name="Queries_require_onces">
+   <ref >
+    queries_require_onces_def
+	 </ref>
+	</section>
+	<section   name="Queries_defines">
+	 <ref >
+   queries_defines_def
+   </ref>
+	</section>
+	<section   name="Queries_definitions">
+	<ref >
+		queries_definition_def
+	</ref>
+	</section>
+	<section   name="Queries_container_definition">
+	 <ref >
+	 	queries_container_definition_def
+	 </ref>
+	</section>
+</sections>
+</Items>

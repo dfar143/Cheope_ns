@@ -1,0 +1,11 @@
+table.sorttab a.sorthdr {
+  background-color: #ddf;
+  color: blue;
+  font-weight: bold;
+  text-decoration: none;
+  display: block;
+}
+table.sorttab span.sortfrec {
+  color: red;
+  text-decoration: none;
+}

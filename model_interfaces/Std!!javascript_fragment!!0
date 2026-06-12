@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<Items>
+  <ind_op type="scalar" id="op"></ind_op>
+  <ind_type type="scalar" id="type"><![CDATA[javascript_fragment]]></ind_type>
+  <ind_num type="scalar" id="num"><![CDATA[0]]></ind_num>
+  <ind_shortName type="scalar" id="shortName"></ind_shortName>
+  <ind_cssClass type="scalar" id="cssClass"></ind_cssClass>
+  <ind_dispFields type="array" id="dispFields"/>
+  <ind_hookId type="scalar" id="hookId"></ind_hookId>
+  <ind_javascriptFragment type="scalar" id="@javascriptFragment">
+  </ind_javascriptFragment>
+  <ind_enableInsertInClientContainer type="scalar" id="*enableInsertInClientContainer"><![CDATA[true]]></ind_enableInsertInClientContainer>
+  <ind_enableExecuteOnLoad type="scalar" id="*enableExecuteOnLoad"><![CDATA[true]]></ind_enableExecuteOnLoad>
+</Items>

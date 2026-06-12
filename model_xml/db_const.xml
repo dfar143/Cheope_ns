@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<items>
+ <sections  name="SEZIONE PRINCIPALE">
+ 	<def><namespace>Std\fw</namespace></def>
+ 	<block_def brackets="0" name="">
+      <section name="Require_onces">
+        <ref name="">
+    db_require_onces_def
+   </ref>
+      </section>
+	<section name="Db type consts">
+	 <ref >
+    db_type_const
+   </ref>		
+	</section>
+	<section name="Active db">
+		<def name="">
+		<function_call  name="define">
+			<arg>
+			 <expr name="">__NAMESPACE__ . '\ACTIVE_DB'</expr>
+		  </arg>
+			<arg>
+			 <expr name="">namespace\ODBC</expr>
+		  </arg>
+		</function_call>
+		</def>	
+	</section>
+	<section name="Odbc consts">
+   <ref>
+   	 odbc_const
+   </ref>
+	</section>
+	<section name="Sqlsrv definition">
+   <ref>
+   	 sqlsrv_const
+   </ref>
+	</section>
+      </block_def>
+ </sections>
+</items>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Items>
+   <ind_op type="scalar" id="op"></ind_op>
+   <ind_type type="scalar" id="type"><![CDATA[html_input_ctrl]]></ind_type>
+   <ind_num type="scalar" id="num"><![CDATA[0]]></ind_num>
+   <ind_style type="scalar" id="@style"></ind_style>
+   <ind_dispFields type="array" id="dispFields">
+   </ind_dispFields>
+   <ind_cssClass type="scalar" id="cssClass"><![CDATA[input_ctrl]]></ind_cssClass>
+   <ind_obj type="db_item" id="obj"></ind_obj>
+   <ind_dataFields type="array" id="dataFields">
+   </ind_dataFields>
+   <ind_dataFieldsDomains type="array" id="dataFieldsDomains">
+   </ind_dataFieldsDomains>
+   <ind_dataFieldsDomainsValues type="array" id="dataFieldsDomainsValues">
+   </ind_dataFieldsDomainsValues>
+   <ind_prefixBeforeName type="scalar" id="prefixBeforeName"></ind_prefixBeforeName>
+   <ind_tabIndex type="scalar" id="tabIndex"><![CDATA[0]]></ind_tabIndex>
+   <ind_dataFieldEvents type="array" id="dataFieldEvents"></ind_dataFieldEvents>
+   <ind_stop type="scalar" id="stop"></ind_stop>
+   <ind_selectedItem type="scalar" id="selectedItem"></ind_selectedItem>
+   <ind_fieldLength type="scalar" id="fieldLength"></ind_fieldLength>
+</Items>

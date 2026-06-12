@@ -1,0 +1,72 @@
+body
+{
+ background-color:#295a94;
+ color:#FFFFFF;
+ font-family:Verdana,Arial,"Times new roman";
+ font-size:10pt;
+}
+
+button
+{
+}
+
+
+table 
+{
+}
+
+a
+{
+}
+
+a:link
+{
+ color:#FFFFFF;
+}
+
+a:active
+{
+ color:#FFFFFF;
+}
+
+a:visited
+{
+ color:#FFFFFF;
+}
+
+.generic
+{
+ color:#FFFFFF;
+ font-family:Verdana,Arial,"Times new roman";
+ font-size:10pt;
+ font-weight:bold;
+}
+
+.user
+{
+ color:#FFFFFF;
+ font-family:Verdana,Arial,"Times new roman";
+ font-size:10pt;
+ font-weight:bold;
+}
+
+.header
+{
+ color:#FFFFFF;
+ font-family:Verdana,Arial,"Times new roman";
+ font-size:15pt;
+ font-weight:bold;
+}
+
+.logout
+{
+ color:#FFFFFF;
+ font-family:Verdana,Arial,"Times new roman";
+ font-size:10pt;
+ font-weight:normal;
+}
+
+.logout a
+{
+ font-size:10pt;
+}

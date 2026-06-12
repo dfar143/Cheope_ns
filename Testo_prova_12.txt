@@ -1,0 +1,45 @@
+<?
+aaazzzzzzzzzzz
+require_once("cheope_ns.fun.php");
+require_once("struct.fun.php");
+require_once("Html_div_tag.class.php");
+require_once("Html_textarea_tag.class.php");
+require_once("Cheope_ns_data_page.class.php");
+require_once("Javascript_fragment.class.php");
+
+
+define('DEFAULT_PAGE_NAME',"Cheope_ns_prova_12");
+define('THIS_PAGE',PAGE_PROVA_12);
+
+class Cheope_ns_prova_12_data_page extends Cheope_ns_data_page
+{
+ 
+ function Cheope_ns_prova_12_data_page($actNum=0) 
+ {
+  $this->Cheope_ns_data_page(DEFAULT_PAGE_NAME,OP_NONE,$actNum);
+  $this->isASessionPage=true;
+ }
+
+ function getQueryStr()
+ { 
+ }
+ 
+ function setCtrlsDataSource($actQuery,$actChiave="")
+ {
+ }
+ 
+ // Metodo virtuale per l'output del codice di inclusione dei moduli javascript
+ // esterni.
+ function putClientScriptIncludeCode()
+ {
+  parent::putClientScriptIncludeCode();
+ }
+ 
+  
+ // Metodo virtuale contenente la specifica della logica di visualizzazione del body.
+ //
+ function putBody()
+ {	 
+  global $dbStructTree;
+  
+	$interfacesContainer = 

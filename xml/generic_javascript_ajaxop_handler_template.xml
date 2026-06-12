@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<Items>
+  <block_def brackets="" name="">
+    <function_def name="OpBBB">
+      <args_list name="">
+        <arg name="">
+          <string type="no_quoted" name="">actName</string>
+        </arg>
+      </args_list>
+      <block_def brackets="" name="">
+        <def name="">
+          <string type="no_quoted" name="">this.name</string>
+          <string type="no_quoted" name="">actName</string>
+        </def>
+        <def name="">
+          <string type="no_quoted" name="">this.exec</string>
+          <function_def name="">
+            <arg name="">
+              <code name="">actXmlMsg</code>
+            </arg>
+            <code name="">alert(actXmlMsg);</code>
+          </function_def>
+        </def>
+      </block_def>
+    </function_def>
+    <function_def name="OpCCC">
+      <args_list name="">
+        <arg name="">
+          <string type="no_quoted" name="">actName</string>
+        </arg>
+      </args_list>
+      <block_def brackets="" name="">
+        <def name="">
+          <string type="no_quoted" name="">this.name</string>
+          <string type="no_quoted" name="">actName</string>
+        </def>
+        <def name="">
+          <string type="no_quoted" name="">this.exec</string>
+          <function_def name="">
+            <arg name="">
+              <code name="">actXmlMsg</code>
+            </arg>
+            <code name="">alert(actXmlMsg);</code>
+          </function_def>
+        </def>
+      </block_def>
+    </function_def>
+  </block_def>
+</Items>

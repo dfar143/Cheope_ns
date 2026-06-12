@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<Items>
+  <ind_op type="scalar" id="op"><![CDATA[Temp]]></ind_op>
+  <ind_type type="scalar" id="type"><![CDATA[fpdf_template]]></ind_type>
+  <ind_num type="scalar" id="num"><![CDATA[0]]></ind_num>
+  <ind_shortName type="scalar" id="shortName"><![CDATA[]]></ind_shortName>
+  <ind_obj type="db_item" id="obj"><![CDATA[]]></ind_obj>
+  <ind_gridDimX type="scalar" id="gridDimX"><![CDATA[3]]></ind_gridDimX>
+  <ind_gridDimY type="scalar" id="gridDimY"><![CDATA[3]]></ind_gridDimY>
+  <ind_fileName type="scalar" id="fileName"><![CDATA[Cheope_ns!!!fpdf_template!Temp!0]]></ind_fileName>
+  <ind_inheritData type="scalar" id="*inheritData"><![CDATA[false]]></ind_inheritData>
+  <ind_inheritDataFieldName type="scalar" id="*inheritDataFieldName"><![CDATA[false]]></ind_inheritDataFieldName>
+  <ind_fieldsFromDataSource type="scalar" id="*fieldsFromDataSource"><![CDATA[false]]></ind_fieldsFromDataSource>
+  <ind_dataFields type="array" id="dataFields">
+    <ind_0 type="scalar" id="0"><![CDATA[campo_0_0]]></ind_0>
+    <ind_1 type="scalar" id="1"><![CDATA[campo_0_1]]></ind_1>
+    <ind_2 type="scalar" id="2"><![CDATA[campo_0_2]]></ind_2>
+    <ind_3 type="scalar" id="3"><![CDATA[campo_1_0]]></ind_3>
+    <ind_4 type="scalar" id="4"><![CDATA[campo_1_1]]></ind_4>
+    <ind_5 type="scalar" id="5"><![CDATA[campo_1_2]]></ind_5>
+    <ind_6 type="scalar" id="6"><![CDATA[campo_2_0]]></ind_6>
+    <ind_7 type="scalar" id="7"><![CDATA[campo_2_1]]></ind_7>
+    <ind_8 type="scalar" id="8"><![CDATA[campo_2_2]]></ind_8>
+  </ind_dataFields>
+  <ind_dataFieldsDomains type="array" id="dataFieldsDomains">
+    <ind_0 type="scalar" id="0"><![CDATA[object]]></ind_0>
+    <ind_1 type="scalar" id="1"><![CDATA[object]]></ind_1>
+    <ind_2 type="scalar" id="2"><![CDATA[object]]></ind_2>
+    <ind_3 type="scalar" id="3"><![CDATA[object]]></ind_3>
+    <ind_4 type="scalar" id="4"><![CDATA[object]]></ind_4>
+    <ind_5 type="scalar" id="5"><![CDATA[object]]></ind_5>
+    <ind_6 type="scalar" id="6"><![CDATA[object]]></ind_6>
+    <ind_7 type="scalar" id="7"><![CDATA[object]]></ind_7>
+    <ind_8 type="scalar" id="8"><![CDATA[object]]></ind_8>
+  </ind_dataFieldsDomains>
+  <ind_dataFieldsDomainsValues type="array" id="dataFieldsDomainsValues">
+    <ind_0 type="interface" id="0"><![CDATA[Cheope_ns!!!fpdf_field_h!!1]]></ind_0>
+    <ind_1 type="interface" id="1"><![CDATA[Cheope_ns!!!fpdf_field_h!!1]]></ind_1>
+    <ind_2 type="interface" id="2"><![CDATA[Cheope_ns!!!fpdf_field_h!!0]]></ind_2>
+    <ind_3 type="interface" id="3"><![CDATA[Cheope_ns!!!fpdf_field_h!!1]]></ind_3>
+    <ind_4 type="interface" id="4"><![CDATA[Cheope_ns!!!fpdf_txt!!0]]></ind_4>
+    <ind_5 type="interface" id="5"><![CDATA[none]]></ind_5>
+    <ind_6 type="interface" id="6"><![CDATA[Cheope_ns!!!fpdf_field_h!!1]]></ind_6>
+    <ind_7 type="interface" id="7"><![CDATA[Cheope_ns!!!fpdf_txt!!0]]></ind_7>
+    <ind_8 type="interface" id="8"><![CDATA[none]]></ind_8>
+  </ind_dataFieldsDomainsValues>
+</Items>

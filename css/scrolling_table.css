@@ -1,0 +1,47 @@
+.scrolling_table 
+{
+ background-color:#290094;
+ font-family:Verdana,Arial,"Times new roman";
+ font-size: 9pt;
+ line-height: 20px;
+ width:100%;
+}
+
+div.scrolling_table_inner_table
+{
+ overflow:auto;
+ font-family:Verdana,Arial,"Times new roman";
+ font-size: 9pt;
+ height:166px;
+}
+
+table.scrolling_table_inner_table
+{
+}
+
+.scrolling_table_header
+{
+ background-color:yellow;
+ font-size: 9pt;
+ height:23px;
+ color:black;
+
+}
+
+.scrolling_table_rows
+{
+ background-color:#290094;
+ font-size: 9pt;
+ height:13px;
+ color:white;
+ padding: 5px;
+}
+
+.scrolling_table_results
+{
+ font-family:Verdana,Arial,"Times new roman";
+ font-size: 9pt;
+ line-height: 20px;
+}
+
+

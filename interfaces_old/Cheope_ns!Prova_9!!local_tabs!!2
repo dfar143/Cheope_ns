@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Items>
+  <ind_op type="scalar" id="op"></ind_op>
+  <ind_type type="scalar" id="type">local_tabs</ind_type>
+  <ind_num type="scalar" id="num">2</ind_num>
+  <ind_style type="scalar" id="@style"></ind_style>
+  <ind_dispFields type="scalar" id="dispFields"></ind_dispFields>
+  <ind_inheritData type="scalar" id="*inheritData"><![CDATA[false]]></ind_inheritData>
+  <ind_inheritDataFieldName type="scalar" id="*inheritDataFieldName"><![CDATA[false]]></ind_inheritDataFieldName>
+  <ind_fieldsFromDataSource type="scalar" id="*fieldsFromDataSource">false</ind_fieldsFromDataSource>
+   <ind_dataSource type="array" id="dataSource"></ind_dataSource>
+  <ind_cssClass type="scalar" id="cssClass">local_tabs_container</ind_cssClass>
+  <ind_dataFields type="array" id="dataFields">
+    <ind_0 type="scalar" id="0">Data_1</ind_0>
+    <ind_1 type="scalar" id="1">Data_2</ind_1>
+    <ind_2 type="scalar" id="2">Data_3</ind_2>
+    <ind_3 type="scalar" id="3">Data_4</ind_3>
+  </ind_dataFields>
+  <ind_dataFieldsDomains type="array" id="dataFieldsDomains">
+    <ind_0 type="scalar" id="0">atomic_static</ind_0>
+    <ind_1 type="scalar" id="1">atomic_static</ind_1>
+    <ind_2 type="scalar" id="2">atomic_static</ind_2>
+    <ind_3 type="scalar" id="3">atomic_static</ind_3>
+  </ind_dataFieldsDomains>
+  <ind_dataFieldsDomainsValues type="array" id="dataFieldsDomainsValues">
+    <ind_0 type="scalar" id="0">Ciao1</ind_0>
+    <ind_1 type="scalar" id="1">Ciao2</ind_1>
+    <ind_2 type="scalar" id="2">Ciao3</ind_2>
+    <ind_3 type="scalar" id="3">Ciao4</ind_3>
+  </ind_dataFieldsDomainsValues>
+  <ind_obj type="db_item" id="obj"></ind_obj>
+  <ind_selectedTab type="scalar" id="selectedTab">0</ind_selectedTab>
+  <ind_interfacesContainer type="container" id="interfacesContainer">
+    <ind_0 type="interface" id="0">Cheope_ns!Prova_9!html_tags!!1</ind_0>
+    <ind_1 type="interface" id="1">Cheope_ns!Prova_9!html_tags!!2</ind_1>
+    <ind_2 type="interface" id="2">Cheope_ns!Prova_9!html_tags!!3</ind_2>
+    <ind_3 type="interface" id="3">Cheope_ns!Prova_9!html_tags!!4</ind_3>
+  </ind_interfacesContainer>
+</Items>

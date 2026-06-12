@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Items>
+  <ind_op type="scalar" id="op"><![CDATA[]]></ind_op>
+  <ind_type type="scalar" id="type"><![CDATA[frame]]></ind_type>
+  <ind_num type="scalar" id="num"><![CDATA[1]]></ind_num>
+  <ind_shortName type="scalar" id="shortName"><![CDATA[]]></ind_shortName>
+  <ind_cssClass type="scalar" id="cssClass"><![CDATA[frame]]></ind_cssClass>
+  <ind_bootstrapEnabled type="scalar" id="*bootstrapEnabled"><![CDATA[false]]></ind_bootstrapEnabled>
+  <ind_javascriptEnabled type="scalar" id="*javascriptEnabled"><![CDATA[false]]></ind_javascriptEnabled>
+  <ind_javascriptModule type="scalar" id="javascriptModule"><![CDATA[]]></ind_javascriptModule>
+  <ind_cssModule type="scalar" id="cssModule"><![CDATA[./css/frame.css]]></ind_cssModule>
+  <ind_delayedModule type="scalar" id="delayedModule"><![CDATA[false]]></ind_delayedModule>
+  <ind_rowsNum type="scalar" id="rowsNum"><![CDATA[2]]></ind_rowsNum>
+  <ind_colsNum type="scalar" id="colsNum"><![CDATA[1]]></ind_colsNum>
+  <ind_frameWidth type="scalar" id="frameWidth"><![CDATA[100%]]></ind_frameWidth>
+  <ind_frameHeight type="scalar" id="frameHeight"><![CDATA[100%]]></ind_frameHeight>
+  <ind_style type="scalar" id="@style"><![CDATA[]]></ind_style>
+  <ind_dispFields type="array" id="$dispFields">
+    <ind_0 type="scalar" id="0"><![CDATA[]]></ind_0>
+  </ind_dispFields>
+  <ind_interfacesContainer type="container" id="interfacesContainer">
+    <ind_0 type="interface" id="0"><![CDATA[Cheope_ns!!Prova!bootstrap_carousel!!0]]></ind_0>
+  </ind_interfacesContainer>
+  <ind_pageName type="scalar" id="pageName"><![CDATA[Test]]></ind_pageName>
+</Items>

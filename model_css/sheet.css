@@ -1,0 +1,39 @@
+.sheet
+{
+ background-color:#290094;
+ font-family:Verdana,Arial,"Times new roman";
+ font-size: 9pt;
+ width :100%;
+}
+
+table.sheet b 
+{
+ line-height: 20px;
+}
+
+table.sheet td
+{
+ padding:0px 2px 0px 2px;
+}
+
+
+fieldset 
+{
+ border: 1px solid white;
+}
+
+.fields
+{
+display:inline;
+}
+
+.field_value_numero_linea
+{
+color:yellow;
+}
+
+.field_label_numero_linea
+{
+color:white;
+}
+

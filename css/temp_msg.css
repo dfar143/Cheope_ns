@@ -1,0 +1,11 @@
+.msg
+{
+ background-color:#290094;
+ color:yellow;
+ text-align:center;
+ height:90px;
+ width:350px;
+ border:1px solid white;
+ font-family:Verdana,Arial,"Times new roman";
+ font-size:15px;
+}

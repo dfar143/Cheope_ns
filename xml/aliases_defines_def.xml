@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<Items>
+  <sections name="DEFINES SECTION">
+    <section name="">
+      <def name="">
+        <function_call name="define">
+          <arg name="">
+            <expr name="">__NAMESPACE__ . '\ALIAS_ALIAS_1'</expr>
+          </arg>
+          <arg name="">
+            <string type="double_quoted" name="">Alias_1</string>
+          </arg>
+        </function_call>
+      </def>
+    </section>
+  </sections>
+</Items>

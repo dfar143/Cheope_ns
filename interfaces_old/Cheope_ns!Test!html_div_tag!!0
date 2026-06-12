@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Items>
+  <ind_op type="scalar" id="op"><![CDATA[]]></ind_op>
+  <ind_type type="scalar" id="type"><![CDATA[html_div_tag]]></ind_type>
+  <ind_num type="scalar" id="num"><![CDATA[0]]></ind_num>
+  <ind_shortName type="scalar" id="shortName"><![CDATA[]]></ind_shortName>
+  <ind_cssClass type="scalar" id="cssClass"><![CDATA[]]></ind_cssClass>
+  <ind_bootstrapEnabled type="scalar" id="*bootstrapEnabled"><![CDATA[false]]></ind_bootstrapEnabled>
+  <ind_id type="scalar" id="%id"><![CDATA[]]></ind_id>
+  <ind_tag type="scalar" id="tag"><![CDATA[div]]></ind_tag>
+  <ind_tagBodyPosPre type="scalar" id="*tagBodyPosPre"><![CDATA[true]]></ind_tagBodyPosPre>
+  <ind_style type="scalar" id="@style"><![CDATA[display:block;margin-top:200px;]]></ind_style>
+  <ind_dispFields type="array" id="dispFields"/>
+  <ind_attribs type="array" id="attribs"/>
+  <ind_tagBody type="scalar" id="@tagBody"><![CDATA[EsempioXXX<br/><br/>]]></ind_tagBody>
+  <ind_interfacesContainer type="container" id="interfacesContainer"/>
+  <ind_pageName type="scalar" id="pageName"><![CDATA[Test]]></ind_pageName>
+</Items>

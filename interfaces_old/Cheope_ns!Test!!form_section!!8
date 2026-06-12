@@ -1,0 +1,242 @@
+<?xml version="1.0"?>
+<Items>
+  <ind_op type="scalar" id="op"><![CDATA[]]></ind_op>
+  <ind_type type="scalar" id="type"><![CDATA[form_section]]></ind_type>
+  <ind_num type="scalar" id="num"><![CDATA[8]]></ind_num>
+  <ind_shortName type="scalar" id="shortName"><![CDATA[]]></ind_shortName>
+  <ind_cssClass type="scalar" id="cssClass"><![CDATA[form_section]]></ind_cssClass>
+  <ind_obj type="db_item" id="obj"><![CDATA[]]></ind_obj>
+  <ind_gridDimX type="scalar" id="gridDimX"><![CDATA[4]]></ind_gridDimX>
+  <ind_gridDimY type="scalar" id="gridDimY"><![CDATA[2]]></ind_gridDimY>
+  <ind_rowsStyle type="scalar" id="rowsStyle"><![CDATA[]]></ind_rowsStyle>
+  <ind_rowsClasses type="array" id="rowsClasses">
+    <ind_0 type="scalar" id="0"><![CDATA[]]></ind_0>
+    <ind_1 type="scalar" id="1"><![CDATA[]]></ind_1>
+  </ind_rowsClasses>
+  <ind_rowsStyles type="array" id="rowsStyles">
+    <ind_0 type="scalar" id="0"><![CDATA[height:100px;padding:10px]]></ind_0>
+    <ind_1 type="scalar" id="1"><![CDATA[height:150px;padding:10px 10px 10px 10px;margin-right:10px;]]></ind_1>
+  </ind_rowsStyles>
+  <ind_rowsClass type="scalar" id="rowsClass"><![CDATA[]]></ind_rowsClass>
+  <ind_labelSpacerWidth type="scalar" id="labelSpacerWidth"><![CDATA[1]]></ind_labelSpacerWidth>
+  <ind_cellPadding type="scalar" id="cellPadding"><![CDATA[10]]></ind_cellPadding>
+  <ind_cellSpacing type="scalar" id="cellSpacing"><![CDATA[0]]></ind_cellSpacing>
+  <ind_javascriptEnabled type="scalar" id="javascriptEnabled"><![CDATA[true]]></ind_javascriptEnabled>
+  <ind_style type="scalar" id="@style"><![CDATA[]]></ind_style>
+  <ind_dataFields type="array" id="dataFields">
+    <ind_0 type="scalar" id="0"><![CDATA[campo_0_0]]></ind_0>
+    <ind_1 type="scalar" id="1"><![CDATA[campo_0_1]]></ind_1>
+    <ind_2 type="scalar" id="2"><![CDATA[campo_0_2]]></ind_2>
+    <ind_3 type="scalar" id="3"><![CDATA[campo_0_3]]></ind_3>
+    <ind_4 type="scalar" id="4"><![CDATA[campo_1_0]]></ind_4>
+    <ind_5 type="scalar" id="5"><![CDATA[campo_1_1]]></ind_5>
+    <ind_6 type="scalar" id="6"><![CDATA[campo_1_2]]></ind_6>
+    <ind_7 type="scalar" id="7"><![CDATA[campo_1_3]]></ind_7>
+  </ind_dataFields>
+  <ind_dataFieldsDomains type="array" id="dataFieldsDomains">
+    <ind_0 type="scalar" id="0"><![CDATA[object]]></ind_0>
+    <ind_1 type="scalar" id="1"><![CDATA[object]]></ind_1>
+    <ind_2 type="scalar" id="2"><![CDATA[object]]></ind_2>
+    <ind_3 type="scalar" id="3"><![CDATA[none]]></ind_3>
+    <ind_4 type="scalar" id="4"><![CDATA[set]]></ind_4>
+    <ind_5 type="scalar" id="5"><![CDATA[atomic]]></ind_5>
+    <ind_6 type="scalar" id="6"><![CDATA[atomic]]></ind_6>
+    <ind_7 type="scalar" id="7"><![CDATA[atomic]]></ind_7>
+  </ind_dataFieldsDomains>
+  <ind_dataFieldsDomainsValues type="array" id="dataFieldsDomainsValues">
+    <ind_0 type="interface" id="0"><![CDATA[Cheope_ns!!!level_menu_2!!0]]></ind_0>
+    <ind_1 type="interface" id="1"><![CDATA[Cheope_ns!!!level_menu_2!!0]]></ind_1>
+    <ind_2 type="interface" id="2"><![CDATA[Cheope_ns!!!html_input_ctrl!!0]]></ind_2>
+    <ind_3 type="scalar" id="3"><![CDATA[]]></ind_3>
+    <ind_4 type="array" id="4">
+      <ind_0 type="scalar" id="0"><![CDATA[]]></ind_0>
+    </ind_4>
+    <ind_5 type="scalar" id="5"><![CDATA[]]></ind_5>
+    <ind_6 type="scalar" id="6"><![CDATA[]]></ind_6>
+    <ind_7 type="scalar" id="7"><![CDATA[]]></ind_7>
+  </ind_dataFieldsDomainsValues>
+  <ind_fieldsColStyles type="array" id="$fieldsColStyles">
+    <ind_0 type="scalar" id="0"><![CDATA[]]></ind_0>
+    <ind_1 type="scalar" id="1"><![CDATA[]]></ind_1>
+    <ind_2 type="scalar" id="2"><![CDATA[]]></ind_2>
+    <ind_3 type="scalar" id="3"><![CDATA[]]></ind_3>
+    <ind_4 type="scalar" id="4"><![CDATA[]]></ind_4>
+    <ind_5 type="scalar" id="5"><![CDATA[]]></ind_5>
+    <ind_6 type="scalar" id="6"><![CDATA[]]></ind_6>
+    <ind_7 type="scalar" id="7"><![CDATA[]]></ind_7>
+  </ind_fieldsColStyles>
+  <ind_fieldsColClasses type="array" id="$fieldsColClasses">
+    <ind_0 type="scalar" id="0"><![CDATA[]]></ind_0>
+    <ind_1 type="scalar" id="1"><![CDATA[]]></ind_1>
+    <ind_2 type="scalar" id="2"><![CDATA[]]></ind_2>
+    <ind_3 type="scalar" id="3"><![CDATA[]]></ind_3>
+    <ind_4 type="scalar" id="4"><![CDATA[]]></ind_4>
+    <ind_5 type="scalar" id="5"><![CDATA[]]></ind_5>
+    <ind_6 type="scalar" id="6"><![CDATA[]]></ind_6>
+    <ind_7 type="scalar" id="7"><![CDATA[]]></ind_7>
+  </ind_fieldsColClasses>
+  <ind_fieldsLabels type="array" id="$fieldsLabels">
+    <ind_0 type="scalar" id="0"><![CDATA[campo_0_0]]></ind_0>
+    <ind_1 type="scalar" id="1"><![CDATA[campo_0_1]]></ind_1>
+    <ind_2 type="scalar" id="2"><![CDATA[campo_0_2]]></ind_2>
+    <ind_3 type="scalar" id="3"><![CDATA[campo_0_3]]></ind_3>
+    <ind_4 type="scalar" id="4"><![CDATA[campo_1_0]]></ind_4>
+    <ind_5 type="scalar" id="5"><![CDATA[Field_1_1]]></ind_5>
+    <ind_6 type="scalar" id="6"><![CDATA[]]></ind_6>
+    <ind_7 type="scalar" id="7"><![CDATA[]]></ind_7>
+  </ind_fieldsLabels>
+  <ind_fieldsStyles type="array" id="$fieldsStyles">
+    <ind_0 type="scalar" id="0"><![CDATA[]]></ind_0>
+    <ind_1 type="scalar" id="1"><![CDATA[]]></ind_1>
+    <ind_2 type="scalar" id="2"><![CDATA[]]></ind_2>
+    <ind_3 type="scalar" id="3"><![CDATA[]]></ind_3>
+    <ind_4 type="scalar" id="4"><![CDATA[]]></ind_4>
+    <ind_5 type="scalar" id="5"><![CDATA[]]></ind_5>
+    <ind_6 type="scalar" id="6"><![CDATA[]]></ind_6>
+    <ind_7 type="scalar" id="7"><![CDATA[]]></ind_7>
+  </ind_fieldsStyles>
+  <ind_fieldsTypes type="array" id="$fieldsTypes">
+    <ind_0 type="scalar" id="0"><![CDATA[]]></ind_0>
+    <ind_1 type="scalar" id="1"><![CDATA[]]></ind_1>
+    <ind_2 type="scalar" id="2"><![CDATA[]]></ind_2>
+    <ind_3 type="scalar" id="3"><![CDATA[]]></ind_3>
+    <ind_4 type="scalar" id="4"><![CDATA[]]></ind_4>
+    <ind_5 type="scalar" id="5"><![CDATA[]]></ind_5>
+    <ind_6 type="scalar" id="6"><![CDATA[]]></ind_6>
+    <ind_7 type="scalar" id="7"><![CDATA[]]></ind_7>
+  </ind_fieldsTypes>
+  <ind_fieldsLengths type="array" id="$fieldsLengths">
+    <ind_0 type="scalar" id="0"><![CDATA[10]]></ind_0>
+    <ind_1 type="scalar" id="1"><![CDATA[10]]></ind_1>
+    <ind_2 type="scalar" id="2"><![CDATA[10]]></ind_2>
+    <ind_3 type="scalar" id="3"><![CDATA[10]]></ind_3>
+    <ind_4 type="scalar" id="4"><![CDATA[10]]></ind_4>
+    <ind_5 type="scalar" id="5"><![CDATA[]]></ind_5>
+    <ind_6 type="scalar" id="6"><![CDATA[]]></ind_6>
+    <ind_7 type="scalar" id="7"><![CDATA[]]></ind_7>
+  </ind_fieldsLengths>
+  <ind_fieldsStops type="array" id="$fieldsStops">
+    <ind_0 type="scalar" id="0"><![CDATA[10]]></ind_0>
+    <ind_1 type="scalar" id="1"><![CDATA[10]]></ind_1>
+    <ind_2 type="scalar" id="2"><![CDATA[10]]></ind_2>
+    <ind_3 type="scalar" id="3"><![CDATA[10]]></ind_3>
+    <ind_4 type="scalar" id="4"><![CDATA[]]></ind_4>
+    <ind_5 type="scalar" id="5"><![CDATA[]]></ind_5>
+    <ind_6 type="scalar" id="6"><![CDATA[]]></ind_6>
+    <ind_7 type="scalar" id="7"><![CDATA[]]></ind_7>
+  </ind_fieldsStops>
+  <ind_fieldsHints type="array" id="$fieldsHints">
+    <ind_0 type="scalar" id="0"><![CDATA[]]></ind_0>
+    <ind_1 type="scalar" id="1"><![CDATA[]]></ind_1>
+    <ind_2 type="scalar" id="2"><![CDATA[]]></ind_2>
+    <ind_3 type="scalar" id="3"><![CDATA[]]></ind_3>
+    <ind_4 type="scalar" id="4"><![CDATA[]]></ind_4>
+    <ind_5 type="scalar" id="5"><![CDATA[]]></ind_5>
+    <ind_6 type="scalar" id="6"><![CDATA[]]></ind_6>
+    <ind_7 type="scalar" id="7"><![CDATA[]]></ind_7>
+  </ind_fieldsHints>
+  <ind_fieldsToolTips type="array" id="$fieldsToolTips">
+    <ind_0 type="scalar" id="0"><![CDATA[]]></ind_0>
+    <ind_1 type="scalar" id="1"><![CDATA[]]></ind_1>
+    <ind_2 type="scalar" id="2"><![CDATA[]]></ind_2>
+    <ind_3 type="scalar" id="3"><![CDATA[]]></ind_3>
+    <ind_4 type="scalar" id="4"><![CDATA[]]></ind_4>
+    <ind_5 type="scalar" id="5"><![CDATA[]]></ind_5>
+    <ind_6 type="scalar" id="6"><![CDATA[]]></ind_6>
+    <ind_7 type="scalar" id="7"><![CDATA[]]></ind_7>
+  </ind_fieldsToolTips>
+  <ind_fieldsEvents type="array" id="$fieldsEvents">
+    <ind_0 type="array" id="0">
+      <ind_0 type="scalar" id="0"><![CDATA[]]></ind_0>
+    </ind_0>
+    <ind_1 type="array" id="1">
+      <ind_0 type="scalar" id="0"><![CDATA[]]></ind_0>
+    </ind_1>
+    <ind_2 type="array" id="2">
+      <ind_0 type="scalar" id="0"><![CDATA[]]></ind_0>
+      <ind_1 type="scalar" id="1"><![CDATA[]]></ind_1>
+    </ind_2>
+    <ind_3 type="array" id="3">
+      <ind_0 type="scalar" id="0"><![CDATA[]]></ind_0>
+    </ind_3>
+    <ind_4 type="array" id="4">
+      <ind_0 type="scalar" id="0"><![CDATA[]]></ind_0>
+    </ind_4>
+    <ind_5 type="array" id="5">
+      <ind_0 type="scalar" id="0"><![CDATA[]]></ind_0>
+    </ind_5>
+    <ind_6 type="array" id="6">
+      <ind_0 type="scalar" id="0"><![CDATA[]]></ind_0>
+    </ind_6>
+    <ind_7 type="array" id="7">
+      <ind_0 type="scalar" id="0"><![CDATA[]]></ind_0>
+    </ind_7>
+  </ind_fieldsEvents>
+  <ind_fieldsRegexps type="array" id="$fieldsRegexps">
+    <ind_0 type="scalar" id="0"><![CDATA[]]></ind_0>
+    <ind_1 type="scalar" id="1"><![CDATA[]]></ind_1>
+    <ind_2 type="scalar" id="2"><![CDATA[]]></ind_2>
+    <ind_3 type="scalar" id="3"><![CDATA[]]></ind_3>
+    <ind_4 type="scalar" id="4"><![CDATA[]]></ind_4>
+    <ind_5 type="scalar" id="5"><![CDATA[]]></ind_5>
+    <ind_6 type="scalar" id="6"><![CDATA[]]></ind_6>
+    <ind_7 type="scalar" id="7"><![CDATA[]]></ind_7>
+  </ind_fieldsRegexps>
+  <ind_labels type="array" id="$labels">
+    <ind_0 type="array" id="0">
+      <ind_0 type="scalar" id="0"><![CDATA[]]></ind_0>
+    </ind_0>
+    <ind_1 type="array" id="1">
+      <ind_0 type="scalar" id="0"><![CDATA[]]></ind_0>
+    </ind_1>
+    <ind_2 type="array" id="2">
+      <ind_0 type="scalar" id="0"><![CDATA[]]></ind_0>
+    </ind_2>
+    <ind_3 type="array" id="3">
+      <ind_0 type="scalar" id="0"><![CDATA[]]></ind_0>
+    </ind_3>
+    <ind_4 type="array" id="4">
+      <ind_0 type="scalar" id="0"><![CDATA[]]></ind_0>
+    </ind_4>
+    <ind_5 type="array" id="5">
+      <ind_0 type="scalar" id="0"><![CDATA[]]></ind_0>
+    </ind_5>
+    <ind_6 type="array" id="6">
+      <ind_0 type="scalar" id="0"><![CDATA[]]></ind_0>
+    </ind_6>
+    <ind_7 type="array" id="7">
+      <ind_0 type="scalar" id="0"><![CDATA[]]></ind_0>
+    </ind_7>
+  </ind_labels>
+  <ind_fieldsDirections type="array" id="$fieldsDirections">
+    <ind_0 type="scalar" id="0"><![CDATA[]]></ind_0>
+    <ind_1 type="scalar" id="1"><![CDATA[]]></ind_1>
+    <ind_2 type="scalar" id="2"><![CDATA[]]></ind_2>
+    <ind_3 type="scalar" id="3"><![CDATA[]]></ind_3>
+    <ind_4 type="scalar" id="4"><![CDATA[]]></ind_4>
+    <ind_5 type="scalar" id="5"><![CDATA[]]></ind_5>
+    <ind_6 type="scalar" id="6"><![CDATA[]]></ind_6>
+    <ind_7 type="scalar" id="7"><![CDATA[]]></ind_7>
+  </ind_fieldsDirections>
+  <ind_fieldsDefaultValues type="array" id="$fieldsDefaultValues">
+    <ind_0 type="scalar" id="0"><![CDATA[]]></ind_0>
+    <ind_1 type="scalar" id="1"><![CDATA[]]></ind_1>
+    <ind_2 type="scalar" id="2"><![CDATA[]]></ind_2>
+    <ind_3 type="scalar" id="3"><![CDATA[]]></ind_3>
+    <ind_4 type="scalar" id="4"><![CDATA[]]></ind_4>
+    <ind_5 type="scalar" id="5"><![CDATA[]]></ind_5>
+    <ind_6 type="scalar" id="6"><![CDATA[]]></ind_6>
+    <ind_7 type="scalar" id="7"><![CDATA[]]></ind_7>
+  </ind_fieldsDefaultValues>
+  <ind_fieldsMandatory type="array" id="$fieldsMandatory">
+    <ind_0 type="scalar" id="0"><![CDATA[]]></ind_0>
+    <ind_1 type="scalar" id="1"><![CDATA[]]></ind_1>
+    <ind_2 type="scalar" id="2"><![CDATA[]]></ind_2>
+    <ind_3 type="scalar" id="3"><![CDATA[]]></ind_3>
+    <ind_4 type="scalar" id="4"><![CDATA[true]]></ind_4>
+    <ind_5 type="scalar" id="5"><![CDATA[true]]></ind_5>
+    <ind_6 type="scalar" id="6"><![CDATA[]]></ind_6>
+    <ind_7 type="scalar" id="7"><![CDATA[]]></ind_7>
+  </ind_fieldsMandatory>
+  <ind_pageName type="scalar" id="pageName"><![CDATA[Test]]></ind_pageName>
+</Items>

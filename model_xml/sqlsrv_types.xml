@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<Items>
+ <ind_0 type="array" id="0">
+  <ind_sqlServerType type="scalar" id="sqlServerType">
+   nvarchar
+  </ind_sqlServerType>
+  <ind_genericType type="scalar" id="genericType">
+   STRING
+  </ind_genericType>
+  <ind_default type="scalar" id="default">true</ind_default>
+ </ind_0>
+ <ind_1 type="array" id="1">
+  <ind_sqlServerType type="scalar" id="sqlServerType">
+   varchar
+  </ind_sqlServerType>
+  <ind_genericType type="scalar" id="genericType">
+   STRING
+  </ind_genericType>
+ </ind_1>
+ <ind_2 type="array" id="2">
+  <ind_sqlServerType type="scalar" id="sqlServerType">
+   char
+  </ind_sqlServerType>
+  <ind_genericType type="scalar" id="genericType">
+   STRING
+  </ind_genericType>
+ </ind_2>
+ <ind_3 type="array" id="3">
+  <ind_sqlServerType type="scalar" id="sqlServerType">
+   nchar
+  </ind_sqlServerType>
+  <ind_genericType type="scalar" id="genericType">
+   STRING
+  </ind_genericType>
+ </ind_3>
+ <ind_4 type="array" id="4">
+  <ind_sqlServerType type="scalar" id="sqlServerType">
+   text
+  </ind_sqlServerType>
+  <ind_genericType type="scalar" id="genericType">
+   BIG_STRING
+  </ind_genericType>
+ </ind_4>
+ <ind_5 type="array" id="5">
+  <ind_sqlServerType type="scalar" id="sqlServerType">
+   ntext
+  </ind_sqlServerType>
+  <ind_genericType type="scalar" id="genericType">
+   BIG_STRING
+  </ind_genericType>
+  <ind_default type="scalar" id="default">true</ind_default>
+ </ind_5>
+ <ind_6 type="array" id="6">
+  <ind_sqlServerType type="scalar" id="sqlServerType">
+   float
+  </ind_sqlServerType>
+  <ind_genericType type="scalar" id="genericType">
+   FLOAT
+  </ind_genericType>
+  <ind_default type="scalar" id="default">true</ind_default>
+ </ind_6>
+ <ind_7 type="array" id="7">
+  <ind_sqlServerType type="scalar" id="sqlServerType">
+   bigint
+  </ind_sqlServerType>
+  <ind_genericType type="scalar" id="genericType">
+   INTEGER
+  </ind_genericType>
+  <ind_default type="scalar" id="default">true</ind_default>
+ </ind_7>
+ <ind_8 type="array" id="8">
+  <ind_sqlServerType type="scalar" id="sqlServerType">
+   int
+  </ind_sqlServerType>
+  <ind_genericType type="scalar" id="genericType">
+   INTEGER
+  </ind_genericType>
+ </ind_8>
+ <ind_9 type="array" id="9">
+  <ind_sqlServerType type="scalar" id="sqlServerType">
+   smallint
+  </ind_sqlServerType>
+  <ind_genericType type="scalar" id="genericType">
+   INTEGER
+  </ind_genericType>
+ </ind_9>
+ <ind_10 type="array" id="10">
+  <ind_sqlServerType type="scalar" id="sqlServerType">
+   bit
+  </ind_sqlServerType>
+  <ind_genericType type="scalar" id="genericType">
+   BOOLEAN
+  </ind_genericType>
+  <ind_default type="scalar" id="default">true</ind_default>
+ </ind_10>
+  <ind_11 type="array" id="11">
+  <ind_sqlServerType type="scalar" id="sqlServerType">
+   date
+  </ind_sqlServerType>
+  <ind_genericType type="scalar" id="genericType">
+   DATE
+  </ind_genericType>
+ </ind_11>
+ <ind_12 type="array" id="12">
+  <ind_sqlServerType type="scalar" id="sqlServerType">
+   datetime
+  </ind_sqlServerType>
+  <ind_genericType type="scalar" id="genericType">
+   DATE
+  </ind_genericType>
+  <ind_default type="scalar" id="default">true</ind_default>
+ </ind_12>
+ <ind_13 type="array" id="13">
+  <ind_sqlServerType type="scalar" id="sqlServerType">
+   smalldatetime
+  </ind_sqlServerType>
+  <ind_genericType type="scalar" id="genericType">
+   DATE
+  </ind_genericType>
+ </ind_13>
+ <ind_14 type="array" id="14">
+  <ind_sqlServerType type="scalar" id="sqlServerType">
+   time
+  </ind_sqlServerType>
+  <ind_genericType type="scalar" id="genericType">
+   DATE
+  </ind_genericType>
+ </ind_14>
+</Items>

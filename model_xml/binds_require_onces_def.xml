@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Items>
+  <sections name="REQUIRES ONCES SECTION">
+  	<section name="require_once">
+	<def name="">
+	 <namespace name="">
+	 	Cheope_ns\fw
+	 </namespace>
+	</def>
+		   <def name="">
+		    <function_call  name="require_once">
+			  <arg >
+			   <string type="double_quoted" name="">Db_items_container.class.php</string>
+		    </arg>
+		    </function_call>
+		   </def>
+	</section>
+</sections>
+</Items>

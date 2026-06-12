@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<Items>
+  <sections name="TABLES AND QUERIES BINDS SECTION">
+    <section name="Bind_0">
+      <def name="">
+        <var name="">dbNode</var>
+        <method_call instanceName="" parent="" name="getElementByAliasName">
+          <var name="">dbStructTree</var>
+          <arg name="">
+            <const name="">TABELLA_PROVA_3</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">dbConn</var>
+        <method_call instanceName="" parent="" name="getDbOp">
+          <var name="">dbConnectionsContainer</var>
+          <arg name="">
+            <const name="">CONNECTION_C_PROVA_1A</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setDbOp">
+          <var name="">dbNode</var>
+          <arg name="">
+            <var name="">dbConn</var>
+          </arg>
+        </method_call>
+      </def>
+    </section>
+    <section name="Bind_1">
+      <def name="">
+        <var name="">dbQuery</var>
+        <method_call instanceName="" parent="" name="getQuery">
+          <var name="">dbQueriesContainer</var>
+          <arg name="">
+            <const name="">QUERY_Q_PROVA_1</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">dbConn</var>
+        <method_call instanceName="" parent="" name="getDbOp">
+          <var name="">dbConnectionsContainer</var>
+          <arg name="">
+            <const name="">CONNECTION_C_HOME</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setDbOp">
+          <var name="">dbQuery</var>
+          <arg name="">
+            <var name="">dbConn</var>
+          </arg>
+        </method_call>
+      </def>
+    </section>
+    <section name="Bind_2">
+      <def name="">
+        <var name="">dbQuery</var>
+        <method_call instanceName="" parent="" name="getQuery">
+          <var name="">dbQueriesContainer</var>
+          <arg name="">
+            <const name="">QUERY_Q_PROVA_2</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">dbConn</var>
+        <method_call instanceName="" parent="" name="getDbOp">
+          <var name="">dbConnectionsContainer</var>
+          <arg name="">
+            <const name="">CONNECTION_C_PROVA_3</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setDbOp">
+          <var name="">dbQuery</var>
+          <arg name="">
+            <var name="">dbConn</var>
+          </arg>
+        </method_call>
+      </def>
+    </section>
+  </sections>
+</Items>

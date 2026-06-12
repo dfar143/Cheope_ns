@@ -1,0 +1,233 @@
+<?xml version="1.0"?>
+<Items>
+  <block_def brackets="" name="">
+    <def name="">
+      <namespace name="">
+  			Cheope_ns\fw
+  		</namespace>
+    </def>
+    <def name="">
+      <function_call name="require">
+        <arg name="">
+          <string type="double_quoted" name="">root.const.php</string>
+        </arg>
+      </function_call>
+    </def>
+    <def name="">
+      <function_call name="require_once">
+        <arg name="">
+          <expr name="">FRAMEWORK_PATH . "Cheope_ns_preview_op_page.class.php"</expr>
+        </arg>
+      </function_call>
+    </def>
+    <def name="">
+      <var name="">InterfacesContainer</var>
+      <constructor_call name="Interfaces_container">
+        <arg name="">
+          <const name="">CONTENITORE_GLOBALE_INTERFACCE</const>
+        </arg>
+      </constructor_call>
+    </def>
+    <def name="">
+      <var name="">serializer</var>
+      <constructor_call name="Xml_interface_serializer"/>
+    </def>
+    <def name="">
+      <method_call instanceName="" parent="" name="setInterpolateConsts">
+        <var name="">serializer</var>
+        <arg name="">
+          <expr name="">true</expr>
+        </arg>
+      </method_call>
+    </def>
+    <def name="">
+      <method_call instanceName="" parent="" name="setInterfacesContainer">
+        <var name="">serializer</var>
+        <arg name="">
+          <var name="">InterfacesContainer</var>
+        </arg>
+      </method_call>
+    </def>
+    <def name="">
+      <method_call instanceName="" parent="" name="setDbStruct">
+        <var name="">serializer</var>
+        <arg name="">
+          <var name="">dbStructTree</var>
+        </arg>
+      </method_call>
+    </def>
+    <def name="">
+      <method_call instanceName="" parent="" name="setDbQueries">
+        <var name="">serializer</var>
+        <arg name="">
+          <var name="">dbQueriesContainer</var>
+        </arg>
+      </method_call>
+    </def>
+    <def name="">
+      <var name="">dbNode</var>
+      <expr name="">null</expr>
+    </def>
+    <def name="">
+      <var name="">interface</var>
+      <constructor_call name="Cheope_ns_simple_layout">
+        <arg name="">
+          <string type="double_quoted" name="">testBinds_1</string>
+        </arg>
+        <arg name="">
+          <const name="">NUM_0</const>
+        </arg>
+      </constructor_call>
+    </def>
+    <def name="">
+      <method_call instanceName="" parent="" name="setNum">
+        <var name="">interface</var>
+        <arg name="">
+          <const name="">NUM_0</const>
+        </arg>
+      </method_call>
+    </def>
+    <def name="">
+      <method_call instanceName="" parent="" name="setShortName">
+        <var name="">interface</var>
+        <arg name="">
+          <string type="double_quoted" name=""></string>
+        </arg>
+      </method_call>
+    </def>
+    <def name="">
+      <method_call instanceName="" parent="" name="setSerializer">
+        <var name="">interface</var>
+        <arg name="">
+          <var name="">serializer</var>
+        </arg>
+      </method_call>
+    </def>
+    <def name="">
+      <method_call instanceName="" parent="" name="setXmlDir">
+        <var name="">serializer</var>
+        <arg name="">
+          <string type="double_quoted" name="">./xml/</string>
+        </arg>
+      </method_call>
+    </def>
+    <def name="">
+      <method_call instanceName="" parent="" name="setInterfacesDir">
+        <var name="">serializer</var>
+        <arg name="">
+          <string type="double_quoted" name="">./interfaces/</string>
+        </arg>
+      </method_call>
+    </def>
+    <def name="">
+      <method_call instanceName="" parent="" name="setPageName">
+        <var name="">serializer</var>
+        <arg name="">
+          <string type="double_quoted" name=""></string>
+        </arg>
+      </method_call>
+    </def>
+    <def name="">
+      <method_call instanceName="" parent="" name="serializer_loadData">
+        <var name="">interface</var>
+        <arg name="">
+          <string type="double_quoted" name="">Cheope_ns</string>
+        </arg>
+      </method_call>
+    </def>
+    <def name="">
+      <method_call instanceName="" parent="" name="unserialize">
+        <var name="">interface</var>
+        <arg name=""/>
+      </method_call>
+    </def>
+    <def name="">
+      <var name="">page</var>
+      <constructor_call name="Cheope_ns_preview_op_page">
+        <arg name=""/>
+      </constructor_call>
+    </def>
+    <def name="">
+      <method_call instanceName="" parent="" name="setPageName">
+        <var name="">serializer</var>
+        <arg name="">
+          <string type="double_quoted" name="">preview</string>
+        </arg>
+      </method_call>
+    </def>
+    <def name="">
+      <method_call instanceName="" parent="" name="setSerializer">
+        <var name="">page</var>
+        <arg name="">
+          <var name="">serializer</var>
+        </arg>
+      </method_call>
+    </def>
+    <def name="">
+      <method_call instanceName="" parent="" name="serializer_loadData">
+        <var name="">page</var>
+        <arg name="">
+          <string type="double_quoted" name="">Cheope_ns</string>
+        </arg>
+      </method_call>
+    </def>
+    <def name="">
+      <method_call instanceName="" parent="" name="unserialize">
+        <var name="">page</var>
+        <arg name=""/>
+      </method_call>
+    </def>
+    <def name="">
+      <method_call instanceName="" parent="" name="setCssExtModule">
+        <var name="">page</var>
+        <arg name="">
+          <string type="double_quoted" name="">cheope_ns</string>
+        </arg>
+      </method_call>
+    </def>
+    <def name="">
+      <method_call instanceName="" parent="" name="setJsExtModule">
+        <var name="">page</var>
+        <arg name="">
+          <string type="double_quoted" name="">cheope_ns_</string>
+        </arg>
+      </method_call>
+    </def>
+    <def name="">
+      <var name="">InterfacesContainer</var>
+      <method_call instanceName="" parent="" name="getInterfacesContainer">
+        <var name="">serializer</var>
+        <arg name=""/>
+      </method_call>
+    </def>
+    <def name="">
+      <method_call instanceName="" parent="" name="add">
+        <var name="">InterfacesContainer</var>
+        <arg name="">
+          <var name="">interface</var>
+        </arg>
+      </method_call>
+    </def>
+    <def name="">
+      <method_call instanceName="" parent="" name="setInterfacesContainer">
+        <var name="">page</var>
+        <arg name="">
+          <var name="">InterfacesContainer</var>
+        </arg>
+      </method_call>
+    </def>
+    <def name="">
+      <method_call instanceName="" parent="" name="setCREnabled">
+        <var name="">page</var>
+        <arg name="">
+          <string type="" name="">true</string>
+        </arg>
+      </method_call>
+    </def>
+    <def name="">
+      <method_call instanceName="" parent="" name="putData">
+        <var name="">page</var>
+      </method_call>
+    </def>
+  </block_def>
+</Items>

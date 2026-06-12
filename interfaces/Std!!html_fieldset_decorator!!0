@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Items>
+  <ind_op type="scalar" id="op"></ind_op>
+  <ind_type type="scalar" id="type"><![CDATA[fieldset_decorator]]></ind_type>
+  <ind_num type="scalar" id="num"></ind_num>
+  <ind_shortName type="scalar" id="shortName"></ind_shortName>
+  <ind_cssClass type="scalar" id="cssClass"></ind_cssClass>
+  <ind_style type="scalar" id="@style"></ind_style>
+  <ind_dispFields type="array" id="dispFields"/>
+  <ind_decoratedObj type="interface" id="decoratedObj"></ind_decoratedObj>
+  <ind_decoratorName type="scalar" id="*decoratorName"><![CDATA[false]]></ind_decoratorName>  
+</Items>

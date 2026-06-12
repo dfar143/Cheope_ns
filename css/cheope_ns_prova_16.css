@@ -1,0 +1,22 @@
+#simple_table__1
+{
+ background-color:#8F3333;
+ color:#0000FF;
+ width:100%;
+}
+
+.simple_table
+{
+	width:100%;
+}
+
+.simple_table_thead
+{
+	background-color:#8F4433;
+}
+
+#simple_table__1_length
+{
+	float:left;
+	width:75%;
+}

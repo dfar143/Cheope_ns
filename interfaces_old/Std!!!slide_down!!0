@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Items>
+  <ind_op type="scalar" id="op"><![CDATA[]]></ind_op>
+  <ind_type type="scalar" id="type"><![CDATA[slide_down]]></ind_type>
+  <ind_num type="scalar" id="num"><![CDATA[0]]></ind_num>
+  <ind_shortName type="scalar" id="shortName"><![CDATA[]]></ind_shortName>
+  <ind_cssClass type="scalar" id="cssClass"><![CDATA[slide_down]]></ind_cssClass>
+  <ind_javascriptModule type="scalar" id="javascriptModule"><![CDATA[./js/slide_down.js]]></ind_javascriptModule>
+  <ind_javascriptEnabled type="scalar" id="*javascriptEnabled"><![CDATA[true]]></ind_javascriptEnabled>
+  <ind_obj type="db_item" id="obj"><![CDATA[OBJ_NONE]]></ind_obj>
+  <ind_inheritData type="scalar" id="*inheritData"><![CDATA[false]]></ind_inheritData>
+  <ind_inheritDataFieldName type="scalar" id="*inheritDataFieldName"></ind_inheritDataFieldName>
+  <ind_fieldsFromDataSource type="scalar" id="*fieldsFromDataSource"><![CDATA[false]]></ind_fieldsFromDataSource>
+  <ind_gesPage type="scalar" id="gesPage"><![CDATA[]]></ind_gesPage>
+  <ind_titlesField type="scalar" id="titlesField"><![CDATA[]]></ind_titlesField>
+  <ind_pagesField type="scalar" id="pagesField"><![CDATA[]]></ind_pagesField>
+  <ind_linksField type="scalar" id="linksField"><![CDATA[]]></ind_linksField>
+  <ind_style type="scalar" id="@style"><![CDATA[]]></ind_style>
+  <ind_dispFields type="array" id="dispFields"/>
+  <ind_dataFields type="array" id="dataFields">
+  </ind_dataFields>
+  <ind_dataFieldsDomains type="array" id="dataFieldsDomains">
+    <ind_2 type="scalar" id="2"><![CDATA[set]]></ind_2>
+  </ind_dataFieldsDomains>
+  <ind_dataFieldsDomainsValues type="array" id="dataFieldsDomainsValues">
+
+  </ind_dataFieldsDomainsValues>
+</Items>

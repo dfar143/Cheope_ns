@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<Items>
+  <ind_op type="scalar" id="op"><![CDATA[]]></ind_op>
+  <ind_type type="scalar" id="type"><![CDATA[barGradex]]></ind_type>
+  <ind_num type="scalar" id="num"><![CDATA[0]]></ind_num>
+  <ind_shortName type="scalar" id="shortName"><![CDATA[]]></ind_shortName>
+  <ind_cssClass type="scalar" id="cssClass"><![CDATA[barGradex]]></ind_cssClass>
+  <ind_obj type="db_item" id="obj"><![CDATA[OBJ_NONE]]></ind_obj>
+  <ind_inheritData type="scalar" id="*inheritData"><![CDATA[false]]></ind_inheritData>
+  <ind_inheritDataFieldName type="scalar" id="*inheritDataFieldName"><![CDATA[false]]></ind_inheritDataFieldName>
+  <ind_fieldsFromDataSource type="scalar" id="*fieldsFromDataSource"><![CDATA[false]]></ind_fieldsFromDataSource>
+  <ind_width type="scalar" id="width"><![CDATA[400]]></ind_width>
+  <ind_height type="scalar" id="height"><![CDATA[200]]></ind_height>
+  <ind_fileName type="scalar" id="fileName"><![CDATA[]]></ind_fileName>
+  <ind_imageDir type="scalar" id="imageDir"><![CDATA[]]></ind_imageDir>
+  <ind_dataXField type="scalar" id="dataXField"><![CDATA[AAA]]></ind_dataXField>
+  <ind_dataYField type="scalar" id="dataYField"><![CDATA[BBB]]></ind_dataYField>
+  <ind_leftMargin type="scalar" id="leftMargin"><![CDATA[60]]></ind_leftMargin>
+  <ind_rightMargin type="scalar" id="rightMargin"><![CDATA[20]]></ind_rightMargin>
+  <ind_topMargin type="scalar" id="topMargin"><![CDATA[30]]></ind_topMargin>
+  <ind_bottomMargin type="scalar" id="bottomMargin"><![CDATA[150]]></ind_bottomMargin>
+  <ind_scale type="scalar" id="scale"><![CDATA[textlin]]></ind_scale>
+  <ind_marginColor type="scalar" id="marginColor"><![CDATA[silver]]></ind_marginColor>
+  <ind_shadow type="scalar" id="*shadow"><![CDATA[true]]></ind_shadow>
+  <ind_titleLabel type="scalar" id="titleLabel"><![CDATA[]]></ind_titleLabel>
+  <ind_titleFontFamily type="scalar" id="titleFontFamily"><![CDATA[11]]></ind_titleFontFamily>
+  <ind_titleFontSize type="scalar" id="titleFontSize"><![CDATA[18]]></ind_titleFontSize>
+  <ind_titleFontColor type="scalar" id="titleFontColor"><![CDATA[darkred]]></ind_titleFontColor>
+  <ind_titleXAxisFontFamily type="scalar" id="titleXAxisFontFamily"><![CDATA[11]]></ind_titleXAxisFontFamily>
+  <ind_titleXAxisFontType type="scalar" id="titleXAxisFontType"><![CDATA[1]]></ind_titleXAxisFontType>
+  <ind_titleXAxisFontSize type="scalar" id="titleXAxisFontSize"><![CDATA[12]]></ind_titleXAxisFontSize>
+  <ind_titleYAxisFontFamily type="scalar" id="titleYAxisFontFamily"><![CDATA[11]]></ind_titleYAxisFontFamily>
+  <ind_titleYAxisFontType type="scalar" id="titleYAxisFontType"><![CDATA[1]]></ind_titleYAxisFontType>
+  <ind_titleYAxisFontSize type="scalar" id="titleYAxisFontSize"><![CDATA[11]]></ind_titleYAxisFontSize>
+  <ind_titleXAxisLabelAngle type="scalar" id="titleXAxisLabelAngle"><![CDATA[50]]></ind_titleXAxisLabelAngle>
+  <ind_style type="scalar" id="@style"><![CDATA[]]></ind_style>
+  <ind_dispFields type="array" id="dispFields"/>
+  <ind_dataFields type="array" id="dataFields">
+    <ind_0 type="scalar" id="0"><![CDATA[AAA]]></ind_0>
+    <ind_1 type="scalar" id="1"><![CDATA[BBB]]></ind_1>
+  </ind_dataFields>
+  <ind_dataFieldsDomains type="array" id="dataFieldsDomains">
+    <ind_0 type="scalar" id="0"><![CDATA[set]]></ind_0>
+    <ind_1 type="scalar" id="1"><![CDATA[atomic]]></ind_1>
+  </ind_dataFieldsDomains>
+  <ind_dataFieldsDomainsValues type="array" id="dataFieldsDomainsValues">
+    <ind_0 type="array" id="0">
+      <ind_0 type="scalar" id="0"><![CDATA[1]]></ind_0>
+      <ind_1 type="scalar" id="1"><![CDATA[2]]></ind_1>
+      <ind_2 type="scalar" id="2"><![CDATA[3]]></ind_2>
+    </ind_0>
+    <ind_1 type="scalar" id="1"><![CDATA[50]]></ind_1>
+  </ind_dataFieldsDomainsValues>
+  <ind_pageName type="scalar" id="pageName"><![CDATA[Test]]></ind_pageName>
+</Items>

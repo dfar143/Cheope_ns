@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Items>
+  <section name="">
+    <code name=""><![CDATA[class AjaxOpOps1 extends AjaxOp
+{
+function __construct()
+{
+parent::__construct(AJAX_OP_OPS1);
+}
+
+function exec_1($actId):array|string|bool|null
+{
+}
+}
+
+]]></code>
+  </section>
+</Items>

@@ -1,0 +1,25 @@
+.menuBar
+{
+ font-family:Verdana,Arial,"Times new roman";
+ font-size: 9pt;
+ background-color:#290094;
+ color:white;
+ border: 1px solid white;
+ width:100%;
+}
+
+.menuBar_inner
+{
+ font-family:Verdana,Arial,"Times new roman";
+ font-size: 9pt;
+ background-color:#290094;
+ color:white;
+ padding:5px 5px 5px 5px;
+}
+
+.menuBar_full_voices
+{
+	text-decoration:none;
+}
+
+

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Items>
+  <ind_aaa type="array" id="aaa">
+    <ind_aaaa1 type="scalar" id="aaaa1">aaaa</ind_aaaa1>
+    <ind_bbb type="scalar" id="bbb">bbb</ind_bbb>
+  </ind_aaa>
+  <ind_bbb type="scalar" id="bbb">bbb</ind_bbb>
+</Items>

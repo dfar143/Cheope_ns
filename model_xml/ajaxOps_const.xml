@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<Items>
+  <sections name="SEZIONE ajaxOps consts">
+  	<section name="AjaxOps consts">
+  		<def>
+	 <namespace name="">
+	 	Std\fw
+	 </namespace>
+	 </def>
+    	<block_def name="" brackets="0">
+      <def name="">
+        <function_call name="define">
+          <arg name="">
+            <expr name="">__NAMESPACE__ . '\AJAX_OP_JAVASCRIPT_INJECTION'</expr>
+          </arg>
+          <arg name="">
+            <string type="double_quoted" name="">javascriptInjection</string>
+          </arg>
+        </function_call>
+      </def>
+      <def name="">
+        <function_call name="define">
+          <arg name="">
+            <expr name="">__NAMESPACE__ . '\AJAX_OP_LOCALIZATION'</expr>
+          </arg>
+          <arg name="">
+            <string type="double_quoted" name="">localization</string>
+          </arg>
+        </function_call>
+      </def>
+      </block_def>
+	 </section>
+	</sections>
+</Items>

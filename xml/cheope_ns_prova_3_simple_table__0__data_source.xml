@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<Items>
+<ind_0 type="array" id="ind_0">
+<PageA type="scalar" id="PageA">
+ABC
+</PageA>
+<PageB type="scalar" id="PageB">
+DEF
+</PageB>
+<PageC type="scalar" id="PageC">
+GHI
+</PageC>
+</ind_0>
+<ind_1 type="array" id="ind_1">
+<PageA type="scalar" id="PageA">
+ABC1
+</PageA>
+<PageB type="scalar" id="PageB">
+DEF1
+</PageB>
+<PageC type="scalar" id="PageC">
+GHI1
+</PageC>
+</ind_1>
+<ind_2 type="array" id="ind_2">
+<PageA type="scalar" id="PageA">
+ABC2
+</PageA>
+<PageB type="scalar" id="PageB">
+DEF2
+</PageB>
+<PageC type="scalar" id="PageC">
+GHI2
+</PageC>
+</ind_2>
+</Items>

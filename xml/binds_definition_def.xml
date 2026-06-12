@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<Items>
+  <sections name="BINDS SECTION">
+    <section name="Bind_0">
+      <def name="">
+        <var name="">dbNodeProva_3</var>
+        <method_call instanceName="" parent="" name="getElementByAliasName">
+          <var name="">dbStructTree</var>
+          <arg name="">
+            <const name="">TABELLA_PROVA_3</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">dbBindBind_1</var>
+        <clone_call name="">
+          <var name="">dbNodeProva_3</var>
+        </clone_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setAliasName">
+          <var name="">dbBindBind_1</var>
+          <arg name="">
+            <const name="">BINDING_BIND_1</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">dbConn</var>
+        <method_call instanceName="" parent="" name="getDbOp">
+          <var name="">dbConnectionsContainer</var>
+          <arg name="">
+            <const name="">CONNECTION_C_PROVA_2</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setDbOp">
+          <var name="">dbBindBind_1</var>
+          <arg name="">
+            <var name="">dbConn</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <var name="">dbStructTree</var>
+          <arg name="">
+            <var name="">dbBindBind_1</var>
+          </arg>
+        </method_call>
+      </def>
+    </section>
+    <section name="Bind_1">
+      <def name="">
+        <var name="">dbNodeProva_2</var>
+        <method_call instanceName="" parent="" name="getElementByAliasName">
+          <var name="">dbStructTree</var>
+          <arg name="">
+            <const name="">TABELLA_PROVA_2</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">dbBindBind_2</var>
+        <clone_call name="">
+          <var name="">dbNodeProva_2</var>
+        </clone_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setAliasName">
+          <var name="">dbBindBind_2</var>
+          <arg name="">
+            <const name="">BINDING_BIND_2</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">dbConn</var>
+        <method_call instanceName="" parent="" name="getDbOp">
+          <var name="">dbConnectionsContainer</var>
+          <arg name="">
+            <const name="">CONNECTION_C_PROVA_2</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setDbOp">
+          <var name="">dbBindBind_2</var>
+          <arg name="">
+            <var name="">dbConn</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <var name="">dbStructTree</var>
+          <arg name="">
+            <var name="">dbBindBind_2</var>
+          </arg>
+        </method_call>
+      </def>
+    </section>
+  </sections>
+</Items>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Items>
+  <ind_op type="scalar" id="op"><![CDATA[]]></ind_op>
+  <ind_type type="scalar" id="type"><![CDATA[FCKEditor]]></ind_type>
+  <ind_num type="scalar" id="num"><![CDATA[0]]></ind_num>
+  <ind_shortName type="scalar" id="shortName"><![CDATA[]]></ind_shortName>
+  <ind_basepath type="scalar" id="basepath"><![CDATA[./FCKEditor/editor]]></ind_basepath>
+  <ind_width type="scalar" id="width"><![CDATA[100%]]></ind_width>
+  <ind_height type="scalar" id="height"><![CDATA[200]]></ind_height>
+  <ind_toolbarSet type="scalar" id="toolbarSet"><![CDATA[Default]]></ind_toolbarSet>
+  <ind_config type="array" id="config"/>
+</Items>

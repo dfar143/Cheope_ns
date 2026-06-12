@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Items>
+  <ind_op type="scalar" id="op"></ind_op>
+  <ind_type type="scalar" id="type"><![CDATA[dyn_page_loader]]></ind_type>
+  <ind_num type="scalar" id="num"><![CDATA[0]]></ind_num>
+  <ind_shortName type="scalar" id="shortName"></ind_shortName>
+  <ind_bootstrapEnabled type="scalar" id="*bootstrapEnabled"><![CDATA[false]]></ind_bootstrapEnabled>
+  <ind_fileName type="scalar" id="fileName"></ind_fileName>
+</Items>

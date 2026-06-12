@@ -1,0 +1,39 @@
+#main_1
+{
+	height:0px;
+	padding:0px;
+}
+
+#main_2
+{
+	width:90%;
+	padding:5px 5px 5px 5px;
+}
+
+#frame__1
+{
+	overflow:auto;
+}
+
+th
+{
+	text-align:left;
+	border-bottom:1px solid white;
+	color:cyan;
+	margin-bottom:5px;
+}
+
+thead
+{
+ margin-bottom:5px;
+}
+
+#html_tags__6
+{
+	margin-top:8px;
+}
+
+#html_tags__8
+{
+	height:65px;
+}

@@ -1,0 +1,30 @@
+.div_frame_column
+{
+	height:600px;
+	overflow:auto;
+}
+
+.div_frame_cell
+{
+	padding:0px;
+}
+
+#div_frame__1
+{
+	padding:10px 0px 0 5px;
+}
+
+#div_frame__1_0
+{
+  
+}
+
+#div_frame__1_1
+{
+}
+
+tbody#simple_table__2_thead_id
+{
+	height:50px;
+	overflow:hidden;
+}

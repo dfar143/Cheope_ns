@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Items>
+  <ind_0 type="array" id="0">
+    <ind_queryName type="scalar" id="queryName">Query1</ind_queryName>
+    <ind_queryBody type="scalar" id="queryBody">select + from Dati</ind_queryBody>
+    <ind_dataSource type="scalar" id="dataSource">false</ind_dataSource>
+  </ind_0>
+</Items>

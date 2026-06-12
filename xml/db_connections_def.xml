@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Items>
+  <sections name="SEZIONE PRINCIPALE">
+  	<section name="Connections_require_onces">
+   <ref >
+    connections_require_onces_def
+	 </ref>
+  	</section>
+	<section name="Connections_defines">
+	 <ref>
+   connections_defines_def
+   </ref>
+	</section>
+	<section name="Connections_definitions">
+	<ref >
+		connections_definition_def
+	</ref>
+	</section>
+	<section name="Connections_container_definition">
+	 <ref >
+	 	connections_container_definition_def
+	 </ref>
+	</section>
+  </sections>
+</Items>

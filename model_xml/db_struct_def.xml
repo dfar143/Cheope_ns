@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<items>
+<sections  name="SEZIONE PRINCIPALE">
+	<section   name="Require_onces">
+   <ref >
+    require_onces_def
+	 </ref>
+	</section>
+	<section   name="Defines">
+	 <ref >
+   defines_def
+   </ref>
+	</section>
+	<section   name="Db_objects_definitions">
+	<ref >
+		db_objects_definition_def
+	</ref>
+	</section>
+	<section   name="Fields_definitions">
+	<ref >
+		fields_definition_def
+	</ref>
+	</section>	
+	<section   name="Relations_definitions">
+	 <ref >
+	 	relations_definition_def
+	 </ref>
+	</section>
+	<section   name="Binding_relations_to_objects">
+	 <ref >
+	 	binding_relations_to_objects_def
+	 </ref>
+	</section>
+	<section   name="Structure_definitions">
+	 <ref >
+	 	structure_definition_def
+	 </ref>
+	</section>
+	<section   name="Graph_definitions">
+	 <ref >
+	 	graph_definition_def
+	 </ref>
+	</section>
+	<section   name="Aliases_defines">
+	 <ref >
+	 	aliases_defines_def
+	 </ref>
+	</section>
+	<section   name="Aliases_definitions">
+	 <ref >
+	 	aliases_definition_def
+	 </ref>
+	</section>
+</sections>
+</items>

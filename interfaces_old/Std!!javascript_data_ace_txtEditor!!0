@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Items>
+  <ind_op type="scalar" id="op"></ind_op>
+  <ind_type type="scalar" id="type"><![CDATA[javascript_data_ace_txtEditor]]></ind_type>
+  <ind_num type="scalar" id="num"><![CDATA[0]]></ind_num>
+  <ind_shortName type="scalar" id="shortName"></ind_shortName>
+  <ind_dispFields type="array" id="dispFields"/>
+    <ind_javascriptModule type="array" id="javascriptModule">
+	<ind_0 type="scalar" id="0"><![CDATA[./js/interfaces.js]]></ind_0>
+    <ind_1 type="scalar" id="1"><![CDATA[./ace/src-noconflict/ace.js]]></ind_1>
+	</ind_javascriptModule>
+  <ind_cssModule type="scalar" id="cssModule"><![CDATA[./css/ace.css]]></ind_cssModule>
+  <ind_hookId type="scalar" id="hookId"></ind_hookId>
+  <ind_editorId type="scalar" id="editorId"></ind_editorId>
+  <ind_dataExchangeType type="scalar" id="dataExchangeType"><![CDATA[text]]></ind_dataExchangeType>
+  <ind_enableInsertInClientContainer type="scalar" id="*enableInsertInClientContainer"><![CDATA[true]]></ind_enableInsertInClientContainer>
+  <ind_enableExecuteOnLoad type="scalar" id="*enableExecuteOnLoad"><![CDATA[true]]></ind_enableExecuteOnLoad>
+  <ind_enableDataFromRemote type="scalar" id="*enableDataFromRemote"><![CDATA[true]]></ind_enableDataFromRemote>
+  <ind_fileName type="scalar" id="fileName"></ind_fileName>
+  <ind_getOp type="scalar" id="getOp"><![CDATA[getFile]]></ind_getOp>
+  <ind_sendOp type="scalar" id="sendOp"><![CDATA[sendFile]]></ind_sendOp>
+  <ind_fontSize type="scalar" id="fontSize"><![CDATA[12]]></ind_fontSize>
+  <ind_keyBoardHandler type="scalar" id="keyBoardHandler"><![CDATA[windows]]></ind_keyBoardHandler>
+  <ind_readOnly type="scalar" id="*readOnly"><![CDATA[false]]></ind_readOnly>
+  <ind_showInvisibles type="scalar" id="*showInvisibles"><![CDATA[false]]></ind_showInvisibles>
+  <ind_mode type="scalar" id="mode"></ind_mode>
+  <ind_theme type="scalar" id="theme"></ind_theme>
+  <ind_enableStatusBar type="scalar" id="*enableStatusBar"><![CDATA[false]]></ind_enableStatusBar>  
+  <ind_enableOpBar type="scalar" id="*enableOpBar"><![CDATA[false]]></ind_enableOpBar>  
+</Items>

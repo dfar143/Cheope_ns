@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<Items>
+  <ind_op type="scalar" id="op"><![CDATA[]]></ind_op>
+  <ind_type type="scalar" id="type"><![CDATA[temp_msg]]></ind_type>
+  <ind_num type="scalar" id="num"><![CDATA[1]]></ind_num>
+  <ind_style type="scalar" id="@style"></ind_style>
+  <ind_cssClass type="scalar" id="cssClass"><![CDATA[msg]]></ind_cssClass>
+  <ind_text type="scalar" id="text"><![CDATA[Ciao nina]]></ind_text>
+  <ind_gesPage type="scalar" id="gesPage"><![CDATA[]]></ind_gesPage>
+  <ind_delay type="scalar" id="delay"><![CDATA[3000]]></ind_delay>
+  <ind_align type="scalar" id="align"><![CDATA[center]]></ind_align>
+  <ind_vAlign type="scalar" id="vAlign"><![CDATA[center]]></ind_vAlign>
+  <ind_sendFlag type="scalar" id="sendFlag"><![CDATA[0]]></ind_sendFlag>
+  <ind_buttonFlag type="scalar" id="buttonFlag"><![CDATA[true]]></ind_buttonFlag>
+  <ind_buttonLabel type="scalar" id="buttonLabel"><![CDATA[]]></ind_buttonLabel>
+  <ind_isSequenceActive type="scalar" id="isSequenceActive"><![CDATA[0]]></ind_isSequenceActive>
+  <ind_sequenceDelay type="scalar" id="sequenceDelay"><![CDATA[200]]></ind_sequenceDelay>
+  <ind_dispFields type="array" id="dispFields"/>
+  <ind_sequenceStrings type="array" id="sequenceStrings"/>
+</Items>

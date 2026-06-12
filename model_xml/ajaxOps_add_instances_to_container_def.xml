@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Items>
+  <sections name="SEZIONE add instances to container">
+  	<section name="Add instances to container">
+     <def name="">
+        <method_call instanceName="" name="add">
+          <var name="">ajaxOps</var>
+          <arg><var name="">ajaxOpJavascriptInjection</var></arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" name="add">
+          <var name="">ajaxOps</var>
+          <arg><var name="">ajaxOpLocalization</var></arg>
+        </method_call>
+      </def>
+	 </section>
+	</sections>
+</Items>

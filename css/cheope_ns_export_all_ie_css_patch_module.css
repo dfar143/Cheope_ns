@@ -1,0 +1,23 @@
+.simple_table_columns_header
+{
+ color:yellow;
+ font-size:12px;
+}
+
+#simple_table__1_tbody_id
+{
+ font-size:12px;
+ color:yellow; 
+
+}
+
+.menuBar_full_voices
+{
+ font-weight:bold;
+}
+
+.simple_table_inner_table
+{
+ border-color:grey;
+ margin:5px;
+}

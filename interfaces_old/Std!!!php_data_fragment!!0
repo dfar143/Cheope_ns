@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Items>
+  <ind_op type="scalar" id="op"></ind_op>
+  <ind_type type="scalar" id="type"><![CDATA[php_data_fragment]]></ind_type>
+  <ind_num type="scalar" id="num"><![CDATA[0]]></ind_num>
+  <ind_dispFields type="array" id="dispFields"></ind_dispFields>
+  <ind_inheritData type="scalar" id="*inheritData"><![CDATA[true]]></ind_inheritData>
+  <ind_inheritDataFieldName type="scalar" id="*inheritDataFieldName"><![CDATA[false]]></ind_inheritDataFieldName>
+  <ind_fieldsFromDataSource type="scalar" id="*fieldsFromDataSource"><![CDATA[false]]>
+   </ind_fieldsFromDataSource>
+  <ind_cssClass type="scalar" id="cssClass"></ind_cssClass>
+  <ind_dataFields type="array" id="dataFields">
+  </ind_dataFields>
+  <ind_dataFieldsDomains type="array" id="dataFieldsDomains">
+  </ind_dataFieldsDomains>
+  <ind_dataFieldsDomainsValues type="array" id="dataFieldsDomainsValues">
+  </ind_dataFieldsDomainsValues>
+  <ind_obj type="db_item" id="obj"></ind_obj>
+  <ind_phpFragment type="scalar" id="@phpFragment">
+  </ind_phpFragment>
+</Items>

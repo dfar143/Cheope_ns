@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<Items>
+   <ind_op type="scalar" id="op"></ind_op>
+   <ind_type type="scalar" id="type">barGradex</ind_type>
+   <ind_num type="scalar" id="num">0</ind_num>
+   <ind_shortName type="scalar" id="shortName"></ind_shortName>
+   <ind_cssClass type="scalar" id="cssClass">barGradex</ind_cssClass>
+   <ind_style type="scalar" id="@style"></ind_style>
+   <ind_dispFields type="array" id="dispFields">
+   </ind_dispFields>
+   <ind_obj type="db_item" id="obj"></ind_obj>
+   <ind_inheritData type="scalar" id="*inheritData"><![CDATA[false]]></ind_inheritData>
+   <ind_inheritDataFieldName type="scalar" id="*inheritDataFieldName"><![CDATA[false]]></ind_inheritDataFieldName>
+  <ind_fieldsFromDataSource type="scalar" id="*fieldsFromDataSource">false
+   </ind_fieldsFromDataSource>
+   <ind_dataFields type="array" id="dataFields">
+   </ind_dataFields>
+   <ind_dataFieldsDomains type="array" id="dataFieldsDomains">
+   </ind_dataFieldsDomains>
+   <ind_dataFieldsDomainsValues type="array" id="dataFieldsDomainsValues">
+   </ind_dataFieldsDomainsValues>
+   <ind_width type="scalar" id="width">400</ind_width>
+   <ind_height type="scalar" id="height">200</ind_height>
+   <ind_fileName type="scalar" id="fileName"></ind_fileName>
+   <ind_imageDir type="scalar" id="imageDir"></ind_imageDir>
+   <ind_dataXField type="scalar" id="dataXField"></ind_dataXField>
+   <ind_dataYField type="scalar" id="dataYField"></ind_dataYField>
+   <ind_leftMargin type="scalar" id="leftMargin">60</ind_leftMargin>
+   <ind_rightMargin type="scalar" id="rightMargin">20</ind_rightMargin>
+   <ind_topMargin type="scalar" id="topMargin">30</ind_topMargin>
+   <ind_bottomMargin type="scalar" id="bottomMargin">150</ind_bottomMargin>
+   <ind_scale type="scalar" id="scale">textlin</ind_scale>
+   <ind_marginColor type="scalar" id="marginColor">silver</ind_marginColor>
+   <ind_shadow type="scalar" id="*shadow">true</ind_shadow>
+   <ind_titleLabel type="scalar" id="titleLabel"></ind_titleLabel>
+   <ind_titleFontFamily type="scalar" id="titleFontFamily">11</ind_titleFontFamily>
+   <ind_titleFontSize type="scalar" id="titleFontSize">18</ind_titleFontSize>
+   <ind_titleFontColor type="scalar" id="titleFontColor">darkred</ind_titleFontColor>
+   <ind_titleXAxisFontFamily type="scalar" id="titleXAxisFontFamily">11</ind_titleXAxisFontFamily>
+   <ind_titleXAxisFontType type="scalar" id="titleXAxisFontType">1</ind_titleXAxisFontType>
+   <ind_titleXAxisFontSize type="scalar" id="titleXAxisFontSize">12</ind_titleXAxisFontSize>
+   <ind_titleYAxisFontFamily type="scalar" id="titleYAxisFontFamily">11</ind_titleYAxisFontFamily>
+   <ind_titleYAxisFontType type="scalar" id="titleYAxisFontType">1</ind_titleYAxisFontType>
+   <ind_titleYAxisFontSize type="scalar" id="titleYAxisFontSize">11</ind_titleYAxisFontSize>
+   <ind_titleXAxisLabelAngle type="scalar" id="titleXAxisLabelAngle">50</ind_titleXAxisLabelAngle>    
+</Items>

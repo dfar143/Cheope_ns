@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<Items>
+ <ind_users type="array" id="users">
+  <ind_0 type="array" id="0">
+   <ind_user type="scalar" id="user">
+    Danielfar
+   </ind_user>
+   <ind_password type="scalar" id="password">
+    aaaaaaaa
+   </ind_password>
+  </ind_0>
+  <ind_1 type="array" id="1">
+   <ind_user type="scalar" id="user">
+    Daniele
+   </ind_user>
+   <ind_password type="scalar" id="password">
+    aaaaaaaa
+   </ind_password>
+  </ind_1>
+  <ind_1 type="array" id="1">
+   <ind_user type="scalar" id="user">
+    Sommariva
+   </ind_user>
+   <ind_password type="scalar" id="password">
+    Sommariva
+   </ind_password>
+  </ind_1>
+  <ind_2 type="array" id="2">
+   <ind_user type="scalar" id="user">
+    Berzero1
+   </ind_user>
+   <ind_password type="scalar" id="password">
+    Berzero1
+   </ind_password>
+  </ind_2>
+ </ind_users>
+</Items>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Items>
+  <ind_type type="scalar" id="type"><![CDATA[two_columns_layout]]></ind_type>
+  <ind_op type="scalar" id="op"><![CDATA[]]></ind_op>
+  <ind_num type="scalar" id="num"><![CDATA[0]]></ind_num>
+  <ind_shortName type="scalar" id="shortName"><![CDATA[]]></ind_shortName>
+  <ind_bootstrapEnabled type="scalar" id="*bootstrapEnabled"><![CDATA[false]]></ind_bootstrapEnabled>
+  <ind_bootstrapContainerType type="scalar" id="bootstrapContainerType"><![CDATA[container]]></ind_bootstrapContainerType>
+  <ind_bootstrapViewPortSizeType type="scalar" id="bootstrapViewPortSizeType"><![CDATA[md]]></ind_bootstrapViewPortSizeType>
+  <ind_withContainer type="scalar" id="withContainer"><![CDATA[true]]></ind_withContainer>
+  <ind_containerStyle type="scalar" id="@containerStyle"><![CDATA[width:100%;height:100%]]></ind_containerStyle>
+  <ind_containerLeftStyle type="scalar" id="@containerLeftStyle"><![CDATA[width:45%;height:100%;padding:5px]]></ind_containerLeftStyle>
+  <ind_interfacesContainerLeft type="container" id="interfacesContainerLeft">
+    <ind_0 type="interface" id="0"><![CDATA[Cheope_ns!Pagina_9!html_fragment!!1]]></ind_0>
+    <ind_1 type="interface" id="1"><![CDATA[Cheope_ns!Pagina_9!Prova_3!accordion!!1]]></ind_1>
+  </ind_interfacesContainerLeft>
+  <ind_containerRightStyle type="scalar" id="@containerRightStyle"><![CDATA[width:45%;height:100%;padding:5px;]]></ind_containerRightStyle>
+  <ind_interfacesContainerRight type="container" id="interfacesContainerRight">
+    <ind_0 type="interface" id="0"><![CDATA[Cheope_ns!Pagina_9!html_fragment!!1]]></ind_0>
+    <ind_1 type="interface" id="1"><![CDATA[Cheope_ns!Pagina_9!Prova_3!simple_table!!1]]></ind_1>
+  </ind_interfacesContainerRight>
+</Items>

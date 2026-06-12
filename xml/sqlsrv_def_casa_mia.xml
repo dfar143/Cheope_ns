@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<Items>
+  <sections name="">
+    <section name="">
+      <def name="">
+        <function_call name="define">
+          <arg name="">
+            <string type="single_quoted" name="">SQLSRV_HOST</string>
+          </arg>
+          <arg name="">
+            <string type="double_quoted" name="">sa</string>
+          </arg>
+        </function_call>
+      </def>
+      <def name="">
+        <function_call name="define">
+          <arg name="">
+            <string type="single_quoted" name="">SQLSRV_USER</string>
+          </arg>
+          <arg name="">
+            <string type="double_quoted" name="">userroot</string>
+          </arg>
+        </function_call>
+      </def>
+      <def name="">
+        <function_call name="define">
+          <arg name="">
+            <string type="single_quoted" name="">SQLSRV_DB</string>
+          </arg>
+          <arg name="">
+            <string type="double_quoted" name="">m0761033\SQLEXPRESS</string>
+          </arg>
+        </function_call>
+      </def>
+      <def name="">
+        <function_call name="define">
+          <arg name="">
+            <string type="single_quoted" name="">SQLSRV_PASSWORD</string>
+          </arg>
+          <arg name="">
+            <string type="double_quoted" name="">Cheope</string>
+          </arg>
+        </function_call>
+      </def>
+      <def name="">
+        <function_call name="define">
+          <arg name="">
+            <string type="single_quoted" name="">SQLSRV_PORT</string>
+          </arg>
+          <arg name="">
+            <string type="double_quoted" name=""></string>
+          </arg>
+        </function_call>
+      </def>
+      <def name="">
+        <function_call name="define">
+          <arg name="">
+            <string type="single_quoted" name="">SQLSRV_CONNECTION_ERROR</string>
+          </arg>
+          <arg name="">
+            <string type="double_quoted" name="">Sqlsrv:Impossibile connettersi al database. Ritentare piu' tardi.</string>
+          </arg>
+        </function_call>
+      </def>
+    </section>
+  </sections>
+</Items>

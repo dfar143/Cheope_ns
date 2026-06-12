@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<Items>
+  <sections name="">
+    <section name="">
+      <def name="">
+        <function_call name="define">
+          <arg name="">
+            <expr name="">__NAMESPACE__ . '\ODBC_USER'</expr>
+          </arg>
+          <arg name="">
+            <string type="double_quoted" name=""></string>
+          </arg>
+        </function_call>
+      </def>
+      <def name="">
+        <function_call name="define">
+          <arg name="">
+            <expr name="">__NAMESPACE__ . '\ODBC_PASSWORD'</expr>
+          </arg>
+          <arg name="">
+            <string type="double_quoted" name=""></string>
+          </arg>
+        </function_call>
+      </def>
+      <def name="">
+        <function_call name="define">
+          <arg name="">
+            <expr name="">__NAMESPACE__ . '\ODBC_CONNECTION_STRING'</expr>
+          </arg>
+          <arg name="">
+            <string type="double_quoted" name="@">DRIVER=Microsoft Access Driver (*.mdb, *.accdb);DBQ=E:\Docuff\php8\scripts\Cheope_ns\Cheope_ns_prova.mdb;UserCommitSync=Yes</string>
+          </arg>
+        </function_call>
+      </def>
+      <def name="">
+        <function_call name="define">
+          <arg name="">
+            <expr name="">__NAMESPACE__ . '\ODBC_DSN'</expr>
+          </arg>
+          <arg name="">
+            <string type="double_quoted" name=""></string>
+          </arg>
+        </function_call>
+      </def>
+      <def name="">
+        <function_call name="define">
+          <arg name="">
+            <expr name="">__NAMESPACE__ . '\ODBC_CONNECTION_ERROR'</expr>
+          </arg>
+          <arg name="">
+            <string type="double_quoted" name="">Odbc:Impossibile connettersi al database. Ritentare piu' tardi.</string>
+          </arg>
+        </function_call>
+      </def>
+    </section>
+  </sections>
+</Items>

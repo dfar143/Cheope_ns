@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Items>
+  <ind_op type="scalar" id="op"><![CDATA[]]></ind_op>
+  <ind_type type="scalar" id="type"><![CDATA[html_page]]></ind_type>
+  <ind_num type="scalar" id="num"><![CDATA[0]]></ind_num>
+  <ind_cssClass type="scalar" id="cssClass"><![CDATA[]]></ind_cssClass>
+  <ind_bootstrapEnabled type="scalar" id="*bootstrapEnabled"><![CDATA[false]]></ind_bootstrapEnabled>
+  <ind_xmlPrologVersion type="scalar" id="xmlPrologVersion"><![CDATA[1.0]]></ind_xmlPrologVersion>
+  <ind_xmlPrologEncType type="scalar" id="xmlPrologEncType"><![CDATA[]]></ind_xmlPrologEncType>
+  <ind_docTypeString type="scalar" id="docTypeString"><![CDATA[]]></ind_docTypeString>
+  <ind_pageMetaCharset type="scalar" id="pageMetaCharset"><![CDATA[]]></ind_pageMetaCharset>
+  <ind_lang type="scalar" id="lang"><![CDATA[]]></ind_lang>
+  <ind_htmlNameSpace type="scalar" id="htmlNameSpace"><![CDATA[]]></ind_htmlNameSpace>
+  <ind_dojoEnabled type="scalar" id="*dojoEnabled"><![CDATA[true]]></ind_dojoEnabled>
+  <ind_jQueryEnabled type="scalar" id="*jQueryEnabled"><![CDATA[true]]></ind_jQueryEnabled>
+    <ind_uiMaterialEnabled type="scalar" id="*uiMaterialEnabled"><![CDATA[false]]></ind_uiMaterialEnabled>
+  <ind_locale type="scalar" id="locale"><![CDATA[EN]]></ind_locale>
+  <ind_bodyOnLoad type="scalar" id="@bodyOnLoad"><![CDATA[forestCtrl.setCallBackFun(forestCtrlCallBackFun);]]></ind_bodyOnLoad>
+  <ind_bodyOnUnLoad type="scalar" id="@bodyOnUnLoad"><![CDATA[]]></ind_bodyOnUnLoad>
+  <ind_ajaxOps type="array" id="ajaxOps">
+    <ind_0 type="scalar" id="0"><![CDATA[@@AJAX_OP_TEST_DIR@@]]></ind_0>
+    <ind_1 type="scalar" id="1"><![CDATA[@@AJAX_OP_DELETE_FILE@@]]></ind_1>
+    <ind_2 type="scalar" id="2"><![CDATA[@@AJAX_OP_CREATE_FILE@@]]></ind_2>
+    <ind_3 type="scalar" id="3"><![CDATA[@@AJAX_OP_RENAME_FILE@@]]></ind_3>
+    <ind_4 type="scalar" id="4"><![CDATA[@@AJAX_OP_SET_SESSION_ACTIVE_APP@@]]></ind_4>
+  </ind_ajaxOps>
+  <ind_interfacesContainer type="container" id="interfacesContainer"/>
+</Items>

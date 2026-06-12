@@ -1,0 +1,113 @@
+#form__2_buttons_table
+{
+ border-collapse:collapse;
+}
+
+#form_2__1
+{
+	margin-bottom:20px;
+}
+
+#candkeyFieldsHeader1
+{
+	background-color:white;
+}
+
+#candKeyFieldsHeader
+{
+ border:0px;
+ background-color:#0000BB;
+ font-family:Verdana,Arial,"Times new roman";
+ font-size: 9pt;
+ width:200px;
+}
+
+#candKeyFieldsHeader1
+{
+}
+
+#candKeyFieldsHeader2
+{
+	text-align:left;
+}
+
+#candKeyFieldsHeader
+{
+}
+
+#extKeyFieldsHeader
+{
+ border:0px;
+ background-color:#0000BB;
+ font-family:Verdana,Arial,"Times new roman";
+ font-size: 9pt;
+ width:200px;
+}
+
+#extKeyFieldsHeader1
+{
+}
+
+#extKeyFieldsHeader2
+{
+	text-align:left;
+}
+
+#extKeyFieldsHeader
+{
+}
+
+#Trasf_img_id
+{
+	margin-top:10px;
+}
+
+#html_tags__3
+{
+	height:340px;
+	padding:8px;
+}
+
+#html_tags__0
+{
+	height:150px;
+	padding:8px;
+}
+
+#html_tags__4
+{
+	margin-bottom:10px;
+	margin-left:10px;
+}
+
+#html_tags_dec__0
+{
+	width:50%;
+	float:left;
+	height:190px;
+}
+
+#form_2_dec__3
+{
+	width:50%;
+	float:left;
+	height:190px;
+}
+
+#form_2_dec__4
+{
+	float:left;
+	width:50%;
+	margin-top:10px;
+}
+
+#form_2__1
+{
+	margin-left:10px;
+	margin-top:10px;
+}
+
+#form_2__4
+{
+ padding:8px;
+}

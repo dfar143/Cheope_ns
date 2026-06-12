@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Items>
+   <ind_op type="scalar" id="op"></ind_op>
+   <ind_type type="scalar" id="type"><![CDATA[nLevels_tree_ctrl]]></ind_type>
+   <ind_num type="scalar" id="num"><![CDATA[0]]></ind_num>
+   <ind_shortName type="scalar" id="shortName"></ind_shortName>
+   <ind_cssClass type="scalar" id="cssClass"><![CDATA[tree_ctrl]]></ind_cssClass>
+   <ind_style type="scalar" id="@style"></ind_style>
+   <ind_dispFields type="array" id="dispFields">
+   </ind_dispFields>
+   <ind_javascriptModule type="scalar" id="javascriptModule"><![CDATA[./js/treeCtrl.js]]></ind_javascriptModule>
+   <ind_cssModule type="scalar" id="cssModule"><![CDATA[./css/tree_ctrl.css]]></ind_cssModule>
+   <ind_obj type="db_item" id="obj"></ind_obj>
+   <ind_dataFields type="array" id="dataFields">
+   </ind_dataFields>
+   <ind_dataFieldsDomains type="array" id="dataFieldsDomains">
+   </ind_dataFieldsDomains>
+   <ind_dataFieldsDomainsValues type="array" id="dataFieldsDomainsValues">
+   </ind_dataFieldsDomainsValues>
+   <ind_rootLabel type="scalar" id="rootLabel"></ind_rootLabel>
+   <ind_voicesField type="scalar" id="voicesField"></ind_voicesField>
+   <ind_pagesField type="scalar" id="pagesField"></ind_pagesField>
+   <ind_idsField type="scalar" id="idsField"></ind_idsField>
+   <ind_itemClass type="scalar" id="itemClass"><![CDATA[tree_ctrl_item]]></ind_itemClass>
+   <ind_target type="scalar" id="target"><![CDATA[_self]]></ind_target>
+   <ind_gesPage type="scalar" id="gesPage"></ind_gesPage>
+   <ind_mouseEvent type="scalar" id="mouseEvent"><![CDATA[mouseover]]></ind_mouseEvent>
+   <ind_subItemsHtmlType type="scalar" id="subItemsHtmlType"><![CDATA[a]]></ind_subItemsHtmlType>
+   <ind_rootItemHtmlType type="scalar" id="rootItemHtmlType"><![CDATA[span]]></ind_rootItemHtmlType>
+   <ind_treeCtrlVer type="scalar" id="treeCtrlVer"></ind_treeCtrlVer>
+   <ind_rootLabel type="scalar" id="rootLabel">_</ind_rootLabel>
+   <ind_indent type="scalar" id="*indent"><![CDATA[true]]></ind_indent>
+</Items>

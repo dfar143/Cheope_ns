@@ -1,0 +1,36 @@
+#html_tags_dec__2
+{
+	margin-top:8px;
+}
+
+#html_tags__2
+{
+	padding:5px;
+	background-color:#590094;
+}
+
+#html_tags__2 > div
+{
+	margin-bottom:8px;
+}
+
+#simple_table__1_thead_id
+{
+ border-bottom:1px dotted white;
+ padding-bottom:10px;
+}
+
+#table_header_0
+{
+ color:cyan;
+}
+
+#table_header_1
+{
+ color:cyan;
+}
+
+.obj_1
+{
+	font-style:italic;
+}

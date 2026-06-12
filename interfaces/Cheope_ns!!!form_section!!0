@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<Items>
+  <ind_op type="scalar" id="op"><![CDATA[]]></ind_op>
+  <ind_type type="scalar" id="type"><![CDATA[form_section]]></ind_type>
+  <ind_num type="scalar" id="num"><![CDATA[0]]></ind_num>
+  <ind_shortName type="scalar" id="shortName"><![CDATA[]]></ind_shortName>
+  <ind_cssClass type="scalar" id="cssClass"><![CDATA[form_section]]></ind_cssClass>
+  <ind_obj type="db_item" id="obj"><![CDATA[]]></ind_obj>
+  <ind_gridDimX type="scalar" id="gridDimX"><![CDATA[1]]></ind_gridDimX>
+  <ind_gridDimY type="scalar" id="gridDimY"><![CDATA[1]]></ind_gridDimY>
+  <ind_rowsStyle type="scalar" id="rowsStyle"><![CDATA[]]></ind_rowsStyle>
+  <ind_rowsClasses type="array" id="rowsClasses">
+    <ind_0 type="scalar" id="0"><![CDATA[]]></ind_0>
+  </ind_rowsClasses>
+  <ind_rowsStyles type="array" id="rowsStyles">
+    <ind_0 type="scalar" id="0"><![CDATA[]]></ind_0>
+  </ind_rowsStyles>
+  <ind_rowsClass type="scalar" id="rowsClass"><![CDATA[]]></ind_rowsClass>
+  <ind_labelSpacerWidth type="scalar" id="labelSpacerWidth"><![CDATA[1]]></ind_labelSpacerWidth>
+  <ind_cellPadding type="scalar" id="cellPadding"><![CDATA[0]]></ind_cellPadding>
+  <ind_cellSpacing type="scalar" id="cellSpacing"><![CDATA[0]]></ind_cellSpacing>
+  <ind_javascriptEnabled type="scalar" id="*javascriptEnabled"><![CDATA[true]]></ind_javascriptEnabled>
+  <ind_inheritData type="scalar" id="*inheritData"><![CDATA[false]]></ind_inheritData>
+  <ind_inheritDataFieldName type="scalar" id="*inheritDataFieldName"><![CDATA[false]]></ind_inheritDataFieldName>
+  <ind_fieldsFromDataSource type="scalar" id="*fieldsFromDataSource"><![CDATA[false]]></ind_fieldsFromDataSource>
+  <ind_style type="scalar" id="@style"><![CDATA[]]></ind_style>
+  <ind_dataFields type="array" id="dataFields">
+    <ind_0 type="scalar" id="0"><![CDATA[campo_0_0]]></ind_0>
+  </ind_dataFields>
+  <ind_dataFieldsDomains type="array" id="dataFieldsDomains">
+    <ind_0 type="scalar" id="0"><![CDATA[atomic]]></ind_0>
+  </ind_dataFieldsDomains>
+  <ind_dataFieldsDomainsValues type="array" id="dataFieldsDomainsValues">
+    <ind_0 type="scalar" id="0"><![CDATA[]]></ind_0>
+  </ind_dataFieldsDomainsValues>
+  <ind_fieldsColStyles type="array" id="$fieldsColStyles">
+    <ind_0 type="scalar" id="0"><![CDATA[]]></ind_0>
+  </ind_fieldsColStyles>
+  <ind_fieldsColClasses type="array" id="$fieldsColClasses">
+    <ind_0 type="scalar" id="0"><![CDATA[]]></ind_0>
+  </ind_fieldsColClasses>
+  <ind_fieldsLabels type="array" id="$fieldsLabels">
+    <ind_0 type="scalar" id="0"><![CDATA[campo_0_0]]></ind_0>
+  </ind_fieldsLabels>
+  <ind_fieldsStyles type="array" id="$fieldsStyles">
+    <ind_0 type="scalar" id="0"><![CDATA[]]></ind_0>
+  </ind_fieldsStyles>
+  <ind_fieldsTypes type="array" id="$fieldsTypes">
+    <ind_0 type="scalar" id="0"><![CDATA[]]></ind_0>
+  </ind_fieldsTypes>
+  <ind_fieldsLengths type="array" id="$fieldsLengths">
+    <ind_0 type="scalar" id="0"><![CDATA[10]]></ind_0>
+  </ind_fieldsLengths>
+  <ind_fieldsStops type="array" id="$fieldsStops">
+    <ind_0 type="scalar" id="0"><![CDATA[10]]></ind_0>
+  </ind_fieldsStops>
+  <ind_fieldsHints type="array" id="$fieldsHints">
+    <ind_0 type="scalar" id="0"><![CDATA[]]></ind_0>
+  </ind_fieldsHints>
+  <ind_fieldsToolTips type="array" id="$fieldsToolTips">
+    <ind_0 type="scalar" id="0"><![CDATA[]]></ind_0>
+  </ind_fieldsToolTips>
+  <ind_fieldsEvents type="array" id="$fieldsEvents">
+    <ind_0 type="array" id="0">
+      <ind_0 type="scalar" id="0"><![CDATA[]]></ind_0>
+      <ind_1 type="scalar" id="1"><![CDATA[]]></ind_1>
+    </ind_0>
+  </ind_fieldsEvents>
+  <ind_fieldsRegexps type="array" id="$fieldsRegexps">
+    <ind_0 type="scalar" id="0"><![CDATA[]]></ind_0>
+  </ind_fieldsRegexps>
+  <ind_labels type="array" id="$labels">
+    <ind_0 type="array" id="0">
+      <ind_0 type="scalar" id="0"><![CDATA[]]></ind_0>
+    </ind_0>
+  </ind_labels>
+  <ind_fieldsDirections type="array" id="$fieldsDirections">
+    <ind_0 type="scalar" id="0"><![CDATA[]]></ind_0>
+  </ind_fieldsDirections>
+  <ind_fieldsDefaultValues type="array" id="$fieldsDefaultValues">
+    <ind_0 type="scalar" id="0"><![CDATA[]]></ind_0>
+  </ind_fieldsDefaultValues>
+  <ind_fieldsMandatory type="array" id="$fieldsMandatory">
+    <ind_0 type="scalar" id="0"><![CDATA[]]></ind_0>
+  </ind_fieldsMandatory>
+</Items>

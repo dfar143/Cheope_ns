@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<Items>
+  <sections name="">
+  	<section name="">
+      <def name="">
+        <var name="">dbStructTree</var>
+        <constructor_call name="Db_nodes_container">
+          <arg name="">
+            <string type="double_quoted" name="">Struttura_basedati_1</string>
+          </arg>
+        </constructor_call>
+      </def>
+  	</section>
+  </sections>
+</Items>

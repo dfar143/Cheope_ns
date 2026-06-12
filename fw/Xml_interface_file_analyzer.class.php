@@ -1,0 +1,211 @@
+<?
+namespace Cheope_ns\fw;
+ require_once("generic.const.php");
+ require_once("filesystem.fun.php");
+ 
+ class Xml_interface_file_analyzer
+ {
+ 	const ERROR_0="Non esiste(Xml_interface_file_analyzer).";
+ 	const ERROR_1="Xml_interface_file_analyzer:Il file non è un'interfaccia.";
+ 	const INTERFACE_NAME_SEP=STRING_EXCLAMATION_MARK;
+ 
+  private function __construct()
+  {
+  } 
+ 
+  static function is_standard(string $actFile):bool
+  {
+ 	 $fileItems = explode(STRING_SLASH,$actFile);
+   $actFile = $fileItems[count($fileItems)-1];
+   $items = explode(self::INTERFACE_NAME_SEP,$actFile);
+   if($items[0]==STANDARD_MOD_PREFIX)
+    return true;
+   return false;
+  }
+  
+  static function is_a_data_interface(string $actFile):bool
+  {
+  	$num = count(self::getInterfaceItems($actFile));
+  	if($num==6)
+  	 return true;
+  	return false;
+  }
+ 
+  static function getInterfaceItems(string $actFile,bool $actTestIfIsInterfaceFile=true):array
+  {
+  	$items=array();
+  	if(! $actTestIfIsInterfaceFile || self::is_interface_file($actFile))
+  	{
+  		if(self::is_free_interface_file($actFile))
+  		{
+       $items[0] = self::getScalarProperty(
+       $actFile,"appName");
+       $items[1] = self::getScalarProperty(
+       $actFile,"pageName");
+       $i=2;
+       $obj = self::getScalarProperty(
+       $actFile,"obj");
+       if($obj !== false)
+        $items[$i++]=($obj=="OBJ_NONE")?(STRING_NULL):($obj); 
+       $items[$i++] = self::getScalarProperty(
+       $actFile,"type");
+       $items[$i++] = self::getScalarProperty(
+       $actFile,"op");
+       $items[$i] = self::getScalarProperty(
+       $actFile,"num");
+  		}
+  		else
+  		{
+  		 $fileItems = explode(DIR_SEP,$actFile);
+  		 $actFile = $fileItems[count($fileItems)-1];
+  		 $items = explode(self::INTERFACE_NAME_SEP,$actFile);
+  		 $numItems = count($items);
+  		 $num = $items[$numItems-1];
+  		 $numEls = explode(FILE_NAME_ELEMENTS_SEP,$num);
+  		 if(count($numEls)==2)
+  		  $num1 = $numEls[0];
+  		 else
+  		  $num1 = $num;
+  		 $items[$numItems-1]=$num1;
+  	  }
+  	}
+  	else
+  	{
+  	 echo STRING_MINUS . $actFile . STRING_MINUS;
+  	 die(self::ERROR_1);
+  	}
+  	return $items;
+  }
+
+ 	static function is_interface_file(string $actFile):bool
+ 	{
+   if((! is_dir($actFile)) && file_exists($actFile))
+   {
+ 	  $isIntCont=0;
+    if(isXml($actFile))
+    {
+	   $xml = simplexml_load_file($actFile);
+	   foreach($xml->children() as $item)
+	   {
+	    $ind = (string)$item['id'];
+	    if($ind=="op")
+	     $isIntCont++;
+	    if($ind=="type")
+	     $isIntCont++;
+	    if($ind=="num")
+	     $isIntCont++;
+	   }
+	   if($isIntCont==3)
+	    return true;
+	   return false;
+	  }
+	  else
+	   return false;
+	 }
+	 else
+	  die($actFile . STRING_MINUS . 'A' . STRING_MINUS . 
+	  STRING_SPACE . self::ERROR_0); 		
+ 	}
+ 	
+ 	static function is_free_interface_file(string $actFile):bool
+ 	{
+   if((! is_dir($actFile)) && file_exists($actFile))
+   {
+   	if(isXml($actFile))
+    {
+ 	   $isIntCont=0;
+	   $xml = simplexml_load_file($actFile);
+	   $val=STRING_NULL;
+	   foreach($xml->children() as $item)
+	   {
+	    $ind = (string)$item['id'];
+	    if($ind=="shortName")
+	     $val = trim((string)$item);
+	   }
+	   $pathItems = explode(DIR_SEP,$actFile);
+	   $fileName = $pathItems[count($pathItems)-1];
+	   $fileItems = explode(FILE_NAME_ELEMENTS_SEP,$fileName);
+	   if($fileItems[0]==$val)
+	    return true;
+	   return false;
+	  }
+	  else
+	   return false;
+	 }
+	 else
+	  die($actFile . STRING_MINUS . 'B' .  STRING_MINUS . STRING_SPACE . self::ERROR_0); 		
+ 	}
+ 	
+ 	static function getScalarProperty(string $actFile,string $actProperty):string|bool
+ 	{
+   if((! is_dir($actFile)) && file_exists($actFile))
+   {
+	  $xml = simplexml_load_file($actFile);
+	  foreach($xml->children() as $item)
+	  {
+	   $ind = (string)$item['id'];
+	   $firstChar = substr($ind,0,1);
+	   if(($firstChar==STRING_PERCENT)||($firstChar==STRING_AT))
+	    $ind = substr($ind,1,strlen($ind)-1);
+	   $val = trim((string)$item);
+	   $type = (string)$item['type'];
+	   if(($type=="scalar")||($type=="db_item")||($type=="xml_node")||($type=="interface"))
+	    if($ind==$actProperty)
+	     return $val;
+	  }
+	  return false;
+	 }
+	 else
+	  die($actFile . STRING_MINUS . 'C' . STRING_MINUS . STRING_SPACE . self::ERROR_0); 
+ 	}
+ 	
+ 	static function getType(string $actFile,string $actProperty)
+ 	{
+   if((! is_dir($actFile)) && file_exists($actFile))
+   {
+	  $xml = simplexml_load_file($actFile);
+	  foreach($xml->children() as $item)
+	  {
+	   $ind = (string)$item['id'];
+	   $val = trim((string)$item);
+	   $type = (string)$item['type'];
+	    if($ind==$actProperty)
+	     return $type;
+	  }
+	  return false;
+	 }
+	 else
+	  die($actFile . STRING_MINUS . 'D' . STRING_MINUS . STRING_SPACE . self::ERROR_0); 
+ 	}
+ 	
+ 	static function getCanonicalName(string $actIntFileName,string $actSepChar):string
+ 	{
+ 		$appName = self::getScalarProperty($actIntFileName,"appName");
+ 		$pageName = self::getScalarProperty($actIntFileName,"pageName");
+ 		$objName = self::getScalarProperty($actIntFileName,"obj");
+ 		$typeName = self::getScalarProperty($actIntFileName,"type");
+ 		$opName = self::getScalarProperty($actIntFileName,"op");
+    $num = self::getScalarProperty($actIntFileName,"num");
+    if($objName!==false)
+    {
+     if($objName='OBJ_NONE')
+      $objName = OBJ_NONE;
+     $canonicalName = $appName . $actSepChar . 
+     $pageName . $actSepChar . $objName . $actSepChar .
+     $typeName . $actSepChar . $opName . $actSepChar .
+     $num;
+    }
+    else
+     $canonicalName = $appName . $actSepChar . 
+     $pageName . $actSepChar .
+     $typeName . $actSepChar . $opName . $actSepChar .
+     $num;  
+     //echo $canonicalName . "<br/>";
+    return $canonicalName;   
+ 	}
+ }
+ 
+ 
+
+ 
+?>

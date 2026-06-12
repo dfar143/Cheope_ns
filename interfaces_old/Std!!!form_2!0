@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<Items>
+  <ind_op type="scalar" id="op"></ind_op>
+  <ind_type type="scalar" id="type"><![CDATA[form_2]]></ind_type>
+  <ind_num type="scalar" id="num"><![CDATA[0]]></ind_num>
+  <ind_shortName type="scalar" id="shortName"></ind_shortName>
+  <ind_cssClass type="scalar" id="cssClass"><![CDATA[form]]></ind_cssClass>
+  <ind_style type="scalar" id="@style"></ind_style>
+  <ind_dispFields type="array" id="dispFields"></ind_dispFields>
+  <ind_javascriptModule type="scalar" id="javascriptModule"><![CDATA[./js/formValidator.js]]></ind_javascriptModule>
+  <ind_javascriptEnabled type="scalar" id="*javascriptEnabled"><![CDATA[true]]></ind_javascriptEnabled>
+  <ind_cssModule type="scalar" id="cssModule"><![CDATA[./css/form_2.css]]></ind_cssModule>
+  <ind_obj type="db_item" id="obj"></ind_obj>
+  <ind_dataFields type="array" id="dataFields">
+  </ind_dataFields>
+  <ind_dataFieldsDomains type="array" id="dataFieldsDomains">
+  </ind_dataFieldsDomains>
+  <ind_dataFieldsDomainsValues type="array" id="dataFieldsDomainsValues">
+  </ind_dataFieldsDomainsValues>
+  <ind_formName type="scalar" id="formName"><![CDATA[Default_form]]></ind_formName>
+  <ind_fieldsLabels type="array" id="$fieldsLabels"></ind_fieldsLabels>
+  <ind_fieldsLabelsRight type="array" id="$fieldsLabelsRight"></ind_fieldsLabelsRight>
+  <ind_fieldsStops type="array" id="$fieldsStops"></ind_fieldsStops>
+  <ind_fieldsLengths type="array" id="$fieldsLengths"/>
+  <ind_structureFreeFields type="array" id="$structureFreeFields"/>
+  <ind_mandatoryFields type="array" id="$mandatoryFields"></ind_mandatoryFields>
+  <ind_labelSpacerWidth type="scalar" id="labelSpacerWidth"><![CDATA[0]]></ind_labelSpacerWidth>
+  <ind_dataFieldsEvents type="array" id="$dataFieldsEvents"></ind_dataFieldsEvents>
+  <ind_submitFormEvents type="array" id="submitFormEvents"></ind_submitFormEvents>
+  <ind_resetButtonEvents type="array" id="resetButtonEvents"></ind_resetButtonEvents>
+  <ind_submitButtonEvents type="array" id="submitButtonEvents"></ind_submitButtonEvents>
+  <ind_cellPadding type="scalar" id="cellPadding"><![CDATA[10]]></ind_cellPadding>
+  <ind_cellSpacing type="scalar" id="cellSpacing"><![CDATA[0]]></ind_cellSpacing>
+  <ind_initialTabIndex type="scalar" id="initialTabIndex"><![CDATA[0]]></ind_initialTabIndex>
+  <ind_autoTabIndex type="scalar" id="*autoTabIndex"><![CDATA[true]]></ind_autoTabIndex>
+  <ind_gesPage type="scalar" id="gesPage"></ind_gesPage>
+  <ind_submitButtonLabel type="scalar" id="submitButtonLabel"><![CDATA[Invia]]></ind_submitButtonLabel>
+  <ind_resetButtonLabel type="scalar" id="resetButtonLabel"><![CDATA[Reset]]></ind_resetButtonLabel>
+  <ind_inheritData type="scalar" id="*inheritData"><![CDATA[true]]></ind_inheritData>
+  <ind_inheritDataFieldName type="scalar" id="*inheritDataFieldName"><![CDATA[false]]></ind_inheritDataFieldName>
+  <ind_javascriptEnabled type="scalar" id="*javascriptEnabled"><![CDATA[true]]></ind_javascriptEnabled>
+  <ind_evalFieldFun type="scalar" id="evalFieldFun"><![CDATA[evalField]]></ind_evalFieldFun>
+  <ind_dataFieldsRegexpValidationEnabled type="scalar" id="*dataFieldsRegexpValidationEnabled"><![CDATA[false]]></ind_dataFieldsRegexpValidationEnabled>
+  <ind_stringDataFieldsRegexps type="array" id="$stringDataFieldsRegexps"></ind_stringDataFieldsRegexps>
+</Items>

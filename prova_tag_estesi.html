@@ -1,0 +1,49 @@
+<html>
+<head>	
+<title>
+</title>
+	<style type="text/css" media="print">
+	#footer, #copy {display: none;}
+</style>
+</head>
+<? 
+echo "www";
+$a=-1;
+if($a<0)
+ echo "dddd";
+
+$obj = new Html_button_tag(1);
+$obj->setShortName('HtmlButtonTag1');
+$interfacesContainer->add($obj);
+$obj = new Html_button_tag(2);
+$obj->setShortName('HtmlButtonTag2');
+$interfacesContainer->add($obj);
+$obj = new Html_button_tag(3);
+$obj->setShortName('HtmlButtonTag3');
+$interfacesContainer->add($obj);
+$obj = new Html_button_tag(4);
+$obj->setShortName('HtmlButtonTag4');
+$interfacesContainer->add($obj);
+ ?>
+<body>
+<table border="1">
+<tr>
+<td>
+	<br/>
+	<br/>
+	<br/>
+	n.,m.m.-mhjlòkòlk
+</td>
+<? for($i=1;$i<=4;$i++){?>
+<td>
+<@ 
+ <obj shortName="HtmlButtonTag$i" action="display"></obj>
+ @>
+ </td>
+ <?}?>
+ <td>
+</td>
+ </tr>
+ </table>
+</body>
+</html>

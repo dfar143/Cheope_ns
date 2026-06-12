@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Items>
+  <ind_op type="scalar" id="op"></ind_op>
+  <ind_type type="scalar" id="type"><![CDATA[javascript_data_txtEditor]]></ind_type>
+  <ind_num type="scalar" id="num"><![CDATA[0]]></ind_num>
+  <ind_shortName type="scalar" id="shortName"></ind_shortName>
+  <ind_dispFields type="array" id="dispFields"/>
+ <ind_javascriptModule type="scalar" id="javascriptModule"><![CDATA[./js/interfaces.js]]></ind_javascriptModule>
+  <ind_hookId type="scalar" id="hookId"></ind_hookId>
+  <ind_dataExchangeType type="scalar" id="dataExchangeType"><![CDATA[text]]></ind_dataExchangeType>
+  <ind_enableInsertInClientContainer type="scalar" id="*enableInsertInClientContainer"><![CDATA[true]]></ind_enableInsertInClientContainer>
+  <ind_enableExecuteOnLoad type="scalar" id="*enableExecuteOnLoad"><![CDATA[true]]></ind_enableExecuteOnLoad>
+  <ind_enableDataFromRemote type="scalar" id="*enableDataFromRemote"><![CDATA[true]]></ind_enableDataFromRemote>
+  <ind_fileName type="scalar" id="fileName"></ind_fileName>
+  <ind_getOp type="scalar" id="getOp"><![CDATA[getFile]]></ind_getOp>
+  <ind_sendOp type="scalar" id="sendOp"><![CDATA[sendFile]]></ind_sendOp>
+  <ind_cols type="scalar" id="cols"><![CDATA[80]]></ind_cols>
+  <ind_rows type="scalar" id="rows"><![CDATA[20]]></ind_rows>
+</Items>

@@ -1,0 +1,2083 @@
+<?xml version="1.0"?>
+<Items>
+  <sections name="SEZIONE Generate instances.">
+    <section name="Generates instances.">
+      <def name="">
+        <var name="">ajaxOpJavascriptInjection</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpJavascriptInjection</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpLocalization</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpLocalization</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpTestDir</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpTestDir</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpGetScrollData</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpGetScrollData</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpGetSheetData</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpGetSheetData</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpGetFile</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpGetFile</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpOp1</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpOp1</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpOp2</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpOp2</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpOp3</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpOp3</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpOp4</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpOp4</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpOp5</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpOp5</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpOp6</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpOp6</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpOp7</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpOp7</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpSendFile</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpSendFile</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpGetDbObjsDefProps</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpGetDbObjsDefProps</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpSetDbObjsDefProps</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpSetDbObjsDefProps</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpGetAllFieldsDefProps</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpGetAllFieldsDefProps</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpUnblockApp</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpUnblockApp</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpSetFieldsDefFieldsProps</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpSetFieldsDefFieldsProps</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpSetFieldsDefAllFieldsProps</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpSetFieldsDefAllFieldsProps</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpSetFieldsDefCandKeyFieldsProps</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpSetFieldsDefCandKeyFieldsProps</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpSetFieldsDefExtKeyFieldsProps</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpSetFieldsDefExtKeyFieldsProps</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpSet1NRelationsDefinitionProps</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpSet1NRelationsDefinitionProps</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpGet1NRelations</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpGet1NRelations</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpGetMNRelations</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpGetMNRelations</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpSetMNRelationsDefinitionProps</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpSetMNRelationsDefinitionProps</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpCreateDbStruct</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpCreateDbStruct</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpPostSendInterfaceData</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpPostSendInterfaceData</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpDeleteFile</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpDeleteFile</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpCreateFile</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpCreateFile</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpRenameFile</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpRenameFile</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpCreatePage</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpCreatePage</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpGetQuery</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpGetQuery</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpSetQuery</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpSetQuery</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpSetAllQueries</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpSetAllQueries</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpCreateQueriesStruct</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpCreateQueriesStruct</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpDumpAjaxOpsConstsFile</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpDumpAjaxOpsConstsFile</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpAddAjaxOpsFromPhpArray</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpAddAjaxOpsFromPhpArray</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpGetParents</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpGetParents</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpCheckIfIs1NRelationFather</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpCheckIfIs1NRelationFather</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpCheckIfIs1NRelationFatherOf</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpCheckIfIs1NRelationFatherOf</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpCheckIfIs1NRelation</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpCheckIfIs1NRelation</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpCheckIfExistMNRelationLinkTable</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpCheckIfExistMNRelationLinkTable</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpGetFieldsDefProps</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpGetFieldsDefProps</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpGetCandKeyFieldsProps</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpGetCandKeyFieldsProps</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpGetExtKeyFieldsProps</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpGetExtKeyFieldsProps</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpGetPkKeyField</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpGetPkKeyField</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpSetPk</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpSetPk</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpCheckIfIsSuitablePkKey</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpCheckIfIsSuitablePkKey</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpCheckIfIsSuitableField</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpCheckIfIsSuitableField</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpSetFieldsDef</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpSetFieldsDef</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpSetFieldsConstsDef</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpSetFieldsConstsDef</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpSetFieldsDefWithoutExtKeys</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpSetFieldsDefWithoutExtKeys</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpSqlServerImport</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpSqlServerImport</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpTestConnection</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpTestConnection</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpViewAllFieldsOp1</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpViewAllFieldsOp1</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpViewAllFieldsOp2</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpViewAllFieldsOp2</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpSqlServerCreateTable</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpSqlServerCreateTable</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpCheckIfKeyCollides</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpCheckIfKeyCollides</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpViewAllTablesOp1</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpViewAllTablesOp1</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpViewAllTablesOp2</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpViewAllTablesOp2</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpViewAllRelationsOp1</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpViewAllRelationsOp1</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpViewAllRelationsOp2</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpViewAllRelationsOp2</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpRenameAllItems</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpRenameAllItems</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpCheckIfKeyCollidesWithSonsKeys</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpCheckIfKeyCollidesWithSonsKeys</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpCheckIfIsDataSourceQuery</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpCheckIfIsDataSourceQuery</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpViewAllQueriesOp1</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpViewAllQueriesOp1</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpViewAllQueriesOp2</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpViewAllQueriesOp2</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpSetSessionActiveApp</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpSetSessionActiveApp</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpExportQueryToCsv</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpExportQueryToCsv</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpGetDbOpPars</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpGetDbOpPars</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpGetConnection</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpGetConnection</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpSetConnection</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpSetConnection</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpCreateConnectionsStruct</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpCreateConnectionsStruct</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpViewAllConnectionsOp2</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpViewAllConnectionsOp2</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpCopyConnectionToDbPars</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpCopyConnectionToDbPars</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpViewAllAliasesOp1</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpViewAllAliasesOp1</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpViewAllAliasesOp2</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpViewAllAliasesOp2</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpSetAllAliases</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpSetAllAliases</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpCheckIfAliasExists</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpCheckIfAliasExists</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpCheckIfTableExists</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpCheckIfTableExists</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpViewTablesAndQueriesOp1</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpViewTablesAndQueriesOp1</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpViewTablesAndQueriesOp2</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpViewTablesAndQueriesOp2</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpViewTablesAndQueriesOp3</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpViewTablesAndQueriesOp3</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpGetNodeType</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpGetNodeType</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpSetAllTablesAndQueriesBinds</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpSetAllTablesAndQueriesBinds</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpCreateDbBinds</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpCreateDbBinds</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpUpdateBinds</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpUpdateBinds</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpGetTableFromAlias</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpGetTableFromAlias</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpGetLayouts</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpGetLayouts</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpLayoutsOp1</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpLayoutsOp1</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpLayoutsOp2</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpLayoutsOp2</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpSaveLayout</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpSaveLayout</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpCreateLayoutPreview</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpCreateLayoutPreview</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpGetLayout</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpGetLayout</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpCreatePreview</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpCreatePreview</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpManageOp1</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpManageOp1</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpManageOp2</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpManageOp2</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpGetNamedInterfacesContainer</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpGetNamedInterfacesContainer</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpGetAllTableFields</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpGetAllTableFields</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpGetAllAliasFields</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpGetAllAliasFields</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpGetAllQueryFields</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpGetAllQueryFields</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpGetAllModuleFields</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpGetAllModuleFields</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpGetAllBindFields</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpGetAllBindFields</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpManageFieldsOp2</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpManageFieldsOp2</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpManageFieldsOp1</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpManageFieldsOp1</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpGetAllInterfacesOfPage</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpGetAllInterfacesOfPage</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpFilterParentsInterfacesFiles</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpFilterParentsInterfacesFiles</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpGetInterfaceIds</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpGetInterfaceIds</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpExport</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpExport</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpGetSingleMenus</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpGetSingleMenus</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpGetMultiMenus</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpGetMultiMenus</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpViewSingleMenuFieldsOp1</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpViewSingleMenuFieldsOp1</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpViewSingleMenuFieldsOp2</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpViewSingleMenuFieldsOp2</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpSetSingleMenu</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpSetSingleMenu</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpViewMultiMenuFieldsOp1</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpViewMultiMenuFieldsOp1</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpViewMultiMenuFieldsOp2</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpViewMultiMenuFieldsOp2</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpSetMultiMenu</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpSetMultiMenu</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpGetFreeInterfaceCanonicalName</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpGetFreeInterfaceCanonicalName</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpViewBindsOp1</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpViewBindsOp1</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpViewBindsOp2</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpViewBindsOp2</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpViewBindsOp3</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpViewBindsOp3</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpViewBindsOp4</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpViewBindsOp4</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpSetAllBinds</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpSetAllBinds</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpRenameAliasName</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpRenameAliasName</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpGetBindNodeName</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpGetBindNodeName</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpGetBindNodeType</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpGetBindNodeType</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpCheckIfNodeIsUsed</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpCheckIfNodeIsUsed</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpCheckIfConnectionIsUsed</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpCheckIfConnectionIsUsed</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpViewBoundInterfacesOp2</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpViewBoundInterfacesOp2</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpViewBoundInterfacesOp3</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpViewBoundInterfacesOp3</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpSetAllBoundInterfaces</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpSetAllBoundInterfaces</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpCatalogOp2</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpCatalogOp2</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpCatalogOp3</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpCatalogOp3</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpCatalogOp4</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpCatalogOp4</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpSetAllCatalogInterfaces</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpSetAllCatalogInterfaces</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpGetInterfaceItemsNum</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpGetInterfaceItemsNum</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpIsInterfaceBusy</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpIsInterfaceBusy</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpExportChanges</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpExportChanges</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpScanForItem</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpScanForItem</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpManageAjaxOp1</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpManageAjaxOp1</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpManageAjaxOp2</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpManageAjaxOp2</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpSetAllAjaxOps</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpSetAllAjaxOps</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpManageAjaxClassesOp1</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpManageAjaxClassesOp1</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpManageAjaxClassesOp2</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpManageAjaxClassesOp2</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpSetAllAjaxOpsClasses</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpSetAllAjaxOpsClasses</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpGenerateAjaxOpsConfigurationFiles</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpGenerateAjaxOpsConfigurationFiles</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpGenerateAjaxOpsClassesFiles</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpGenerateAjaxOpsClassesFiles</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpPagesInterfacesExportChanges</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpPagesInterfacesExportChanges</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpViewFormsSectionGridOp1</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpViewFormsSectionGridOp1</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpSaveFormSection</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpSaveFormSection</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpGetFormSections</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpGetFormSections</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpViewPdfTemplateGridOp1</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpViewPdfTemplateGridOp1</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpSavePdfTemplate</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpSavePdfTemplate</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpGetPdfTemplates</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpGetPdfTemplates</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpGetObjTypeByShortName</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpGetObjTypeByShortName</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpGetFpdfIntProps</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpGetFpdfIntProps</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpGetPredInterfaces</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpGetPredInterfaces</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpInterfaceExists</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpInterfaceExists</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpCreatePdf</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpCreatePdf</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpDeleteFile2</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpDeleteFile2</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpGetPredInterfaces2</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpGetPredInterfaces2</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpFileExists</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpFileExists</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpCreatePdf</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpCreatePdf</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpDeleteFile2</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpDeleteFile2</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpGetPdfTemplates</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpGetPdfTemplates</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpDojoInPreview</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpDojoInPreview</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpCheckIfIsInRelation</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpCheckIfIsInRelation</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpDeleteRelationsDefs</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpDeleteRelationsDefs</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpGetPkKeyByTableName</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpGetPkKeyByTableName</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpLogEnable</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpLogEnable</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpTestIntFormat</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpTestIntFormat</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">ajaxOpFixDbXmlFiles</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOpFixDbXmlFiles</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+        </method_call>
+      </def>	  
+    </section>
+  </sections>
+</Items>

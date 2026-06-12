@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Items>
+   <ind_op type="scalar" id="op"></ind_op>
+   <ind_type type="scalar" id="type"><![CDATA[level_menu]]></ind_type>
+   <ind_num type="scalar" id="num"><![CDATA[0]]></ind_num>
+   <ind_shortName type="scalar" id="shortName"></ind_shortName>
+   <ind_cssClass type="scalar" id="cssClass"><![CDATA[level_menu]]></ind_cssClass>
+   <ind_style type="scalar" id="@style"></ind_style>
+   <ind_dispFields type="array" id="dispFields">
+   </ind_dispFields>
+  <ind_cssModule type="scalar" id="cssModule"><![CDATA[./css/level_menu.css]]></ind_cssModule>
+   <ind_obj type="db_item" id="obj"></ind_obj>
+  <ind_inheritData type="scalar" id="*inheritData"><![CDATA[false]]></ind_inheritData>
+  <ind_inheritDataFieldName type="scalar" id="*inheritDataFieldName"><![CDATA[false]]></ind_inheritDataFieldName>
+  <ind_fieldsFromDataSource type="scalar" id="*fieldsFromDataSource"><![CDATA[false]]>
+   </ind_fieldsFromDataSource>
+   <ind_dataFields type="array" id="dataFields">
+   </ind_dataFields>
+   <ind_dataFieldsDomains type="array" id="dataFieldsDomains">
+   </ind_dataFieldsDomains>
+   <ind_dataFieldsDomainsValues type="array" id="dataFieldsDomainsValues">
+   </ind_dataFieldsDomainsValues>
+   <ind_voicesField type="scalar" id="voicesField"><![CDATA[]]></ind_voicesField>
+   <ind_pagesField type="scalar" id="pagesField"><![CDATA[]]></ind_pagesField>
+   <ind_idsField type="scalar" id="idsField"><![CDATA[]]></ind_idsField>
+   <ind_mainLabel type="scalar" id="mainLabel"></ind_mainLabel>
+   <ind_itemsClass type="scalar" id="itemsClass"><![CDATA[level_menu_items]]></ind_itemsClass>
+   <ind_sepString type="scalar" id="sepString"><![CDATA[-]]></ind_sepString>
+   <ind_gesPage type="scalar" id="gesPage"></ind_gesPage>
+</Items>

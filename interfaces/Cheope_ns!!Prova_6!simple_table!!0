@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<Items>
+  <ind_op type="scalar" id="op"><![CDATA[]]></ind_op>
+  <ind_type type="scalar" id="type"><![CDATA[simple_table]]></ind_type>
+  <ind_num type="scalar" id="num"><![CDATA[0]]></ind_num>
+  <ind_shortName type="scalar" id="shortName"><![CDATA[]]></ind_shortName>
+  <ind_cssClass type="scalar" id="cssClass"><![CDATA[simple_table]]></ind_cssClass>
+  <ind_obj type="db_item" id="obj">Prova_6</ind_obj>
+  <ind_inheritData type="scalar" id="*inheritData"><![CDATA[false]]></ind_inheritData>
+  <ind_inheritDataFieldName type="scalar" id="*inheritDataFieldName"><![CDATA[false]]></ind_inheritDataFieldName>
+  <ind_fieldsFromDataSource type="scalar" id="*fieldsFromDataSource">false
+   </ind_fieldsFromDataSource>
+  <ind_javascriptEnabled type="scalar" id="*javascriptEnabled"><![CDATA[true]]></ind_javascriptEnabled>
+   <ind_dataSource type="array" id="dataSource"></ind_dataSource>
+   <ind_paginate type="scalar" id="*paginate"><![CDATA[false]]></ind_paginate>
+  <ind_lengthChange type="scalar" id="*lengthChange"><![CDATA[false]]></ind_lengthChange>
+  <ind_filter type="scalar" id="*filter"><![CDATA[false]]></ind_filter>
+  <ind_sort type="scalar" id="*sort"><![CDATA[false]]></ind_sort>
+  <ind_info type="scalar" id="*info"><![CDATA[false]]></ind_info>
+  <ind_autoWidth type="scalar" id="*autoWidth"><![CDATA[false]]></ind_autoWidth>
+  <ind_scrollX type="scalar" id="*scrollX"><![CDATA[true]]></ind_scrollX>
+  <ind_scrollY type="scalar" id="scrollY"><![CDATA[400px]]></ind_scrollY>
+  <ind_isRefreshEnabled type="scalar" id="*isRefreshEnabled"><![CDATA[false]]></ind_isRefreshEnabled>
+  <ind_width type="scalar" id="width"><![CDATA[550]]></ind_width>
+  <ind_height type="scalar" id="height"><![CDATA[125]]></ind_height>
+  <ind_border type="scalar" id="border"><![CDATA[2]]></ind_border>
+  <ind_summary type="scalar" id="summary"><![CDATA[]]></ind_summary>
+  <ind_isThereTableHeader type="scalar" id="*isThereTableHeader"><![CDATA[true]]></ind_isThereTableHeader>
+  <ind_isThereTableFooter type="scalar" id="*isThereTableFooter"><![CDATA[true]]></ind_isThereTableFooter>
+  <ind_style type="scalar" id="@style"><![CDATA[]]></ind_style>
+  <ind_dispFields type="array" id="dispFields"/>
+  <ind_dataFields type="array" id="dataFields">
+    <ind_0 type="scalar" id="0"><![CDATA[Data_1]]></ind_0>
+    <ind_1 type="scalar" id="1"><![CDATA[Data_2]]></ind_1>
+    <ind_2 type="scalar" id="2"><![CDATA[Data_3]]></ind_2>
+  </ind_dataFields>
+  <ind_dataFieldsDomains type="array" id="dataFieldsDomains">
+    <ind_0 type="scalar" id="0"><![CDATA[atomic]]></ind_0>
+    <ind_1 type="scalar" id="1"><![CDATA[set]]></ind_1>
+    <ind_2 type="scalar" id="2"><![CDATA[object]]></ind_2>
+  </ind_dataFieldsDomains>
+  <ind_dataFieldsDomainsValues type="array" id="dataFieldsDomainsValues">
+    <ind_0 type="scalar" id="0"><![CDATA[]]></ind_0>
+    <ind_1 id="1" type="array">
+      <ind_0 type="scalar" id="0"><![CDATA[zzz]]></ind_0>
+      <ind_1 type="scalar" id="1"><![CDATA[xxx]]></ind_1>
+    </ind_1>
+    <ind_2 type="interface" id="2">Cheope_ns!!!html_data_template!!1</ind_2>
+  </ind_dataFieldsDomainsValues>
+  <ind_columnsAlignes type="array" id="$columnsAlignes"/>
+  <ind_columnsDims type="array" id="$columnsDims">
+    <ind_0 type="scalar" id="0"><![CDATA[150]]></ind_0>
+    <ind_1 type="scalar" id="1"><![CDATA[150]]></ind_1>
+    <ind_2 type="scalar" id="2"><![CDATA[150]]></ind_2>
+  </ind_columnsDims>
+  <ind_fieldsCssClasses type="array" id="$fieldsCssClasses"/>
+  <ind_columnsHeaderAlignes type="array" id="$columnsHeaderAlignes"/>
+  <ind_columnsFooterAlignes type="array" id="$columnsFooterAlignes"/>
+  <ind_tableHeaders type="array" id="$tableHeaders"/>
+  <ind_tableFooters type="array" id="$tableFooters"/>
+</Items>

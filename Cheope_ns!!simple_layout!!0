@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<Items>
+  <ind_type type="scalar" id="type">simple_layout</ind_type>
+  <ind_op type="scalar" id="op"></ind_op>
+  <ind_num type="scalar" id="num">0</ind_num>
+  <ind_withContainer type="scalar" id="withContainer">true</ind_withContainer>
+  <ind_containerWidth type="scalar" id="containerWidth">100%</ind_containerWidth>
+  <ind_containerHeight type="scalar" id="containerHeight">100%</ind_containerHeight>
+  <ind_interfacesContainer type="scalar" id="containerHeight">100%</ind_interfacesContainer>
+  <ind_interfacesContainer type="container" id="interfacesContainer"/>
+</Items>

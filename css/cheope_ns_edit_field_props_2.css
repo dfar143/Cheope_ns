@@ -1,0 +1,36 @@
+#main_1
+{
+	height:0px;
+	padding:0px;
+}
+
+#main_2
+{
+	width:550px;
+	padding:5px 5px 5px 5px;
+	background-color:#290094;
+	border:1px solid white;
+}
+
+fieldset
+{
+ width:90%;	
+ overflow:auto;
+}
+
+#html_tags_dec__0
+{
+ overflow:auto;
+}
+
+#html_tags__0
+{
+	width:95%;
+}
+
+#html_tags__1
+{
+	width:80%;
+	border-color:#290094;
+	overflow:auto;
+}

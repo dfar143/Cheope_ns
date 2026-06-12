@@ -1,0 +1,20 @@
+[
+{"locale":"IT","items":{"msg":["Errore inserendo l'operazione nel contenitore",
+"Errore richiamando il server. Http status:",
+"Il campo ",
+" e' obbligatorio.",
+"Formato non valido.",
+"Formato data non valido.",
+"Formato campo numerico non valido.",
+"Formato campo Ip non valido."],
+"label":{}}},
+{"locale":"EN","items":{"msg":["Error inserting the operation in the container",
+      "Ajax error calling server. Http status:",
+      "The field",
+      " is mandatory.",
+      "Format not valid.",
+      "Data format not valid.",
+      "Numeric field format not valid.",
+      "Ip field format not valid."],
+"label":{}}}
+]

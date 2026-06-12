@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<Items>
+  <ind_op type="scalar" id="op"><![CDATA[]]></ind_op>
+  <ind_type type="scalar" id="type"><![CDATA[fpdf_field_h]]></ind_type>
+  <ind_num type="scalar" id="num"><![CDATA[0]]></ind_num>
+  <ind_shortName type="scalar" id="shortName"><![CDATA[none]]></ind_shortName>
+  <ind_pageName type="scalar" id="pageName"><![CDATA[Test]]></ind_pageName>
+  <ind_appName type="scalar" id="appName"><![CDATA[Cheope_ns]]></ind_appName>
+  <ind_xCoord type="scalar" id="xCoord"><![CDATA[0]]></ind_xCoord>
+  <ind_yCoord type="scalar" id="yCoord"><![CDATA[0]]></ind_yCoord>
+  <ind_height type="scalar" id="height"><![CDATA[50]]></ind_height>
+  <ind_font type="scalar" id="font"><![CDATA[]]></ind_font>
+  <ind_fontStyle type="scalar" id="fontStyle"><![CDATA[]]></ind_fontStyle>
+  <ind_fontSize type="scalar" id="fontSize"><![CDATA[10]]></ind_fontSize>
+  <ind_labelName type="scalar" id="labelName"><![CDATA[]]></ind_labelName>
+  <ind_obj type="db_item" id="obj"><![CDATA[]]></ind_obj>
+  <ind_dataFields type="array" id="dataFields"/>
+  <ind_dataFieldsDomains type="array" id="dataFieldsDomains"/>
+  <ind_dataFieldsDomainsValues type="array" id="dataFieldsDomainsValues"/>
+</Items>

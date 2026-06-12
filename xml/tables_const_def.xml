@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<Items>
+  <section name="">
+    <def name="">
+      <namespace name="">Cheope_ns\fw</namespace>
+    </def>
+    <def name="">
+      <function_call name="define">
+        <arg name="">
+          <expr name="">__NAMESPACE__ . '\TABELLA_PROVA_3'</expr>
+        </arg>
+        <arg name="">
+          <string type="double_quoted" name="">Prova_3</string>
+        </arg>
+      </function_call>
+    </def>
+    <def name="">
+      <function_call name="define">
+        <arg name="">
+          <expr name="">__NAMESPACE__ . '\TABELLA_PROVA_4'</expr>
+        </arg>
+        <arg name="">
+          <string type="double_quoted" name="">Prova_4</string>
+        </arg>
+      </function_call>
+    </def>
+    <def name="">
+      <function_call name="define">
+        <arg name="">
+          <expr name="">__NAMESPACE__ . '\TABELLA_PROVA'</expr>
+        </arg>
+        <arg name="">
+          <string type="double_quoted" name="">Prova</string>
+        </arg>
+      </function_call>
+    </def>
+    <def name="">
+      <function_call name="define">
+        <arg name="">
+          <expr name="">__NAMESPACE__ . '\TABELLA_PROVA_2'</expr>
+        </arg>
+        <arg name="">
+          <string type="double_quoted" name="">Prova_2</string>
+        </arg>
+      </function_call>
+    </def>
+    <def name="">
+      <function_call name="define">
+        <arg name="">
+          <expr name="">__NAMESPACE__ . '\TABELLA_PROVA_6'</expr>
+        </arg>
+        <arg name="">
+          <string type="double_quoted" name="">Prova_6</string>
+        </arg>
+      </function_call>
+    </def>
+    <def name="">
+      <function_call name="define">
+        <arg name="">
+          <expr name="">__NAMESPACE__ . '\TABELLA_PROVA_3_PROVA_2'</expr>
+        </arg>
+        <arg name="">
+          <string type="double_quoted" name="">Prova_3_prova_2</string>
+        </arg>
+      </function_call>
+    </def>
+  </section>
+</Items>

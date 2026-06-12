@@ -1,0 +1,115 @@
+2024-09-17 15:07:49 # [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'.
+2024-09-18 12:47:47 # [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'.
+2024-09-25 14:36:31 # [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'.
+2024-09-26 09:52:25 # Odbc:Impossibile connettersi al database. Ritentare piu' tardi.
+2024-09-30 09:14:26 # Odbc:Impossibile connettersi al database. Ritentare piu' tardi.
+2024-10-02 15:11:19 # Odbc:Impossibile connettersi al database. Ritentare piu' tardi.
+2024-10-02 15:17:41 # Odbc:Impossibile connettersi al database. Ritentare piu' tardi.
+2024-10-02 15:54:53 # [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'.
+2024-10-02 15:55:30 # [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'.
+2024-10-02 15:57:30 # [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'.
+2024-10-03 06:59:55 # Odbc_db_op:Impossibile connettersi al database. Ritentare più tardi.
+2024-10-03 07:02:03 # Odbc_db_op:Impossibile connettersi al database. Ritentare più tardi.
+2024-10-04 11:09:38 # Odbc:Impossibile connettersi al database. Ritentare piu' tardi.
+2024-10-04 11:11:29 # Odbc:Impossibile connettersi al database. Ritentare piu' tardi.
+2024-10-04 11:12:57 # Odbc:Impossibile connettersi al database. Ritentare piu' tardi.
+2024-10-04 11:20:54 # Odbc:Impossibile connettersi al database. Ritentare piu' tardi.
+2024-10-10 07:58:54 # Odbc:Impossibile connettersi al database. Ritentare piu' tardi.
+2024-10-10 08:01:05 # Odbc:Impossibile connettersi al database. Ritentare piu' tardi.
+2024-10-10 08:05:48 # Odbc:Impossibile connettersi al database. Ritentare piu' tardi.
+2024-10-10 08:09:16 # Odbc:Impossibile connettersi al database. Ritentare piu' tardi.
+2024-10-11 12:36:49 # Odbc:Impossibile connettersi al database. Ritentare piu' tardi.
+2024-10-11 12:42:29 # Odbc:Impossibile connettersi al database. Ritentare piu' tardi.
+2024-11-13 10:03:34 # [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'.
+2024-11-13 10:17:14 # [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'.
+2024-11-15 09:25:41 # [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'.
+2024-11-15 09:43:35 # [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'.
+2024-11-22 10:46:12 # Odbc:Impossibile connettersi al database. Ritentare piu' tardi.
+2024-11-26 09:51:09 # Odbc:Impossibile connettersi al database. Ritentare piu' tardi.
+2024-11-26 09:51:43 # Odbc:Impossibile connettersi al database. Ritentare piu' tardi.
+2024-11-26 09:54:17 # Odbc:Impossibile connettersi al database. Ritentare piu' tardi.
+2024-11-26 09:55:57 # Odbc:Impossibile connettersi al database. Ritentare piu' tardi.
+2024-11-26 10:05:24 # Odbc:Impossibile connettersi al database. Ritentare piu' tardi.
+2024-11-26 10:34:45 # [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'.
+2024-11-26 10:36:03 # [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'.
+2024-11-26 10:37:11 # [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'.
+2024-11-26 10:38:11 # [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'.
+2024-11-26 10:39:24 # Odbc:Impossibile connettersi al database. Ritentare piu' tardi.
+2024-11-26 10:40:13 # [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'.
+2024-11-26 10:41:27 # [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'.
+2024-11-26 10:46:53 # [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'.
+2024-11-26 10:47:24 # [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'.
+2024-11-26 10:51:35 # [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'.
+2024-11-26 10:52:34 # [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'.
+2024-11-26 10:55:42 # [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'.
+2024-11-27 14:54:56 # Odbc:Impossibile connettersi al database. Ritentare piu' tardi.
+2024-11-28 07:29:05 # Odbc:Impossibile connettersi al database. Ritentare piu' tardi.
+2024-11-28 07:30:10 # [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'.
+2024-11-28 07:30:56 # [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'.
+2024-11-29 12:06:35 # Odbc:Impossibile connettersi al database. Ritentare piu' tardi.
+2024-12-06 08:56:15 # [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'.
+2024-12-06 09:08:35 # [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'.
+2024-12-06 09:09:21 # [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'.
+2024-12-06 09:15:23 # [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'.
+2024-12-19 09:22:12 # [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'.
+2024-12-19 09:23:32 # [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'.
+2024-12-19 09:26:04 # [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'.
+2024-12-19 09:29:42 # [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'.
+2024-12-19 09:30:26 # Odbc_db_op:Impossibile connettersi al database. Ritentare più tardi.
+2024-12-19 09:40:34 # Odbc:Impossibile connettersi al database. Ritentare piu' tardi.
+2024-12-19 11:33:19 # Odbc_db_op:Impossibile connettersi al database. Ritentare più tardi.
+2024-12-19 11:38:17 # Odbc_db_op:Impossibile connettersi al database. Ritentare più tardi.
+2024-12-19 11:41:20 # Odbc_db_op:Impossibile connettersi al database. Ritentare più tardi.
+2024-12-19 11:51:02 # Odbc_db_op:Impossibile connettersi al database. Ritentare più tardi.
+2024-12-19 12:53:38 # Odbc_db_op:Impossibile connettersi al database. Ritentare più tardi.
+2024-12-19 13:16:36 # Odbc:Impossibile connettersi al database. Ritentare piu' tardi.
+2024-12-19 13:19:37 # Odbc:Impossibile connettersi al database. Ritentare piu' tardi.
+2024-12-19 13:21:40 # Odbc:Impossibile connettersi al database. Ritentare piu' tardi.
+2024-12-19 13:26:32 # Odbc:Impossibile connettersi al database. Ritentare piu' tardi.
+2024-12-19 13:29:14 # Odbc_db_op:Impossibile connettersi al database. Ritentare più tardi.
+2024-12-19 13:34:32 # Odbc:Impossibile connettersi al database. Ritentare piu' tardi.
+2024-12-19 13:45:29 # Odbc:Impossibile connettersi al database. Ritentare piu' tardi.
+2024-12-19 14:13:54 # Odbc_db_op:Impossibile connettersi al database. Ritentare più tardi.
+2024-12-19 14:31:54 # Odbc:Impossibile connettersi al database. Ritentare piu' tardi.
+2024-12-19 14:54:38 # Odbc:Impossibile connettersi al database. Ritentare piu' tardi.
+2024-12-23 08:58:23 # Odbc:Impossibile connettersi al database. Ritentare piu' tardi.
+2024-12-23 09:19:32 # Odbc:Impossibile connettersi al database. Ritentare piu' tardi.
+2024-12-23 09:24:19 # Odbc:Impossibile connettersi al database. Ritentare piu' tardi.
+2024-12-23 09:30:06 # Odbc:Impossibile connettersi al database. Ritentare piu' tardi.
+2024-12-23 09:32:16 # Odbc:Impossibile connettersi al database. Ritentare piu' tardi.
+2024-12-23 09:34:11 # Odbc:Impossibile connettersi al database. Ritentare piu' tardi.
+2024-12-24 11:08:28 # Odbc:Impossibile connettersi al database. Ritentare piu' tardi.
+2024-12-24 11:17:37 # Odbc:Impossibile connettersi al database. Ritentare piu' tardi.
+2024-12-30 11:37:24 # Odbc:Impossibile connettersi al database. Ritentare piu' tardi.
+2024-12-30 11:53:37 # Odbc:Impossibile connettersi al database. Ritentare piu' tardi.
+2025-01-08 15:45:43 # Odbc:Impossibile connettersi al database. Ritentare piu' tardi.
+2025-01-08 15:45:48 # Odbc:Impossibile connettersi al database. Ritentare piu' tardi.
+2025-01-15 12:44:45 # Odbc:Impossibile connettersi al database. Ritentare piu' tardi.
+2025-01-29 09:50:01 # Odbc_db_op:Impossibile connettersi al database. Ritentare più tardi.
+2025-01-29 11:42:37 # Odbc_db_op:Impossibile connettersi al database. Ritentare più tardi.
+2025-01-29 11:48:26 # Odbc_db_op:Impossibile connettersi al database. Ritentare più tardi.
+2025-01-29 12:26:55 # Odbc:Impossibile connettersi al database. Ritentare piu' tardi.
+2025-01-29 12:28:24 # Odbc_db_op:Impossibile connettersi al database. Ritentare più tardi.
+2025-01-29 12:32:24 # Odbc_db_op:Impossibile connettersi al database. Ritentare più tardi.
+2025-01-29 12:36:09 # Odbc:Impossibile connettersi al database. Ritentare piu' tardi.
+2025-02-05 09:45:47 # Odbc:Impossibile connettersi al database. Ritentare piu' tardi.
+2025-02-05 10:27:03 # Odbc_db_op:Impossibile connettersi al database. Ritentare più tardi.
+2025-02-05 10:37:17 # Odbc:Impossibile connettersi al database. Ritentare piu' tardi.
+2025-02-14 15:49:52 # Odbc:Impossibile connettersi al database. Ritentare piu' tardi.
+2025-02-20 12:14:45 # Odbc:Impossibile connettersi al database. Ritentare piu' tardi.
+2025-02-20 12:18:15 # Odbc:Impossibile connettersi al database. Ritentare piu' tardi.
+2025-02-20 15:16:28 # Odbc_db_op:Impossibile connettersi al database. Ritentare più tardi.
+2025-04-02 15:24:21 # Odbc_db_op:Impossibile connettersi al database. Ritentare più tardi.
+2025-04-02 16:05:44 # Odbc_db_op:Impossibile connettersi al database. Ritentare più tardi.
+2025-04-10 14:00:42 # Odbc_db_op:Impossibile connettersi al database. Ritentare più tardi.
+2025-04-10 16:07:53 # Odbc:Impossibile connettersi al database. Ritentare piu' tardi.
+2025-04-10 16:09:54 # Odbc:Impossibile connettersi al database. Ritentare piu' tardi.
+2025-04-10 16:10:19 # Odbc:Impossibile connettersi al database. Ritentare piu' tardi.
+2025-04-10 16:10:56 # Odbc:Impossibile connettersi al database. Ritentare piu' tardi.
+2025-05-29 16:00:30 # Odbc_db_op:Impossibile connettersi al database. Ritentare più tardi.
+2025-11-27 07:43:38 # Odbc_db_op:Impossibile connettersi al database. Ritentare più tardi.
+2025-11-27 10:14:17 # Odbc:Impossibile connettersi al database. Ritentare piu' tardi.
+2025-12-04 10:10:31 # Odbc_db_op:Impossibile connettersi al database. Ritentare più tardi.
+2026-04-20 10:18:50 # Odbc:Impossibile connettersi al database. Ritentare piu' tardi.
+2026-04-20 10:19:03 # Odbc:Impossibile connettersi al database. Ritentare piu' tardi.
+

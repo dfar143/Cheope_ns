@@ -1,0 +1,18 @@
+.level_menu_2
+{
+ background-color:#290094;
+ color:yellow;
+ text-align:center;
+ width:350px;
+ border:1px solid white;
+ font-family:Verdana,Arial,"Times new roman";
+ font-size:13pt;
+}
+
+.level_menu_2_items
+{
+ font-family:Verdana,Arial,"Times new roman";
+ font-size: 13pt;
+ font-weight:normal;
+}
+

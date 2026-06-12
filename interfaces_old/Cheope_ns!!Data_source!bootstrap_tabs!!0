@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<Items>
+  <ind_op type="scalar" id="op"><![CDATA[]]></ind_op>
+  <ind_type type="scalar" id="type"><![CDATA[bootstrap_tabs]]></ind_type>
+  <ind_num type="scalar" id="num"><![CDATA[0]]></ind_num>
+  <ind_shortName type="scalar" id="shortName"><![CDATA[]]></ind_shortName>
+  <ind_cssClass type="scalar" id="cssClass"><![CDATA[bootstrap_tabs]]></ind_cssClass>
+  <ind_obj type="xml_node" id="obj">Cheope_ns__bootstrap_table__0__data_source.xml</ind_obj>
+  <ind_inheritData type="scalar" id="*inheritData"><![CDATA[false]]></ind_inheritData>
+  <ind_inheritDataFieldName type="scalar" id="*inheritDataFieldName"><![CDATA[false]]></ind_inheritDataFieldName>
+  <ind_fieldsFromDataSource type="scalar" id="*fieldsFromDataSource">false</ind_fieldsFromDataSource>
+   <ind_dataSource type="array" id="dataSource"></ind_dataSource>
+  <ind_bootstrapEnabled type="scalar" id="*bootstrapEnabled"><![CDATA[true]]></ind_bootstrapEnabled>
+  <ind_voicesField type="scalar" id="voicesField"><![CDATA[]]></ind_voicesField>
+  <ind_idsField type="scalar" id="idsField"><![CDATA[]]></ind_idsField>
+  <ind_linkActive type="scalar" id="linkActive"><![CDATA[1]]></ind_linkActive>
+  <ind_style type="scalar" id="@style"><![CDATA[]]></ind_style>
+  <ind_dispFields type="array" id="dispFields"/>
+  <ind_dataFields type="array" id="dataFields">
+    <ind_0 type="scalar" id="0"><![CDATA[Data1]]></ind_0>
+    <ind_1 type="scalar" id="1"><![CDATA[Data2]]></ind_1>
+  </ind_dataFields>
+  <ind_dataFieldsDomains type="array" id="dataFieldsDomains">
+    <ind_0 type="scalar" id="0"><![CDATA[atomic]]></ind_0>
+    <ind_1 type="scalar" id="1"><![CDATA[atomic]]></ind_1>
+  </ind_dataFieldsDomains>
+  <ind_dataFieldsDomainsValues type="array" id="dataFieldsDomainsValues">
+    <ind_0 type="scalar" id="0"><![CDATA[]]></ind_0>
+    <ind_1 type="scalar" id="1"><![CDATA[]]></ind_1>
+  </ind_dataFieldsDomainsValues>
+  <ind_interfacesContainer type="container" id="interfacesContainer">
+    <ind_0 type="interface" id="0">Cheope_ns!!html_tags!!1</ind_0>
+    <ind_1 type="interface" id="1">Cheope_ns!!html_tags!!2</ind_1>
+    <ind_2 type="interface" id="2">Cheope_ns!!html_tags!!3</ind_2>
+  </ind_interfacesContainer>
+</Items>

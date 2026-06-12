@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Items>
+  <sections name="">
+    <section name="">
+      <def name="">
+        <var name="">dbConnectionsContainer</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">Db_ops_container</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+          <arg name="">
+            <const name="">CONTENITORE_CONNECTIONS_1</const>
+          </arg>
+        </method_call>
+      </def>
+    </section>
+  </sections>
+</Items>

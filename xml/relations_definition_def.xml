@@ -1,0 +1,229 @@
+<?xml version="1.0"?>
+<Items>
+  <sections name="RELATIONS DEFINITIONS SECTION">
+    <section name="Relation_definition_0">
+      <def name="">
+        <var name="">entities</var>
+        <function_call name="array"/>
+      </def>
+      <def name="">
+        <var name="">entities[ENT_FATHER]</var>
+        <const name="">TABELLA_PROVA_4</const>
+      </def>
+      <def name="">
+        <var name="">entities[ENT_SON]</var>
+        <const name="">TABELLA_PROVA_6</const>
+      </def>
+      <def name="">
+        <var name="">types</var>
+        <function_call name="array"/>
+      </def>
+      <def name="">
+        <var name="">types[ENT_FATHER]</var>
+        <const name="">REL_1_N</const>
+      </def>
+      <def name="">
+        <var name="">types[ENT_SON]</var>
+        <const name="">REL_1_1</const>
+      </def>
+      <def name="">
+        <var name="">objRel1NProva_4Prova_6</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">Db_rel</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+          <arg name="">
+            <var name="">entities</var>
+          </arg>
+          <arg name="">
+            <const name="">REL_STRUCT</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setRelTypes">
+          <var name="">objRel1NProva_4Prova_6</var>
+          <arg name="">
+            <var name="">types</var>
+          </arg>
+        </method_call>
+      </def>
+    </section>
+    <section name="Relation_definition_1">
+      <def name="">
+        <var name="">entities</var>
+        <function_call name="array"/>
+      </def>
+      <def name="">
+        <var name="">entities[ENT_FATHER]</var>
+        <const name="">TABELLA_PROVA_2</const>
+      </def>
+      <def name="">
+        <var name="">entities[ENT_SON]</var>
+        <const name="">TABELLA_PROVA</const>
+      </def>
+      <def name="">
+        <var name="">types</var>
+        <function_call name="array"/>
+      </def>
+      <def name="">
+        <var name="">types[ENT_FATHER]</var>
+        <const name="">REL_1_N</const>
+      </def>
+      <def name="">
+        <var name="">types[ENT_SON]</var>
+        <const name="">REL_1_1</const>
+      </def>
+      <def name="">
+        <var name="">objRel1NProva_2Prova</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">Db_rel</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+          <arg name="">
+            <var name="">entities</var>
+          </arg>
+          <arg name="">
+            <const name="">REL_STRUCT</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setRelTypes">
+          <var name="">objRel1NProva_2Prova</var>
+          <arg name="">
+            <var name="">types</var>
+          </arg>
+        </method_call>
+      </def>
+    </section>
+    <section name="Relation_definition_2">
+      <def name="">
+        <var name="">entities</var>
+        <function_call name="array"/>
+      </def>
+      <def name="">
+        <var name="">entities[ENT_FATHER]</var>
+        <const name="">TABELLA_PROVA_2</const>
+      </def>
+      <def name="">
+        <var name="">entities[ENT_SON]</var>
+        <const name="">TABELLA_PROVA_3</const>
+      </def>
+      <def name="">
+        <var name="">types</var>
+        <function_call name="array"/>
+      </def>
+      <def name="">
+        <var name="">types[ENT_FATHER]</var>
+        <const name="">REL_M_N</const>
+      </def>
+      <def name="">
+        <var name="">types[ENT_SON]</var>
+        <const name="">REL_M_N</const>
+      </def>
+      <def name="">
+        <var name="">objRelMNProva_2Prova_3</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">Db_rel</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+          <arg name="">
+            <var name="">entities</var>
+          </arg>
+          <arg name="">
+            <const name="">REL_STRUCT</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setRelTypes">
+          <var name="">objRelMNProva_2Prova_3</var>
+          <arg name="">
+            <var name="">types</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setLinkTable">
+          <var name="">objRelMNProva_2Prova_3</var>
+          <arg name="">
+            <string type="double_quoted" name="">Prova_3_prova_2</string>
+          </arg>
+        </method_call>
+      </def>
+    </section>
+    <section name="Relation_definition_3">
+      <def name="">
+        <var name="">entities</var>
+        <function_call name="array"/>
+      </def>
+      <def name="">
+        <var name="">entities[ENT_FATHER]</var>
+        <const name="">TABELLA_PROVA_3</const>
+      </def>
+      <def name="">
+        <var name="">entities[ENT_SON]</var>
+        <const name="">TABELLA_PROVA_2</const>
+      </def>
+      <def name="">
+        <var name="">types</var>
+        <function_call name="array"/>
+      </def>
+      <def name="">
+        <var name="">types[ENT_FATHER]</var>
+        <const name="">REL_M_N</const>
+      </def>
+      <def name="">
+        <var name="">types[ENT_SON]</var>
+        <const name="">REL_M_N</const>
+      </def>
+      <def name="">
+        <var name="">objRelMNProva_3Prova_2</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">Db_rel</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+          <arg name="">
+            <var name="">entities</var>
+          </arg>
+          <arg name="">
+            <const name="">REL_STRUCT</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setRelTypes">
+          <var name="">objRelMNProva_3Prova_2</var>
+          <arg name="">
+            <var name="">types</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setLinkTable">
+          <var name="">objRelMNProva_3Prova_2</var>
+          <arg name="">
+            <string type="double_quoted" name="">Prova_3_prova_2</string>
+          </arg>
+        </method_call>
+      </def>
+    </section>
+  </sections>
+</Items>

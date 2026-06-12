@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<items>
+<sections  name="DEFINES SECTION">
+	<section  name="define">
+      <if_else name="">
+        <expr name="">! defined('REL_STRUCT')</expr>
+        <def name="">
+        <function_call name="define">
+          <arg name="">
+            <string type="single_quoted" name="">REL_STRUCT</string>
+          </arg>
+          <arg name="">
+            <string type="double_quoted" name="">Struct</string>
+          </arg>
+        </function_call>
+        </def>
+      </if_else>
+	</section>
+</sections>
+</items>

@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<Items>
+  <sections name="Definizione delle connections">
+    <section name="Connection_0">
+    	<def name="">
+    		<var name="">user</var>
+    		<string type="double_quoted" name="">sa</string>
+    	</def>
+    	<def name="">
+    		<var name="">password</var>
+    		<string type="double_quoted" name="">userroot</string>
+    	</def>
+    	<def name="">
+    		<var name="">host</var>
+    		<string type="double_quoted" name="">LO0508953DW7\SQLEXPRESS</string>
+    	</def>
+    	<def name="">
+    		<var name="">db</var>
+    		<string type="double_quoted" name="">Cheope</string>
+    	</def>
+    	<def name="">
+    		<var name="">port</var>
+    		<string type="double_quoted" name=""></string>
+    	</def>
+      <def name="">
+        <var name="">dbConnectionProva_1</var>
+        <constructor_call name="Sqlsrv_db_op">
+          <arg name="">
+            <var name="">user</var>
+          </arg>
+          <arg name="">
+            <var name="">password</var>
+          </arg>
+          <arg name="">
+            <var name="">host</var>
+          </arg>
+          <arg name="">
+            <var name="">db</var>
+          </arg>
+        </constructor_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" name="setName">
+          <var name="">dbConnectionProva_1</var>
+          <arg name="">
+            <const name="">CONNECTION_PROVA_1</const>
+          </arg>
+        </method_call>
+      </def>
+    </section>
+    <section name="Connection_1">
+    	<def name="">
+    		<var name="">user</var>
+    		<string type="double_quoted" name=""></string>
+    	</def>
+    	<def name="">
+    		<var name="">password</var>
+    		<string type="double_quoted" name=""></string>
+    	</def>
+    	<def name="">
+    		<var name="">connection_string</var>
+    		<string type="double_quoted" name="@">DRIVER=Microsoft Access Driver (*.mdb);&#xD;
+DBQ=C:\php\scripts\Cheope\Cheope_ns_prova.mdb;UserCommitSync=Yes</string>
+    	</def>
+    	<def name="">
+    		<var name="">dsn</var>
+    		<string type="double_quoted" name=""></string>
+    	</def>
+      <def name="">
+        <var name="">dbConnectionProva_2</var>
+        <constructor_call name="Odbc_db_op">
+          <arg name="">
+            <var name="">user</var>
+          </arg>
+          <arg name="">
+            <var name="">password</var>
+          </arg>
+          <arg name="">
+            <var name="">connection_string</var>
+          </arg>
+        </constructor_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" name="setName">
+          <var name="">dbConnectionProva_2</var>
+          <arg name="">
+            <const name="">CONNECTION_PROVA_2</const>
+          </arg>
+        </method_call>
+      </def>
+    </section>
+
+  </sections>
+</Items>

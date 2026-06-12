@@ -1,0 +1,308 @@
+<?xml version="1.0"?>
+<Items>
+  <sections name="Definizioni costanti nomi campi tabelle">
+    <section name="">
+      <def name="">
+        <namespace name="">Cheope_ns\fw</namespace>
+      </def>
+    </section>
+    <section name="">
+      <if_else name="">
+        <expr name="">! defined(__NAMESPACE__ . '\FIELD_ID_PROVA_3')</expr>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\FIELD_ID_PROVA_3'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">Id_prova_3</string>
+            </arg>
+          </function_call>
+        </def>
+      </if_else>
+      <if_else name="">
+        <expr name="">! defined(__NAMESPACE__ . '\FIELD_CAMPO2')</expr>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\FIELD_CAMPO2'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">Campo2</string>
+            </arg>
+          </function_call>
+        </def>
+      </if_else>
+      <if_else name="">
+        <expr name="">! defined(__NAMESPACE__ . '\FIELD_DATA_7')</expr>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\FIELD_DATA_7'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">Data_7</string>
+            </arg>
+          </function_call>
+        </def>
+      </if_else>
+      <if_else name="">
+        <expr name="">! defined(__NAMESPACE__ . '\FIELD_DATA_8')</expr>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\FIELD_DATA_8'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">Data_8</string>
+            </arg>
+          </function_call>
+        </def>
+      </if_else>
+      <if_else name="">
+        <expr name="">! defined(__NAMESPACE__ . '\FIELD_DATA_5')</expr>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\FIELD_DATA_5'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">Data_5</string>
+            </arg>
+          </function_call>
+        </def>
+      </if_else>
+    </section>
+    <section name="">
+      <if_else name="">
+        <expr name="">! defined(__NAMESPACE__ . '\FIELD_ID_PROVA_4')</expr>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\FIELD_ID_PROVA_4'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">Id_prova_4</string>
+            </arg>
+          </function_call>
+        </def>
+      </if_else>
+    </section>
+    <section name="">
+      <if_else name="">
+        <expr name="">! defined(__NAMESPACE__ . '\FIELD_ID_PROVA')</expr>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\FIELD_ID_PROVA'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">Id_prova</string>
+            </arg>
+          </function_call>
+        </def>
+      </if_else>
+      <if_else name="">
+        <expr name="">! defined(__NAMESPACE__ . '\FIELD_DATA_1')</expr>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\FIELD_DATA_1'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">Data_1</string>
+            </arg>
+          </function_call>
+        </def>
+      </if_else>
+      <if_else name="">
+        <expr name="">! defined(__NAMESPACE__ . '\FIELD_DATA_2')</expr>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\FIELD_DATA_2'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">Data_2</string>
+            </arg>
+          </function_call>
+        </def>
+      </if_else>
+      <if_else name="">
+        <expr name="">! defined(__NAMESPACE__ . '\FIELD_DATA_3')</expr>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\FIELD_DATA_3'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">Data_3</string>
+            </arg>
+          </function_call>
+        </def>
+      </if_else>
+      <if_else name="">
+        <expr name="">! defined(__NAMESPACE__ . '\FIELD_DATA_4')</expr>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\FIELD_DATA_4'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">Data_4</string>
+            </arg>
+          </function_call>
+        </def>
+      </if_else>
+      <if_else name="">
+        <expr name="">! defined(__NAMESPACE__ . '\FIELD_DATA_5')</expr>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\FIELD_DATA_5'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">Data_5</string>
+            </arg>
+          </function_call>
+        </def>
+      </if_else>
+      <if_else name="">
+        <expr name="">! defined(__NAMESPACE__ . '\FIELD_ID_PROVA_2')</expr>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\FIELD_ID_PROVA_2'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">Id_prova_2</string>
+            </arg>
+          </function_call>
+        </def>
+      </if_else>
+    </section>
+    <section name="">
+      <if_else name="">
+        <expr name="">! defined(__NAMESPACE__ . '\FIELD_ID_PROVA_2')</expr>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\FIELD_ID_PROVA_2'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">Id_prova_2</string>
+            </arg>
+          </function_call>
+        </def>
+      </if_else>
+      <if_else name="">
+        <expr name="">! defined(__NAMESPACE__ . '\FIELD_DATA_1')</expr>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\FIELD_DATA_1'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">Data_1</string>
+            </arg>
+          </function_call>
+        </def>
+      </if_else>
+      <if_else name="">
+        <expr name="">! defined(__NAMESPACE__ . '\FIELD_DATA_2')</expr>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\FIELD_DATA_2'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">Data_2</string>
+            </arg>
+          </function_call>
+        </def>
+      </if_else>
+    </section>
+    <section name="">
+      <if_else name="">
+        <expr name="">! defined(__NAMESPACE__ . '\FIELD_ID_PROVA_6')</expr>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\FIELD_ID_PROVA_6'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">Id_prova_6</string>
+            </arg>
+          </function_call>
+        </def>
+      </if_else>
+      <if_else name="">
+        <expr name="">! defined(__NAMESPACE__ . '\FIELD_DATA_6')</expr>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\FIELD_DATA_6'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">Data_6</string>
+            </arg>
+          </function_call>
+        </def>
+      </if_else>
+      <if_else name="">
+        <expr name="">! defined(__NAMESPACE__ . '\FIELD_ID_PROVA_4')</expr>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\FIELD_ID_PROVA_4'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">Id_prova_4</string>
+            </arg>
+          </function_call>
+        </def>
+      </if_else>
+    </section>
+    <section name="">
+      <if_else name="">
+        <expr name="">! defined(__NAMESPACE__ . '\FIELD_ID')</expr>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\FIELD_ID'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">Id</string>
+            </arg>
+          </function_call>
+        </def>
+      </if_else>
+      <if_else name="">
+        <expr name="">! defined(__NAMESPACE__ . '\FIELD_ID_PROVA_2')</expr>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\FIELD_ID_PROVA_2'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">Id_prova_2</string>
+            </arg>
+          </function_call>
+        </def>
+      </if_else>
+      <if_else name="">
+        <expr name="">! defined(__NAMESPACE__ . '\FIELD_ID_PROVA_3')</expr>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\FIELD_ID_PROVA_3'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">Id_prova_3</string>
+            </arg>
+          </function_call>
+        </def>
+      </if_else>
+    </section>
+  </sections>
+</Items>

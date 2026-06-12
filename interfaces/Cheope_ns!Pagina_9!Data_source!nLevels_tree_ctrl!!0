@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<Items>
+  <ind_op type="scalar" id="op"><![CDATA[]]></ind_op>
+  <ind_type type="scalar" id="type"><![CDATA[nLevels_tree_ctrl]]></ind_type>
+  <ind_num type="scalar" id="num"><![CDATA[0]]></ind_num>
+  <ind_style type="scalar" id="@style"></ind_style>
+  <ind_cssClass type="scalar" id="cssClass"><![CDATA[tree_ctrl]]></ind_cssClass>
+  <ind_obj type="xml_node" id="obj">Cheope_ns_prova_15_NLevels_tree_ctrl__1__data_source.xml</ind_obj>
+  <ind_inheritData type="scalar" id="*inheritData"><![CDATA[false]]></ind_inheritData>
+  <ind_inheritDataFieldName type="scalar" id="*inheritDataFieldName"><![CDATA[false]]></ind_inheritDataFieldName>
+  <ind_fieldsFromDataSource type="scalar" id="*fieldsFromDataSource">false</ind_fieldsFromDataSource>
+   <ind_dataSource type="array" id="dataSource"></ind_dataSource>
+  <ind_mainLabel type="scalar" id="mainLabel"><![CDATA[]]></ind_mainLabel>
+  <ind_itemClass type="scalar" id="itemClass"><![CDATA[tree_ctrl_item]]></ind_itemClass>
+  <ind_target type="scalar" id="target"><![CDATA[_self]]></ind_target>
+  <ind_gesPage type="scalar" id="gesPage"><![CDATA[]]></ind_gesPage>
+  <ind_mouseEvent type="scalar" id="mouseEvent"><![CDATA[mouseover]]></ind_mouseEvent>
+  <ind_subItemsHtmlType type="scalar" id="subItemsHtmlType"><![CDATA[a]]></ind_subItemsHtmlType>
+  <ind_rootItemHtmlType type="scalar" id="rootItemHtmlType"><![CDATA[span]]></ind_rootItemHtmlType>
+  <ind_treeCtrlVer type="scalar" id="treeCtrlVer"><![CDATA[]]></ind_treeCtrlVer>
+  <ind_rootLabel type="scalar" id="rootLabel"><![CDATA[ROOT]]></ind_rootLabel>
+  <ind_indent type="scalar" id="indent"><![CDATA[1]]></ind_indent>
+  <ind_dispFields type="array" id="dispFields"/>
+  <ind_dataFields type="array" id="dataFields">
+    <ind_0 type="scalar" id="0"><![CDATA[Data_1]]></ind_0>
+    <ind_1 type="scalar" id="1"><![CDATA[Data_2]]></ind_1>
+    <ind_2 type="scalar" id="2"><![CDATA[Data_3]]></ind_2>
+  </ind_dataFields>
+  <ind_dataFieldsDomains type="array" id="dataFieldsDomains">
+    <ind_0 type="scalar" id="0"><![CDATA[atomic]]></ind_0>
+    <ind_1 type="scalar" id="1"><![CDATA[atomic]]></ind_1>
+    <ind_2 type="scalar" id="2"><![CDATA[atomic]]></ind_2>
+  </ind_dataFieldsDomains>
+  <ind_dataFieldsDomainsValues type="array" id="dataFieldsDomainsValues">
+    <ind_0 type="scalar" id="0"><![CDATA[]]></ind_0>
+    <ind_1 type="scalar" id="1"><![CDATA[]]></ind_1>
+    <ind_2 type="scalar" id="2"><![CDATA[]]></ind_2>
+  </ind_dataFieldsDomainsValues>
+
+</Items>

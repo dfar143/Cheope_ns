@@ -1,0 +1,14 @@
+.form
+{
+ border:0px;
+ background-color:#290094;
+ font-family:Verdana,Arial,"Times new roman";
+ font-size: 9pt;
+}
+
+.form_hidden_rows
+{
+	display:none;
+	height:0px;
+}
+

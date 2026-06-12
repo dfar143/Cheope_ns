@@ -1,0 +1,46 @@
+<html>
+<head>
+	<link type="text/css" href="./css/Cheope_ns_prova_41.css" rel="stylesheet">
+<script src="./jquery/jquery-1.4.2.js" type="text/javascript" language="javascript"></script>
+<script src="./jQueryTools_1.2.5/Form_tools/validator.min.js" type="text/javascript" language="javascript"></script>
+<script type="text/javascript" language="javascript">
+$(document).ready(function(){$("#myform").validator();});
+</script>
+</head>
+<body>
+<form id="myform" novalidate>
+
+      <h3>Sample registration form</h3>
+      
+      <p> Enter bad values and then press the submit button. </p>
+      
+      <p>
+         <label>email *</label>
+         <input type="email" name="email" required="required" />
+      </p>
+      <p>
+         <label>website *</label>
+         <input type="url" name="url" required="required" />
+      </p>
+      <p>
+         <label>name *</label>
+         <input type="text" name="name" pattern="[a-zA-Z ]{5,}" maxlength="30" />
+      </p>
+      <p>
+         <label>age</label>
+         <input type="number" name="age" size="4" min="5" max="50" />
+      </p>
+      
+      <p id="terms">
+      	<label>I accept the terms</label>
+      	<input type="checkbox" required="required" />   
+		</p>
+      
+      <button type="submit">Submit form</button>
+      <button type="reset">Reset</button>
+
+</form>
+
+
+</body>
+</html>

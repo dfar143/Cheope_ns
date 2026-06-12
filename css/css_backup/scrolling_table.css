@@ -1,0 +1,28 @@
+.scrolling_table
+{
+ background-color:#4499EE;
+ font-family:Verdana,Arial,"Times new roman";
+ font-size:15pt;
+}
+
+.scrolling_table_inner_table
+{
+ overflow:auto;
+ height:166px;
+}
+
+.scrolling_table_header
+{
+ background-color:yellow;
+ font-size:13pt;
+ height:25px;
+ color:black;
+}
+
+.scrolling_table_rows
+{
+ background-color:#4499EE;
+ font-size:13pt;
+ height:25px;
+ color:white;
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<Items>
+  <ind_op type="scalar" id="op"><![CDATA[]]></ind_op>
+  <ind_type type="scalar" id="type"><![CDATA[bootstrap_table]]></ind_type>
+  <ind_num type="scalar" id="num"><![CDATA[0]]></ind_num>
+  <ind_shortName type="scalar" id="shortName"><![CDATA[]]></ind_shortName>
+  <ind_cssClass type="scalar" id="cssClass"><![CDATA[bootstrap_table]]></ind_cssClass>
+  <ind_obj type="db_item" id="obj"><![CDATA[Q_prova_1]]></ind_obj>
+  <ind_inheritData type="scalar" id="*inheritData"><![CDATA[true]]></ind_inheritData>
+  <ind_inheritDataFieldName type="scalar" id="*inheritDataFieldName"><![CDATA[false]]></ind_inheritDataFieldName>
+  <ind_fieldsFromDataSource type="scalar" id="*fieldsFromDataSource"><![CDATA[true]]></ind_fieldsFromDataSource>
+  <ind_bootstrapEnabled type="scalar" id="bootstrapEnabled"><![CDATA[true]]></ind_bootstrapEnabled>
+  <ind_bootstrapContainerType type="scalar" id="bootstrapContainerType"><![CDATA[container]]></ind_bootstrapContainerType>
+  <ind_bootstrapViewPortSizeType type="scalar" id="bootstrapViewPortSizeType"><![CDATA[container-fluid]]></ind_bootstrapViewPortSizeType>
+  <ind_style type="scalar" id="@style"><![CDATA[padding:120px;spacing:120px;]]></ind_style>
+  <ind_dispFields type="array" id="dispFields"/>
+  <ind_dataFields type="array" id="dataFields"/>
+  <ind_dataFieldsDomains type="array" id="dataFieldsDomains"/>
+  <ind_dataFieldsDomainsValues type="array" id="dataFieldsDomainsValues"/>
+</Items>

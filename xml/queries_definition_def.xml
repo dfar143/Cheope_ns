@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<Items>
+  <sections name="">
+    <section name="Definizione delle queries">
+      <def name="">
+        <var name="">queryStr</var>
+        <string type="double_quoted" name="">select * from Prova</string>
+      </def>
+      <def name="">
+        <var name="">dbQueryQ_prova_1</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">Db_query</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+          <arg name="">
+            <const name="">QUERY_Q_PROVA_1</const>
+          </arg>
+          <arg name="">
+            <var name="">dbStructTree</var>
+          </arg>
+          <arg name="">
+            <var name="">ricSql2DefRules</var>
+          </arg>
+          <arg name="">
+            <var name="">ricSql2DefGrRules</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setQueryStr">
+          <var name="">dbQueryQ_prova_1</var>
+          <arg name="">
+            <var name="">queryStr</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">queryStr</var>
+        <string type="double_quoted" name="">select * from Prova_4</string>
+      </def>
+      <def name="">
+        <var name="">dbQueryQ_prova_4</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">Db_query</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+          <arg name="">
+            <const name="">QUERY_Q_PROVA_4</const>
+          </arg>
+          <arg name="">
+            <var name="">dbStructTree</var>
+          </arg>
+          <arg name="">
+            <var name="">ricSql2DefRules</var>
+          </arg>
+          <arg name="">
+            <var name="">ricSql2DefGrRules</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setQueryStr">
+          <var name="">dbQueryQ_prova_4</var>
+          <arg name="">
+            <var name="">queryStr</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">queryStr</var>
+        <string type="double_quoted" name="">select data_1 as ggg,data_2 from Prova_2</string>
+      </def>
+      <def name="">
+        <var name="">dbQueryQ_prova_2</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">Db_query</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+          <arg name="">
+            <const name="">QUERY_Q_PROVA_2</const>
+          </arg>
+          <arg name="">
+            <var name="">dbStructTree</var>
+          </arg>
+          <arg name="">
+            <var name="">ricSql2DefRules</var>
+          </arg>
+          <arg name="">
+            <var name="">ricSql2DefGrRules</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setQueryStr">
+          <var name="">dbQueryQ_prova_2</var>
+          <arg name="">
+            <var name="">queryStr</var>
+          </arg>
+        </method_call>
+      </def>
+    </section>
+  </sections>
+</Items>

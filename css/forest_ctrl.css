@@ -1,0 +1,18 @@
+.forest_ctrl
+{
+ color:Yellow;
+ font-family:Verdana,Arial,"Times new roman";
+ font-size: 10pt;
+ font-weight:normal;
+ height:370px;
+ width:100%;
+ border:2px dotted #FFFFFF;
+ overflow:auto;
+}
+
+.forest_ctrl_root
+{
+ font-family:Verdana,Arial,"Times new roman";
+ font-size: 13pt;
+ font-weight:normal;
+}

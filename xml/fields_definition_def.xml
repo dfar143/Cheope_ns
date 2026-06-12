@@ -1,0 +1,570 @@
+<?xml version="1.0"?>
+<Items>
+  <sections name="FIELDS DEFINITIONS SECTION">
+    <section name="fields_definition_0">
+      <def name="">
+        <var name="">fields</var>
+        <function_call name="array">
+          <arg name="">
+            <const name="">FIELD_ID_PROVA_3</const>
+          </arg>
+          <arg name="">
+            <const name="">FIELD_CAMPO2</const>
+          </arg>
+          <arg name="">
+            <const name="">FIELD_DATA_7</const>
+          </arg>
+          <arg name="">
+            <const name="">FIELD_DATA_8</const>
+          </arg>
+          <arg name="">
+            <const name="">FIELD_DATA_5</const>
+          </arg>
+        </function_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setFields">
+          <var name="">dbObjProva_3</var>
+          <arg name="">
+            <var name="">fields</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">fieldsTypes</var>
+        <function_call name="array">
+          <arg name="">
+            <const name="">FIELD_TYPE_INTEGER</const>
+          </arg>
+          <arg name="">
+            <const name="">FIELD_TYPE_BOOLEAN</const>
+          </arg>
+          <arg name="">
+            <const name="">FIELD_TYPE_STRING</const>
+          </arg>
+          <arg name="">
+            <const name="">FIELD_TYPE_STRING</const>
+          </arg>
+          <arg name="">
+            <const name="">FIELD_TYPE_STRING</const>
+          </arg>
+        </function_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setFieldsTypes">
+          <var name="">dbObjProva_3</var>
+          <arg name="">
+            <var name="">fieldsTypes</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">keyFields</var>
+        <function_call name="array">
+          <arg name="">
+            <const name="">FIELD_ID_PROVA_3</const>
+          </arg>
+        </function_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setKeyFields">
+          <var name="">dbObjProva_3</var>
+          <arg name="">
+            <var name="">keyFields</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">candKeyFields</var>
+        <function_call name="array"/>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setCandKeyFields">
+          <var name="">dbObjProva_3</var>
+          <arg name="">
+            <var name="">candKeyFields</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">extKeyFields</var>
+        <function_call name="array"/>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setExtKeyFields">
+          <var name="">dbObjProva_3</var>
+          <arg name="">
+            <var name="">extKeyFields</var>
+          </arg>
+        </method_call>
+      </def>
+    </section>
+    <section name="fields_definition_1">
+      <def name="">
+        <var name="">fields</var>
+        <function_call name="array">
+          <arg name="">
+            <const name="">FIELD_ID_PROVA_4</const>
+          </arg>
+        </function_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setFields">
+          <var name="">dbObjProva_4</var>
+          <arg name="">
+            <var name="">fields</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">fieldsTypes</var>
+        <function_call name="array">
+          <arg name="">
+            <const name="">FIELD_TYPE_INTEGER</const>
+          </arg>
+        </function_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setFieldsTypes">
+          <var name="">dbObjProva_4</var>
+          <arg name="">
+            <var name="">fieldsTypes</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">keyFields</var>
+        <function_call name="array">
+          <arg name="">
+            <const name="">FIELD_ID_PROVA_4</const>
+          </arg>
+        </function_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setKeyFields">
+          <var name="">dbObjProva_4</var>
+          <arg name="">
+            <var name="">keyFields</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">candKeyFields</var>
+        <function_call name="array"/>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setCandKeyFields">
+          <var name="">dbObjProva_4</var>
+          <arg name="">
+            <var name="">candKeyFields</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">extKeyFields</var>
+        <function_call name="array"/>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setExtKeyFields">
+          <var name="">dbObjProva_4</var>
+          <arg name="">
+            <var name="">extKeyFields</var>
+          </arg>
+        </method_call>
+      </def>
+    </section>
+    <section name="fields_definition_2">
+      <def name="">
+        <var name="">fields</var>
+        <function_call name="array">
+          <arg name="">
+            <const name="">FIELD_ID_PROVA</const>
+          </arg>
+          <arg name="">
+            <const name="">FIELD_DATA_1</const>
+          </arg>
+          <arg name="">
+            <const name="">FIELD_DATA_2</const>
+          </arg>
+          <arg name="">
+            <const name="">FIELD_DATA_3</const>
+          </arg>
+          <arg name="">
+            <const name="">FIELD_DATA_4</const>
+          </arg>
+          <arg name="">
+            <const name="">FIELD_DATA_5</const>
+          </arg>
+          <arg name="">
+            <const name="">FIELD_ID_PROVA_2</const>
+          </arg>
+        </function_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setFields">
+          <var name="">dbObjProva</var>
+          <arg name="">
+            <var name="">fields</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">fieldsTypes</var>
+        <function_call name="array">
+          <arg name="">
+            <const name="">FIELD_TYPE_INTEGER</const>
+          </arg>
+          <arg name="">
+            <const name="">FIELD_TYPE_STRING</const>
+          </arg>
+          <arg name="">
+            <const name="">FIELD_TYPE_STRING</const>
+          </arg>
+          <arg name="">
+            <const name="">FIELD_TYPE_STRING</const>
+          </arg>
+          <arg name="">
+            <const name="">FIELD_TYPE_STRING</const>
+          </arg>
+          <arg name="">
+            <const name="">FIELD_TYPE_STRING</const>
+          </arg>
+          <arg name="">
+            <const name="">FIELD_TYPE_STRING</const>
+          </arg>
+        </function_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setFieldsTypes">
+          <var name="">dbObjProva</var>
+          <arg name="">
+            <var name="">fieldsTypes</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">keyFields</var>
+        <function_call name="array">
+          <arg name="">
+            <const name="">FIELD_ID_PROVA</const>
+          </arg>
+        </function_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setKeyFields">
+          <var name="">dbObjProva</var>
+          <arg name="">
+            <var name="">keyFields</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">candKeyFields</var>
+        <function_call name="array">
+          <arg name="">
+            <function_call name="array">
+              <arg name="">
+                <const name="">FIELD_DATA_1</const>
+              </arg>
+              <arg name="">
+                <const name="">FIELD_DATA_2</const>
+              </arg>
+            </function_call>
+          </arg>
+        </function_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setCandKeyFields">
+          <var name="">dbObjProva</var>
+          <arg name="">
+            <var name="">candKeyFields</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">extKeyFields</var>
+        <function_call name="array">
+          <arg name="">
+            <associative name="">
+              <const name="">TABELLA_PROVA_2</const>
+              <const name="">FIELD_ID_PROVA_2</const>
+            </associative>
+          </arg>
+        </function_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setExtKeyFields">
+          <var name="">dbObjProva</var>
+          <arg name="">
+            <var name="">extKeyFields</var>
+          </arg>
+        </method_call>
+      </def>
+    </section>
+    <section name="fields_definition_3">
+      <def name="">
+        <var name="">fields</var>
+        <function_call name="array">
+          <arg name="">
+            <const name="">FIELD_ID_PROVA_2</const>
+          </arg>
+          <arg name="">
+            <const name="">FIELD_DATA_1</const>
+          </arg>
+          <arg name="">
+            <const name="">FIELD_DATA_2</const>
+          </arg>
+        </function_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setFields">
+          <var name="">dbObjProva_2</var>
+          <arg name="">
+            <var name="">fields</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">fieldsTypes</var>
+        <function_call name="array">
+          <arg name="">
+            <const name="">FIELD_TYPE_STRING</const>
+          </arg>
+          <arg name="">
+            <const name="">FIELD_TYPE_STRING</const>
+          </arg>
+          <arg name="">
+            <const name="">FIELD_TYPE_STRING</const>
+          </arg>
+        </function_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setFieldsTypes">
+          <var name="">dbObjProva_2</var>
+          <arg name="">
+            <var name="">fieldsTypes</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">keyField</var>
+        <function_call name="array">
+          <arg name="">
+            <const name="">FIELD_ID_PROVA_2</const>
+          </arg>
+        </function_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setKeyFields">
+          <var name="">dbObjProva_2</var>
+          <arg name="">
+            <var name="">keyField</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">candKeyFields</var>
+        <function_call name="array"/>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setCandKeyFields">
+          <var name="">dbObjProva_2</var>
+          <arg name="">
+            <var name="">candKeyFields</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">extKeyFields</var>
+        <function_call name="array"/>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setExtKeyFields">
+          <var name="">dbObjProva_2</var>
+          <arg name="">
+            <var name="">extKeyFields</var>
+          </arg>
+        </method_call>
+      </def>
+    </section>
+    <section name="fields_definition_4">
+      <def name="">
+        <var name="">fields</var>
+        <function_call name="array">
+          <arg name="">
+            <const name="">FIELD_ID_PROVA_6</const>
+          </arg>
+          <arg name="">
+            <const name="">FIELD_DATA_6</const>
+          </arg>
+          <arg name="">
+            <const name="">FIELD_ID_PROVA_4</const>
+          </arg>
+        </function_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setFields">
+          <var name="">dbObjProva_6</var>
+          <arg name="">
+            <var name="">fields</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">fieldsTypes</var>
+        <function_call name="array">
+          <arg name="">
+            <const name="">FIELD_TYPE_STRING</const>
+          </arg>
+          <arg name="">
+            <const name="">FIELD_TYPE_STRING</const>
+          </arg>
+          <arg name="">
+            <const name="">FIELD_TYPE_INTEGER</const>
+          </arg>
+        </function_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setFieldsTypes">
+          <var name="">dbObjProva_6</var>
+          <arg name="">
+            <var name="">fieldsTypes</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">keyField</var>
+        <function_call name="array">
+          <arg name="">
+            <const name="">FIELD_ID_PROVA_6</const>
+          </arg>
+        </function_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setKeyFields">
+          <var name="">dbObjProva_6</var>
+          <arg name="">
+            <var name="">keyField</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">candKeyFields</var>
+        <function_call name="array"/>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setCandKeyFields">
+          <var name="">dbObjProva_6</var>
+          <arg name="">
+            <var name="">candKeyFields</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">extKeyFields</var>
+        <function_call name="array">
+          <arg name="">
+            <associative name="">
+              <const name="">TABELLA_PROVA_4</const>
+              <const name="">FIELD_ID_PROVA_4</const>
+            </associative>
+          </arg>
+        </function_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setExtKeyFields">
+          <var name="">dbObjProva_6</var>
+          <arg name="">
+            <var name="">extKeyFields</var>
+          </arg>
+        </method_call>
+      </def>
+    </section>
+    <section name="fields_definition_5">
+      <def name="">
+        <var name="">fields</var>
+        <function_call name="array">
+          <arg name="">
+            <const name="">FIELD_ID</const>
+          </arg>
+          <arg name="">
+            <const name="">FIELD_ID_PROVA_2</const>
+          </arg>
+          <arg name="">
+            <const name="">FIELD_ID_PROVA_3</const>
+          </arg>
+        </function_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setFields">
+          <var name="">dbObjProva_3_prova_2</var>
+          <arg name="">
+            <var name="">fields</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">fieldsTypes</var>
+        <function_call name="array">
+          <arg name="">
+            <const name="">FIELD_TYPE_STRING</const>
+          </arg>
+          <arg name="">
+            <const name="">FIELD_TYPE_INTEGER</const>
+          </arg>
+          <arg name="">
+            <const name="">FIELD_TYPE_INTEGER</const>
+          </arg>
+        </function_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setFieldsTypes">
+          <var name="">dbObjProva_3_prova_2</var>
+          <arg name="">
+            <var name="">fieldsTypes</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">keyField</var>
+        <function_call name="array">
+          <arg name="">
+            <const name="">FIELD_ID</const>
+          </arg>
+        </function_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setKeyFields">
+          <var name="">dbObjProva_3_prova_2</var>
+          <arg name="">
+            <var name="">keyField</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">candKeyFields</var>
+        <function_call name="array"/>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setCandKeyFields">
+          <var name="">dbObjProva_3_prova_2</var>
+          <arg name="">
+            <var name="">candKeyFields</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">extKeyFields</var>
+        <function_call name="array"/>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setExtKeyFields">
+          <var name="">dbObjProva_3_prova_2</var>
+          <arg name="">
+            <var name="">extKeyFields</var>
+          </arg>
+        </method_call>
+      </def>
+    </section>
+  </sections>
+</Items>

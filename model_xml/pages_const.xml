@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<Items>
+  <sections name="SEZIONE Pages consts">
+  	<section name="Pages consts">
+      <def name="">
+        <function_call name="define">
+        	<arg name="">
+          <string type="single_quoted" name="">AJAX_HANDLER_PAGE</string>
+          </arg>
+          <arg name="">
+          <string type="double_quoted" name="">ajax_handler.php</string>
+          </arg>
+        </function_call>
+      </def>
+	 </section>
+	</sections>
+</Items>

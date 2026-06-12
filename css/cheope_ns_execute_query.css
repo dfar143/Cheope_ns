@@ -1,0 +1,34 @@
+#main_2
+{
+	width:580px;
+}
+
+#html_tags_dec__0
+{
+	width:95%;
+	background-color:#290094;
+	overflow:auto;
+	padding:0 0 0 0;
+}
+
+.simple_table_thead
+{
+	border:1px solid grey;
+	color:grey;
+}
+
+.simple_table_columns
+{
+	padding:5pt 5pt 5pt 5pt;
+	border:1px solid grey;
+}
+
+td > div
+{
+	color:white;
+}
+
+#simple_table__1_tbody_id tr td
+{
+ background-color:blue;
+}

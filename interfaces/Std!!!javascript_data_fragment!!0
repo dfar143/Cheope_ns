@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Items>
+  <ind_op type="scalar" id="op"></ind_op>
+  <ind_type type="scalar" id="type"><![CDATA[javascript_data_fragment]]></ind_type>
+  <ind_num type="scalar" id="num"><![CDATA[0]]></ind_num>
+  <ind_shortName type="scalar" id="shortName"></ind_shortName>
+  <ind_cssClass type="scalar" id="cssClass"></ind_cssClass>
+  <ind_dispFields type="array" id="dispFields"></ind_dispFields>
+  <ind_javascriptModule type="scalar" id="javascriptModule"><![CDATA[./js/interfaces.js]]></ind_javascriptModule>
+  <ind_obj type="db_item" id="obj"></ind_obj>
+ <ind_inheritData type="scalar" id="*inheritData"><![CDATA[false]]></ind_inheritData>
+  <ind_inheritDataFieldName type="scalar" id="*inheritDataFieldName"><![CDATA[false]]></ind_inheritDataFieldName>
+  <ind_fieldsFromDataSource type="scalar" id="*fieldsFromDataSource"><![CDATA[false]]>
+   </ind_fieldsFromDataSource>
+  <ind_dataFields type="array" id="dataFields">
+  </ind_dataFields>
+  <ind_dataFieldsDomains type="array" id="dataFieldsDomains">
+  </ind_dataFieldsDomains>
+  <ind_dataFieldsDomainsValues type="array" id="dataFieldsDomainsValues">
+  </ind_dataFieldsDomainsValues>
+  <ind_hookId type="scalar" id="hookId"></ind_hookId>
+  <ind_javascriptFragment type="scalar" id="@javascriptFragment">
+  </ind_javascriptFragment>
+  <ind_dataExchangeType type="scalar" id="dataExchangeType"><![CDATA[text]]></ind_dataExchangeType>
+  <ind_ajaxOpPar type="scalar" id="ajaxOpPar"></ind_ajaxOpPar>
+  <ind_enableInsertInClientContainer type="scalar" id="*enableInsertInClientContainer"><![CDATA[true]]></ind_enableInsertInClientContainer>
+  <ind_enableExecuteOnLoad type="scalar" id="*enableExecuteOnLoad"><![CDATA[true]]></ind_enableExecuteOnLoad>
+  <ind_addSlashToFieldValue type="scalar" id="*addSlashToFieldValue"><![CDATA[true]]></ind_addSlashToFieldValue>
+  <ind_enableDataFromRemote type="scalar" id="*enableDataFromRemote"><![CDATA[true]]></ind_enableDataFromRemote>
+</Items>

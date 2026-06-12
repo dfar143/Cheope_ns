@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Items>
+  <sections name="SEZIONE PRINCIPALE">
+  	<section name="Binds_require_onces">
+   <ref >
+    binds_require_onces_def
+	 </ref>
+  	</section>
+  	<section name="Nodes_and_queries_binds">
+   <ref >
+    tables_and_queries_binds_def
+	 </ref>
+	</section>
+  	<section name="Binds_defines">
+   <ref >
+    binds_defines_def
+	 </ref>
+	</section>	
+  	<section name="Binds">
+   <ref >
+    binds_definition_def
+	 </ref>
+	</section>
+  	<section name="Binds_container">
+   <ref >
+    binds_container_definition_def
+	 </ref>
+	</section>
+  </sections>
+</Items>

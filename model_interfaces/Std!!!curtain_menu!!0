@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<Items>
+   <ind_op type="scalar" id="op"></ind_op>
+   <ind_type type="scalar" id="type">curtain_menu</ind_type>
+   <ind_num type="scalar" id="num">0</ind_num>
+   <ind_shortName type="scalar" id="shortName"></ind_shortName>
+   <ind_cssClass type="scalar" id="cssClass">curtain_menu</ind_cssClass>
+   <ind_style type="scalar" id="@style"></ind_style>
+   <ind_dispFields type="array" id="dispFields">
+   </ind_dispFields>
+   <ind_javascriptEnabled type="scalar" id="*javascriptEnabled">false</ind_javascriptEnabled>
+ <ind_javascriptModule type="scalar" id="javascriptModule"><![CDATA[./js/fade.css]]></ind_javascriptModule>
+  <ind_cssModule type="scalar" id="cssModule"><![CDATA[./css/curtain_menu.css]]></ind_cssModule>
+   <ind_obj type="db_item" id="obj"></ind_obj>
+  <ind_inheritData type="scalar" id="*inheritData"><![CDATA[false]]></ind_inheritData>
+  <ind_inheritDataFieldName type="scalar" id="*inheritDataFieldName"><![CDATA[false]]></ind_inheritDataFieldName>
+  <ind_fieldsFromDataSource type="scalar" id="*fieldsFromDataSource">false
+   </ind_fieldsFromDataSource>
+   <ind_dataFields type="array" id="dataFields">
+   </ind_dataFields>
+   <ind_dataFieldsDomains type="array" id="dataFieldsDomains">
+   </ind_dataFieldsDomains>
+   <ind_dataFieldsDomainsValues type="array" id="dataFieldsDomainsValues">
+   </ind_dataFieldsDomainsValues>
+   <ind_voicesField type="scalar" id="voicesField"></ind_voicesField>
+   <ind_pagesField type="scalar" id="pagesField"></ind_pagesField>
+   <ind_idsField type="scalar" id="idsField"></ind_idsField>
+   <ind_imgItemClass type="scalar" id="imgItemClass">curtain_menu_img_item</ind_imgItemClass>
+   <ind_voiceItemClass type="scalar" id="voiceItemClass">curtain_menu_voice_item</ind_voiceItemClass>
+   <ind_itemsImgSrc type="scalar" id="itemsImgSrc">./Img/menuItems.jpg</ind_itemsImgSrc>
+   <ind_fadeFps type="scalar" id="fadeFps">30</ind_fadeFps>
+   <ind_fadeDuration type="scalar" id="fadeDuration">1000</ind_fadeDuration>
+   <ind_fadeFromColor type="scalar" id="fadeFromColor"></ind_fadeFromColor>
+   <ind_fadeToColor type="scalar" id="fadeToColor">#FFFFFF</ind_fadeToColor>
+</Items>

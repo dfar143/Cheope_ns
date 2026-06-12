@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Items>
+  <sections name="Definizioni costante log enabled.">
+    <section name="">
+      <def name="">
+        <namespace name="">Cheope_ns\fw</namespace>
+      </def>
+    </section>
+    <section name="">
+      <def name="">
+        <function_call name="define">
+          <arg name="">
+            <expr name="">__NAMESPACE__ . '\LOG_ENABLED'</expr>
+          </arg>
+          <arg name="">
+            <string type="double_quoted" name="">true</string>
+          </arg>
+        </function_call>
+      </def>
+    </section>
+  </sections>
+</Items>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<items>
+<sections  name="">
+	<section  name="">
+		<def name="">
+		<function_call  name="define">
+			<arg>
+			 <expr name="">__NAMESPACE__ . '\ODBC'</expr>
+		  </arg>
+			<arg>
+			 <string type="double_quoted" name="">odbc</string>
+		  </arg>
+		</function_call>
+		</def>
+		<def name="">
+		<function_call  name="define">
+			<arg>
+			 <expr name="">__NAMESPACE__ . '\SQLSRV'</expr>
+		  </arg>
+			<arg>
+			 <string type="double_quoted" name="">sqlsrv</string>
+		  </arg>
+		</function_call>
+		</def>
+	</section>
+</sections>
+</items>

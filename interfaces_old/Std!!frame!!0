@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Items>
+  <ind_op type="scalar" id="op"></ind_op>
+  <ind_type type="scalar" id="type"><![CDATA[frame]]></ind_type>
+  <ind_num type="scalar" id="num"><![CDATA[0]]></ind_num>
+  <ind_shortName type="scalar" id="shortName"></ind_shortName>
+  <ind_cssClass type="scalar" id="cssClass"><![CDATA[frame]]></ind_cssClass>
+  <ind_style type="scalar" id="@style"></ind_style>
+  <ind_dispFields type="array" id="dispFields">
+  </ind_dispFields>
+  <ind_cssModule type="scalar" id="cssModule"><![CDATA[./css/frame.css]]></ind_cssModule>
+  <ind_rowsNum type="scalar" id="rowsNum"><![CDATA[1]]></ind_rowsNum>
+  <ind_colsNum type="scalar" id="colsNum"><![CDATA[1]]></ind_colsNum>
+  <ind_frameWidth type="scalar" id="frameWidth"><![CDATA[100%]]></ind_frameWidth>
+  <ind_frameHeight type="scalar" id="frameHeight"><![CDATA[100%]]></ind_frameHeight>
+  <ind_interfacesContainer type="container" id="interfacesContainer">
+  </ind_interfacesContainer>
+</Items>

@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<Items>
+  <sections name="SEZIONE PRINCIPALE">
+    <def name="">
+      <namespace name="">Cheope_ns\fw</namespace>
+    </def>
+    <block_def brackets="" name="">
+      <section name="Require_onces">
+        <ref name="">
+    db_require_onces_def
+   </ref>
+      </section>
+      <section name="Db type consts">
+        <ref name="">
+    db_type_const
+   </ref>
+      </section>
+      <section name="Active db">
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\ACTIVE_DB'</expr>
+            </arg>
+            <arg name="">
+              <expr name="">namespace\ODBC</expr>
+            </arg>
+          </function_call>
+        </def>
+      </section>
+      <section name="Odbc consts">
+        <ref name="">
+   	 odbc_const
+   </ref>
+      </section>
+      <section name="Sqlsrv consts">
+        <ref name="">
+   	 sqlsrv_const
+   </ref>
+      </section>
+    </block_def>
+  </sections>
+</Items>

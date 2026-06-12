@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Items>
+  <ind_0 type="array" id="0">
+    <ind_queryName type="scalar" id="queryName">Q_prova_1</ind_queryName>
+    <ind_queryBody type="scalar" id="queryBody">select * from Prova</ind_queryBody>
+    <ind_dataSource type="scalar" id="dataSource">true</ind_dataSource>
+  </ind_0>
+  <ind_1 type="array" id="1">
+    <ind_queryName type="scalar" id="queryName">Q_prova_2</ind_queryName>
+    <ind_queryBody type="scalar" id="queryBody">select data_1 as ggg,data_2 from Prova_2</ind_queryBody>
+    <ind_dataSource type="scalar" id="dataSource">true</ind_dataSource>
+  </ind_1>
+  <ind_2 type="array" id="2">
+    <ind_queryName type="scalar" id="queryName">Q_prova_4</ind_queryName>
+    <ind_queryBody type="scalar" id="queryBody">select * from Prova_4</ind_queryBody>
+    <ind_dataSource type="scalar" id="dataSource">true</ind_dataSource>
+  </ind_2>
+  <ind_3 type="array" id="3">
+    <ind_queryName type="scalar" id="queryName">Q_prova_8</ind_queryName>
+    <ind_queryBody type="scalar" id="queryBody">select * from Prova_2</ind_queryBody>
+    <ind_dataSource type="scalar" id="dataSource">false</ind_dataSource>
+  </ind_3>
+  <ind_4 type="array" id="4">
+    <ind_queryName type="scalar" id="queryName">Q_prova_9</ind_queryName>
+    <ind_queryBody type="scalar" id="queryBody">select * from Prova where Id_prova = 2</ind_queryBody>
+    <ind_dataSource type="scalar" id="dataSource">false</ind_dataSource>
+  </ind_4>
+</Items>

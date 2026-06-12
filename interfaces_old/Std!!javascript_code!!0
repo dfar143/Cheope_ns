@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Items>
+  <ind_op type="scalar" id="op"><![CDATA[]]></ind_op>
+  <ind_type type="scalar" id="type"><![CDATA[javascript_code]]></ind_type>
+  <ind_num type="scalar" id="num"><![CDATA[1]]></ind_num>
+  <ind_shortName type="scalar" id="shortName"><![CDATA[]]></ind_shortName>
+  <ind_interfacesContainer type="container" id="interfacesContainer"><![CDATA[]]></ind_interfacesContainer>
+  <ind_javascriptCode type="scalar" id="@javascriptCode"><![CDATA[]]></ind_javascriptCode>
+</Items>

@@ -1,0 +1,190 @@
+<?xml version="1.0"?>
+<Items>
+	<sections>
+	<section name="">
+	<def name="">
+	 <namespace name="">
+	 	Cheope_ns\fw
+	 </namespace>
+	</def>
+	<code>
+	  require_once("cheope_ns_generic.const.php");
+    require_once("cheope_ns_filesystem.const.php");
+    require_once("cheope_ns_http.const.php");
+    require_once("class.const.php");				
+	</code>	
+	<code>
+    define(__NAMESPACE__ . '\PAGE_START',"startt.php");
+    define(__NAMESPACE__ . '\PAGE_LOGIN',"login.php");
+    define(__NAMESPACE__ . '\PAGE_ANALISI_MODULI',"modules_analysis.php");
+    define(__NAMESPACE__ . '\PAGE_CREA_ISTANZE',"crea_istanze.php");					
+	</code>
+	<code>
+		define(__NAMESPACE__ . '\INDENT_SEP_2' , "__");
+    define(__NAMESPACE__ . '\INDENT_SEP_3' , "___");
+    define(__NAMESPACE__ . '\PRIV_SEP',"-");
+    define(__NAMESPACE__ . '\FIELD_SEP'," ");
+    define(__NAMESPACE__ . '\HEAD_SEP'," ");
+	</code>
+  <code>
+		define(__NAMESPACE__ . '\OBJ_PROVA',"Prova");
+    define(__NAMESPACE__ . '\OBJ_PROVA_2',"Prova_2");
+    define(__NAMESPACE__ . '\OBJ_PROVA_3',"Prova_3");
+    require_once("cheope_ns_obj.const.php");	
+	</code>
+	<code>
+    define(__NAMESPACE__ . '\TOT_NUM',45);
+    require_once('cheope_ns_num.def.php');					
+	</code>
+	<code>
+    require_once("cheope_ns_tables.const.php");
+    require_once("cheope_ns_fields.const.php");					
+	</code>
+	<code>
+    define(__NAMESPACE__ . '\FIELD_PAGE',"Page");
+    define(__NAMESPACE__ . '\FIELD_LABEL',"Label");
+    define(__NAMESPACE__ . '\FIELD_ID',"Id");
+    define(__NAMESPACE__ . '\FIELD_NOME_APPLICAZIONE',"Nome_applicazione");
+    define(__NAMESPACE__ . '\FIELD_APPLICAZIONI',"Applicazioni");
+    define(__NAMESPACE__ . '\FIELD_NOME_PAGINA',"Nome_pagina");
+    define(__NAMESPACE__ . '\FIELD_MENU_VOICES',"Menu_voices");
+    define(__NAMESPACE__ . '\FIELD_MENU_PAGES',"Menu_pages");
+    define(__NAMESPACE__ . '\FIELD_MENU_IDS',"Menu_ids");
+    define(__NAMESPACE__ . '\FIELD_TEMP_1',"Temp_1");
+    define(__NAMESPACE__ . '\FIELD_TEMP_2',"Temp_2");
+    define(__NAMESPACE__ . '\FIELD_TEMP_3',"Temp_3");
+    define(__NAMESPACE__ . '\FIELD_LISTA_TABELLE',"Lista_tabelle");
+    define(__NAMESPACE__ . '\FIELD_NUOVA_TABELLA',"Nuova_tabella");
+    define(__NAMESPACE__ . '\FIELD_LISTA_CAMPI',"Lista_campi");
+    define(__NAMESPACE__ . '\FIELD_NUOVO_CAMPO',"Nuovo_campo");
+    define(__NAMESPACE__ . '\FIELD_TIPI_CAMPO',"Tipi_campo");
+    define(__NAMESPACE__ . '\FIELD_NUOVA_CHIAVE',"Nuova_chiave");
+    define(__NAMESPACE__ . '\FIELD_BUTTON',"Button");
+	  define(__NAMESPACE__ . '\FIELD_GROUP_CONTAINER_0',"Group_container_0");
+	  define(__NAMESPACE__ . '\FIELD_GROUP_CONTAINER_1',"Group_container_1");
+	  define(__NAMESPACE__ . '\FIELD_SHEET_1',"Sheet_1");
+		define(__NAMESPACE__ . '\FIELD_SCROLL_1',"Scroll_1");
+		define(__NAMESPACE__ . '\FIELD_BUTTON_1',"Button_1");
+		define(__NAMESPACE__ . '\FIELD_FRAGMENT_1',"Fragment_1");
+		define(__NAMESPACE__ . '\FIELD_FRAGMENT_3',"Fragment_3");
+		define(__NAMESPACE__ . '\FIELD_FRAGMENT_4',"Fragment_4");
+		define(__NAMESPACE__ . '\FIELD_TEMPLATE_1',"Template_1");
+		define(__NAMESPACE__ . '\FIELD_CHECKED_1',"Checked_1");
+		define(__NAMESPACE__ . '\FIELD_CHECKED_2',"Checked_2");
+		define(__NAMESPACE__ . '\FIELD_CHECKED_3',"Checked_3");
+		define(__NAMESPACE__ . '\FIELD_CHECKED_4',"Checked_4");
+		define(__NAMESPACE__ . '\FIELD_CHECKED_5',"Checked_5");
+		define(__NAMESPACE__ . '\FIELD_CHECKED_6',"Checked_6");
+	  define(__NAMESPACE__ . '\FIELD_CHECKED_7',"Checked_7");
+		define(__NAMESPACE__ . '\FIELD_CHECKED_8',"Checked_8");
+		define(__NAMESPACE__ . '\FIELD_CHECKED_9',"Checked_9");
+		define(__NAMESPACE__ . '\FIELD_DB_NAV_1',"Db_nav_1");
+		define(__NAMESPACE__ . '\FIELD_USER',"User");
+		define(__NAMESPACE__ . '\FIELD_PASSWORD',"Password");
+		define(__NAMESPACE__ . '\FIELD_FORM',"Form");
+		define(__NAMESPACE__ . '\FIELD_LISTA_INTERFACCE',"Lista_interfacce");
+		define(__NAMESPACE__ . '\FIELD_INTERFACCIA_RADICE',"Interfaccia_radice");
+		define(__NAMESPACE__ . '\FIELD_CHECKBOX_1',"CheckBox_1");
+		define(__NAMESPACE__ . '\FIELD_CHECKBOX_2',"CheckBox_2");
+		define(__NAMESPACE__ . '\FIELD_CR_ENABLED',"CREnabled");
+		define(__NAMESPACE__ . '\FIELD_DOJO_ENABLED',"DojoEnabled");
+		define(__NAMESPACE__ . '\FIELD_JQUERY_ENABLED',"JQueryEnabled");
+		define(__NAMESPACE__ . '\FIELD_SPAZIATORE_1',"Spaziatore_1");
+		define(__NAMESPACE__ . '\FIELD_SPAZIATORE_2',"Spaziatore_2");
+		define(__NAMESPACE__ . '\FIELD_CHECKBOX_3',"CheckBox_3");
+		define(__NAMESPACE__ . '\FIELD_LISTA_QUERIES',"Lista_queries");
+		define(__NAMESPACE__ . '\FIELD_NUOVA_QUERY',"Nuova_query");
+		define(__NAMESPACE__ . '\FIELD_QUERY_BODY',"Query_body");
+		define(__NAMESPACE__ . '\FIELD_GENITORI',"Genitori");
+		define(__NAMESPACE__ . '\FIELD_CREA_XPAGINA',"Crea_xpagina");
+		define(__NAMESPACE__ . '\FIELD_FUNC_1',"Func");
+		define(__NAMESPACE__ . '\FIELD_OBJ_1',"Obj_1");
+		define(__NAMESPACE__ . '\FIELD_OBJ_2',"Obj_2");
+		define(__NAMESPACE__ . '\FIELD_VAL_1',"Val_1");
+		define(__NAMESPACE__ . '\FIELD_VAL_2',"Val_2");
+		define(__NAMESPACE__ . '\FIELD_FIELD',"Field");
+		define(__NAMESPACE__ . '\FIELD_TYPE',"Type");
+		define(__NAMESPACE__ . '\FIELD_PK',"Pk");
+		define(__NAMESPACE__ . '\FIELD_DEL_IMG',"Del_img");
+		define(__NAMESPACE__ . '\FIELD_COUNT',"Count");
+		define(__NAMESPACE__ . '\FIELD_TABLE',"Table");
+		define(__NAMESPACE__ . '\FIELD_FATHER',"Father");
+		define(__NAMESPACE__ . '\FIELD_SON',"Son");
+		define(__NAMESPACE__ . '\FIELD_QUERYNAME',"queryName");
+		define(__NAMESPACE__ . '\FIELD_QUERYBODY',"queryBody");
+		define(__NAMESPACE__ . '\FIELD_DATASOURCE',"dataSource");
+		define(__NAMESPACE__ . '\FIELD_LISTA_CONNECTIONS',"Lista_connections");
+		define(__NAMESPACE__ . '\FIELD_NUOVA_CONNECTION',"Nuova_connection");
+		define(__NAMESPACE__ . '\FIELD_CONNECTION_BODY',"Connection_body");
+		define(__NAMESPACE__ . '\FIELD_AVAILABLE_DBS',"Available_dbs");
+		define(__NAMESPACE__ . '\FIELD_NOME',"Nome");
+		define(__NAMESPACE__ . '\FIELD_PARAMETRI',"Parametri");
+		define(__NAMESPACE__ . '\FIELD_HOST',"Host");
+		define(__NAMESPACE__ . '\FIELD_DB',"Db");
+		define(__NAMESPACE__ . '\FIELD_DSN',"Dsn");
+		define(__NAMESPACE__ . '\FIELD_CONNECTION_STRING',"Connection_string");
+		define(__NAMESPACE__ . '\FIELD_CONNECTION_NAME',"Connection_name");
+		define(__NAMESPACE__ . '\FIELD_ALIAS',"Alias");
+		define(__NAMESPACE__ . '\FIELD_TABLES_QUERIES',"Tables_queries");
+		define(__NAMESPACE__ . '\FIELD_CONNECTIONS',"Connections");
+		define(__NAMESPACE__ . '\FIELD_INTERFACCE',"Interfacce");
+		define(__NAMESPACE__ . '\FIELD_INTERFACCIA',"Interfaccia");
+		define(__NAMESPACE__ . '\FIELD_PAGINE',"Pagine");
+		define(__NAMESPACE__ . '\FIELD_LAYOUTS',"Layouts");
+		define(__NAMESPACE__ . '\FIELD_LAYOUT',"Layout");
+		define(__NAMESPACE__ . '\FIELD_POS',"Pos");
+		define(__NAMESPACE__ . '\FIELD_WIDTH',"Width");
+		define(__NAMESPACE__ . '\FIELD_HEIGHT',"Height");
+		define(__NAMESPACE__ . '\FIELD_INLINETEXTBOX_STYLE',"InlineTextBox_style");
+		define(__NAMESPACE__ . '\FIELD_CONTAINER_NAME',"Container_name");
+		define(__NAMESPACE__ . '\FIELD_DOMAIN',"Domain");
+		define(__NAMESPACE__ . '\FIELD_DOMAIN_VALUE',"Domain_value");
+		define(__NAMESPACE__ . '\FIELD_DIR',"Dir");
+		define(__NAMESPACE__ . '\FIELD_CHECK',"Check");
+		define(__NAMESPACE__ . '\FIELD_NAME',"Name");
+		define(__NAMESPACE__ . '\FIELD_EXEC',"Exec");
+		define(__NAMESPACE__ . '\FIELD_SINGLE_MENUS',"Single_menus");
+		define(__NAMESPACE__ . '\FIELD_MULTI_MENUS',"Multi_menus");
+		define(__NAMESPACE__ . '\FIELD_VOICE',"Voice");
+		define(__NAMESPACE__ . '\FIELD_TIPO_MENU',"Tipo_menu");
+		define(__NAMESPACE__ . '\FIELD_MULTI_PAGINE',"Multi_pagine");
+		define(__NAMESPACE__ . '\FIELD_SUBMENU',"Submenu");
+		define(__NAMESPACE__ . '\FIELD_CHOOSE_SUBMENU',"Choose_submenu");
+		define(__NAMESPACE__ . '\FIELD_ARRAY_SUBMENU',"Array_submenu");
+		define(__NAMESPACE__ . '\FIELD_IMG_TRASF',"Img_trasf");
+		define(__NAMESPACE__ . '\FIELD_INTERFACE_CANONICAL_NAME',"Interface_canonical_name");
+		define(__NAMESPACE__ . '\FIELD_BIND_NAME',"Bind_name");
+		define(__NAMESPACE__ . '\FIELD_NODES',"Nodes");
+		define(__NAMESPACE__ . '\FIELD_NODE_NAME',"Node_name");
+		define(__NAMESPACE__ . '\FIELD_NOME_CONNESSIONE',"Connection_name");
+		define(__NAMESPACE__ . '\FIELD_NOME_INTERFACCIA',"Nome_interfaccia");
+		define(__NAMESPACE__ . '\FIELD_INTERFACE_NAME',"Interface_name");
+		define(__NAMESPACE__ . '\FIELD_TABLES',"Tables");
+		define(__NAMESPACE__ . '\FIELD_TABLE_NAME',"Table_name");
+		define(__NAMESPACE__ . '\FIELD_NODO',"Nodo");
+		define(__NAMESPACE__ . '\FIELD_NODI',"Nodi");
+		define(__NAMESPACE__ . '\FIELD_EXPORT_CHANGES',"Export_changes");
+		define(__NAMESPACE__ . '\FIELD_DATE_MODIFIED',"Date_modified");
+		define(__NAMESPACE__ . '\FIELD_VOICES',"Voices");
+		define(__NAMESPACE__ . '\FIELD_LOCATIONS',"Locations");
+		define(__NAMESPACE__ . '\FIELD_AJAXOPS',"AjaxOps");
+		define(__NAMESPACE__ . '\FIELD_AJAXOPS_CLASSES',"AjaxOps_classes");
+		define(__NAMESPACE__ . '\FIELD_CHECKED',"Checked");
+		define(__NAMESPACE__ . '\FIELD_FORMS',"Forms");
+		define(__NAMESPACE__ . '\FIELD_ROW',"Row");
+		define(__NAMESPACE__ . '\FIELD_TEMPLATES',"Templates");
+		define(__NAMESPACE__ . '\FIELD_OPTIONS',"Options");
+		define(__NAMESPACE__ . '\FIELD_NONE',"None");
+		define(__NAMESPACE__ . '\FIELD_INT',"Int");
+		define(__NAMESPACE__ . '\FIELD_COL',"Col");
+		
+		define(__NAMESPACE__ . '\FIELD_LABELS',"Labels");
+		define(__NAMESPACE__ . '\FIELD_PAGES',"Pages");
+		define(__NAMESPACE__ . '\FIELD_IDS',"Ids");
+		
+		define(__NAMESPACE__ . '\FIELD_ID_NO_VALUE',STRING_NULL);
+		define(__NAMESPACE__ . '\FIELD_NO_VALUE',STRING_NULL);					
+				</code>
+	</section>
+	</sections>
+</Items>

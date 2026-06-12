@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Items>
+  <ind_op type="scalar" id="op"><![CDATA[]]></ind_op>
+  <ind_type type="scalar" id="type"><![CDATA[php_fragment_free]]></ind_type>
+  <ind_num type="scalar" id="num"><![CDATA[0]]></ind_num>
+  <ind_phpFragment type="scalar" id="@phpFragment"><![CDATA[
+	$htmlWriterObj->putDivOpenTag("main_1","");
+	$thisObj->putHeader();
+  $htmlWriterObj->putDivOpenTag("active_application_container_id","");
+	$thisObj->putActiveApp();
+  $htmlWriterObj->putGenericHtmlString("</div>");
+  $htmlWriterObj->putGenericHtmlString("</div>");
+  $htmlWriterObj->putDivOpenTag("","");
+	$thisObj->putBody();
+	$htmlWriterObj->putGenericHtmlString("</div>");
+	$htmlWriterObj->putDivOpenTag("footer","");
+	$thisObj->putFooter();
+	$htmlWriterObj->putGenericHtmlString("</div>");]]></ind_phpFragment>
+</Items>

@@ -1,0 +1,43 @@
+.Tab
+{
+background-color:#290094;
+border:1px solid white;
+font-family:Verdana,Arial,"Times new roman";
+font-size:10pt;
+cursor:pointer;
+}
+
+.Selected_tab
+{
+background-color:#4499EE;
+border-top: 1px solid white;
+border-left: 1px solid white;
+border-right: 1px solid white;
+border-bottom: none;
+font-family:Verdana,Arial,"Times new roman";
+font-size:10pt;
+}
+
+.Selected_tab_label
+{
+background-color:#4499EE;
+font-family:Verdana,Arial,"Times new roman";
+font-size:12pt;
+}
+
+.Void_tab
+{
+background-color:#295a94;
+border-bottom: 1px solid white;
+}
+
+
+.Tab_body
+{
+background-color:#4499EE;
+font-family:Verdana,Arial,"Times new roman";
+font-size:15pt;
+border-left: 1px solid white;
+border-right: 1px solid white;
+border-bottom: 1px solid white;
+}

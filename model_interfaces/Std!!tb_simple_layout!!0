@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Items>
+  <ind_type type="scalar" id="type"><![CDATA[tb_simple_layout]]></ind_type>
+  <ind_op type="scalar" id="op"><![CDATA[]]></ind_op>
+  <ind_num type="scalar" id="num"><![CDATA[0]]></ind_num>
+  <ind_shortName type="scalar" id="shortName"></ind_shortName>
+  <ind_cssClass type="scalar" id="cssClass"><![CDATA[accordion]]></ind_cssClass>
+  <ind_dispFields type="array" id="dispFields"/>  
+  <ind_bootstrapEnabled type="scalar" id="*bootstrapEnabled"><![CDATA[false]]></ind_bootstrapEnabled>
+  <ind_bootstrapContainerType type="scalar" id="bootstrapContainerType"><![CDATA[container]]></ind_bootstrapContainerType>
+  <ind_withContainer type="scalar" id="*withContainer"><![CDATA[true]]></ind_withContainer>
+  <ind_containerStyle type="scalar" id="@containerStyle"><![CDATA[width:100%;height:100%]]></ind_containerStyle>
+  <ind_containerTopStyle type="scalar" id="@containerTopStyle"><![CDATA[]]></ind_containerTopStyle>
+  <ind_containerCenterStyle type="scalar" id="@containerCenterStyle"><![CDATA[]]></ind_containerCenterStyle>
+  <ind_containerBottomStyle type="scalar" id="@containerBottomStyle"><![CDATA[]]></ind_containerBottomStyle>
+  <ind_interfacesContainerTop type="container" id="interfacesContainerTop">
+  </ind_interfacesContainerTop>
+  <ind_interfacesContainerCenter type="container" id="interfacesContainerCenter">
+  </ind_interfacesContainerCenter>
+  <ind_interfacesContainerBottom type="container" id="interfacesContainerBottom">
+  </ind_interfacesContainerBottom>
+</Items>

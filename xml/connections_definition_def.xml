@@ -1,0 +1,219 @@
+<?xml version="1.0"?>
+<Items>
+  <sections name="Definizione delle connections">
+    <section name="Connection_0">
+      <def name="">
+        <var name="">user</var>
+        <string type="double_quoted" name=""></string>
+      </def>
+      <def name="">
+        <var name="">password</var>
+        <string type="double_quoted" name=""></string>
+      </def>
+      <def name="">
+        <var name="">connection_string</var>
+        <string type="double_quoted" name="@">DRIVER=Microsoft Access Driver (*.mdb, *.accdb);DBQ=E:\Docuff\php8\scripts\Cheope_ns\Cheope_ns_prova.mdb;UserCommitSync=Yes</string>
+      </def>
+      <def name="">
+        <var name="">dsn</var>
+        <string type="double_quoted" name=""></string>
+      </def>
+      <def name="">
+        <var name="Key">dbConnectionC_prova_1a</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">Odbc_db_op</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+          <arg name="">
+            <var name="">user</var>
+          </arg>
+          <arg name="">
+            <var name="">password</var>
+          </arg>
+          <arg name="">
+            <var name="">connection_string</var>
+          </arg>
+          <arg name="">
+            <var name="">dsn</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setName">
+          <var name="">dbConnectionC_prova_1a</var>
+          <arg name="">
+            <const name="">CONNECTION_C_PROVA_1A</const>
+          </arg>
+        </method_call>
+      </def>
+    </section>
+    <section name="Connection_2">
+      <def name="">
+        <var name="">user</var>
+        <string type="double_quoted" name="">sa</string>
+      </def>
+      <def name="">
+        <var name="">password</var>
+        <string type="double_quoted" name="">userroot</string>
+      </def>
+      <def name="">
+        <var name="">host</var>
+        <string type="double_quoted" name="">DANIELE-PC\SQLEXPRESS</string>
+      </def>
+      <def name="">
+        <var name="">db</var>
+        <string type="double_quoted" name="">Cheope</string>
+      </def>
+      <def name="">
+        <var name="">port</var>
+        <string type="double_quoted" name=""></string>
+      </def>
+      <def name="">
+        <var name="">dbConnectionC_home</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">Sqlsrv_db_op</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+          <arg name="">
+            <var name="">user</var>
+          </arg>
+          <arg name="">
+            <var name="">password</var>
+          </arg>
+          <arg name="">
+            <var name="">host</var>
+          </arg>
+          <arg name="">
+            <var name="">db</var>
+          </arg>
+          <arg name="">
+            <var name="">port</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setName">
+          <var name="">dbConnectionC_home</var>
+          <arg name="">
+            <const name="">CONNECTION_C_HOME</const>
+          </arg>
+        </method_call>
+      </def>
+    </section>
+    <section name="Connection_3">
+      <def name="">
+        <var name="">user</var>
+        <string type="double_quoted" name="">SPdb_usr</string>
+      </def>
+      <def name="">
+        <var name="">password</var>
+        <string type="double_quoted" name="">SPdb.usr</string>
+      </def>
+      <def name="">
+        <var name="">host</var>
+        <string type="double_quoted" name="">10.209.17.248</string>
+      </def>
+      <def name="">
+        <var name="">db</var>
+        <string type="double_quoted" name="">Spdb</string>
+      </def>
+      <def name="">
+        <var name="">port</var>
+        <string type="double_quoted" name=""></string>
+      </def>
+      <def name="">
+        <var name="">dbConnectionC_prova_3</var>
+        <method_call instanceName="" parent="1" name="create">
+          <expr name="">Creator</expr>
+          <arg name="">
+            <string type="double_quoted" name="">Sqlsrv_db_op</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+          <arg name="">
+            <var name="">user</var>
+          </arg>
+          <arg name="">
+            <var name="">password</var>
+          </arg>
+          <arg name="">
+            <var name="">host</var>
+          </arg>
+          <arg name="">
+            <var name="">db</var>
+          </arg>
+          <arg name="">
+            <var name="">port</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setName">
+          <var name="">dbConnectionC_prova_3</var>
+          <arg name="">
+            <const name="">CONNECTION_C_PROVA_3</const>
+          </arg>
+        </method_call>
+      </def>
+    </section>
+    <section name="Connection_3">
+      <def name="">
+        <var name="">user</var>
+        <string type="double_quoted" name=""></string>
+      </def>
+      <def name="">
+        <var name="">password</var>
+        <string type="double_quoted" name=""></string>
+      </def>
+      <def name="">
+        <var name="">connection_string</var>
+        <string type="double_quoted" name="@">DRIVER=Microsoft Access Driver (*.mdb, *.accdb);DBQ=E:\Docuff\php8\scripts\Cheope_ns\Cheope_ns_prova.mdb;UserCommitSync=Yes</string>
+      </def>
+      <def name="">
+        <var name="">dsn</var>
+        <string type="double_quoted" name=""></string>
+      </def>
+      <def name="">
+        <var name="">dbConnectionC_prova_2</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">Odbc_db_op</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+          <arg name="">
+            <var name="">user</var>
+          </arg>
+          <arg name="">
+            <var name="">password</var>
+          </arg>
+          <arg name="">
+            <var name="">connection_string</var>
+          </arg>
+          <arg name="">
+            <var name="">dsn</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setName">
+          <var name="">dbConnectionC_prova_2</var>
+          <arg name="">
+            <const name="">CONNECTION_C_PROVA_2</const>
+          </arg>
+        </method_call>
+      </def>
+    </section>
+  </sections>
+</Items>

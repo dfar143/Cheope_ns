@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<Items>
+	<ind_op type="scalar" id="op"></ind_op>
+  <ind_type type="scalar" id="type"><![CDATA[php_switch_struct]]></ind_type>
+  <ind_num type="scalar" id="num"><![CDATA[0]]></ind_num>
+  <ind_shortName type="scalar" id="shortName"></ind_shortName>
+  <ind_selectCondition type="scalar" id="@selectCondition"></ind_selectCondition>
+  <ind_conditionsContainer type="container" id="conditionsContainer">
+   </ind_conditionsContainer>
+  <ind_branchesContainer type="container" id="branchesContainer">
+   </ind_branchesContainer>
+   <ind_executeAtOnce type="scalar" id="*executeAtOnce"><![CDATA[true]]></ind_executeAtOnce>
+</Items>

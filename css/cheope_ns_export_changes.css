@@ -1,0 +1,98 @@
+#simple_table__1
+{
+ color:yellow;
+}
+
+#simple_table__1_info
+{
+ color:white;
+}
+
+#simple_table__2_info
+{
+ color:white;
+}
+
+#simple_table__2
+{
+ color:yellow;
+}
+
+#simple_table__3_info
+{
+ color:white;
+}
+
+#simple_table__3
+{
+ color:yellow;
+}
+
+
+.simple_table_column_Name
+{
+	text-align:left;
+	background-color:blue;
+}
+
+.simple_table_column_Date_modified
+{
+	background-color:blue;
+}
+
+.simple_table_column_Check
+{
+	background-color:blue;
+}
+
+.simple_table_column_Export_changes
+{
+	background-color:blue;
+}
+
+thead
+{
+	background-color:red;
+}
+
+.export_changes
+{
+	background-color:yellow;
+  color:black;
+}
+
+#html_tags__2
+{
+	overflow:auto;
+}
+
+fieldset
+{
+	overflow:auto;
+	width:93%;
+}
+
+.void_tab
+{
+ background-color:#290094;
+}
+
+#frame__3
+{
+	border-color:#290094;
+}
+
+#tabs__1_body
+{
+	overflow:hidden;
+}
+
+#frame__4
+{
+	border-color:#290094;
+}
+
+#frame__5
+{
+	border-color:#290094;
+}

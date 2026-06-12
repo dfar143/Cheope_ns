@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Items>
+	<ind_Data_2 type="array" id="Data_2">
+		<ind_PageA type="array" id="PageA">
+		 <ind_PageA1 type="scalar" id="PageA1">PageA1</ind_PageA1>
+		 <ind_PageA2 type="scalar" id="PageA2">PageA2</ind_PageA2>
+		</ind_PageA>
+		<ind_PageB type="array" id="PageB">
+		 <ind_PageB1 type="scalar" id="PageB1">PageB1</ind_PageB1>
+		</ind_PageB>
+		<ind_PageC type="array" id="PageC">
+		<ind_PageC1 type="scalar" id="PageC1">PageC1</ind_PageC1>
+		</ind_PageC>
+	</ind_Data_2>
+	<ind_Data_1 type="array" id="Data_1">
+		<ind_LabelA type="array" id="LabelA">
+			<ind_LabelA1 type="scalar" id="LabelA1">LabelA1</ind_LabelA1>
+			<ind_LabelA2 type="scalar" id="LabelA2">LabelA2</ind_LabelA2>
+		</ind_LabelA>
+		<ind_LabelB type="array" id="LabelB">
+		<ind_LabelB1 type="scalar" id="LabelB1">LabelB1</ind_LabelB1>
+		</ind_LabelB>
+		<ind_LabelC type="array" id="LabelC">
+		<ind_LabelC1 type="scalar" id="LabelC1">LabelC1</ind_LabelC1>
+		</ind_LabelC>
+	</ind_Data_1>
+	<ind_Data_3 type="array" id="Data_3">
+		<ind_IdA type="array" id="IdA">
+		<ind_IdA1 type="scalar" id="IdA1">IdA1</ind_IdA1>
+		<ind_IdA2 type="scalar" id="IdA2">IdA2</ind_IdA2>
+		</ind_IdA>
+		<ind_IdB type="array" id="IdB">
+		<ind_IdB1 type="scalar" id="IdB1">IdB1</ind_IdB1>
+		</ind_IdB>
+		<ind_IdC type="array" id="IdC">
+		<ind_IdC1 type="scalar" id="IdC1">IdC1</ind_IdC1>
+		</ind_IdC>
+	</ind_Data_3>
+</Items>

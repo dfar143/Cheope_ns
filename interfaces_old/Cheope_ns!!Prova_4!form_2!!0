@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<Items>
+  <ind_op type="scalar" id="op"><![CDATA[]]></ind_op>
+  <ind_type type="scalar" id="type"><![CDATA[form_2]]></ind_type>
+  <ind_num type="scalar" id="num"><![CDATA[0]]></ind_num>
+  <ind_shortName type="scalar" id="shortName"><![CDATA[]]></ind_shortName>
+  <ind_cssClass type="scalar" id="cssClass"><![CDATA[form]]></ind_cssClass>
+  <ind_obj type="db_item" id="obj">Prova_4</ind_obj>
+  <ind_inheritData type="scalar" id="*inheritData"><![CDATA[false]]></ind_inheritData>
+  <ind_inheritDataFieldName type="scalar" id="*inheritDataFieldName"><![CDATA[false]]></ind_inheritDataFieldName>
+  <ind_fieldsFromDataSource type="scalar" id="*fieldsFromDataSource">false
+   </ind_fieldsFromDataSource>
+   <ind_dataSource type="array" id="dataSource"></ind_dataSource>
+  <ind_formName type="scalar" id="formName"><![CDATA[Default_form]]></ind_formName>
+  <ind_labelSpacerWidth type="scalar" id="labelSpacerWidth"><![CDATA[0]]></ind_labelSpacerWidth>
+  <ind_cellPadding type="scalar" id="cellPadding"><![CDATA[10]]></ind_cellPadding>
+  <ind_cellSpacing type="scalar" id="cellSpacing"><![CDATA[10]]></ind_cellSpacing>
+  <ind_initialTabIndex type="scalar" id="initialTabIndex"><![CDATA[0]]></ind_initialTabIndex>
+  <ind_autoTabIndex type="scalar" id="*autoTabIndex"><![CDATA[true]]></ind_autoTabIndex>
+  <ind_gesPage type="scalar" id="gesPage"><![CDATA[]]></ind_gesPage>
+  <ind_submitButtonLabel type="scalar" id="submitButtonLabel"><![CDATA[Invia]]></ind_submitButtonLabel>
+  <ind_resetButtonLabel type="scalar" id="resetButtonLabel"><![CDATA[Reset]]></ind_resetButtonLabel>
+  <ind_jQueryValidatorEnabled type="scalar" id="*jQueryValidatorEnabled"><![CDATA[false]]></ind_jQueryValidatorEnabled>
+  <ind_evalFieldFun type="scalar" id="evalFieldFun"><![CDATA[evalField]]></ind_evalFieldFun>
+  <ind_dataFieldsRegexpValidationEnabled type="scalar" id="*dataFieldsRegexpValidationEnabled"><![CDATA[false]]></ind_dataFieldsRegexpValidationEnabled>
+  <ind_style type="scalar" id="@style"><![CDATA[]]></ind_style>
+  <ind_dispFields type="array" id="dispFields"/>
+  <ind_dataFields type="array" id="dataFields">
+    <ind_0 type="scalar" id="0"><![CDATA[Campo1]]></ind_0>
+    <ind_1 type="scalar" id="1"><![CDATA[Campo2]]></ind_1>
+    <ind_2 type="scalar" id="2"><![CDATA[Campo3]]></ind_2>
+    <ind_3 type="scalar" id="3"><![CDATA[Campo4]]></ind_3>
+    <ind_4 type="scalar" id="4"><![CDATA[Data_1]]></ind_4>
+  </ind_dataFields>
+  <ind_dataFieldsDomains type="array" id="dataFieldsDomains">
+    <ind_0 type="scalar" id="0"><![CDATA[atomic]]></ind_0>
+    <ind_1 type="scalar" id="1"><![CDATA[set]]></ind_1>
+    <ind_2 type="scalar" id="2"><![CDATA[check]]></ind_2>
+    <ind_3 type="scalar" id="3"><![CDATA[radio]]></ind_3>
+    <ind_4 type="scalar" id="4"><![CDATA[atomic]]></ind_4>
+  </ind_dataFieldsDomains>
+  <ind_dataFieldsDomainsValues type="array" id="dataFieldsDomainsValues">
+    <ind_0 type="scalar" id="0"><![CDATA[aaa]]></ind_0>
+    <ind_qqq id="qqq" type="array">
+      <ind_aaa1 type="scalar" id="aaa1"><![CDATA[aaa]]></ind_aaa1>
+      <ind_bbb1 type="scalar" id="bbb1"><![CDATA[bb"hb]]></ind_bbb1>
+    </ind_qqq>
+    <ind_1 type="scalar" id="1"><![CDATA[0]]></ind_1>
+    <ind_2 id="2" type="array">
+      <ind_aaa type="scalar" id="aaa"><![CDATA[5]]></ind_aaa>
+      <ind_bbb type="scalar" id="bbb"><![CDATA[6]]></ind_bbb>
+    </ind_2>
+    <ind_3 type="scalar" id="3"><![CDATA[]]></ind_3>
+  </ind_dataFieldsDomainsValues>
+  <ind_fieldsLabels type="array" id="$fieldsLabels">
+    <ind_0 type="scalar" id="0"><![CDATA[LabelCampo1 &nbsp;]]></ind_0>
+    <ind_1 type="scalar" id="1"><![CDATA[LabelCampo2  ]]></ind_1>
+    <ind_2 type="scalar" id="2"><![CDATA[LabelCampo3  ]]></ind_2>
+    <ind_3 type="scalar" id="3"><![CDATA[]]></ind_3>
+    <ind_4 type="scalar" id="4"><![CDATA[LabelCampo5  ]]></ind_4>
+  </ind_fieldsLabels>
+  <ind_fieldsLabelsRight type="array" id="$fieldsLabelsRight">
+    <ind_0 type="scalar" id="0"><![CDATA[LabelRightCampo1]]></ind_0>
+    <ind_1 type="scalar" id="1"><![CDATA[]]></ind_1>
+    <ind_2 type="scalar" id="2"><![CDATA[]]></ind_2>
+    <ind_3 type="scalar" id="3"><![CDATA[]]></ind_3>
+  </ind_fieldsLabelsRight>
+  <ind_fieldsStops type="array" id="$fieldsStops">
+    <ind_0 type="scalar" id="0"><![CDATA[]]></ind_0>
+    <ind_1 type="scalar" id="1"><![CDATA[]]></ind_1>
+    <ind_2 type="scalar" id="2"><![CDATA[]]></ind_2>
+    <ind_3 type="scalar" id="3"><![CDATA[]]></ind_3>
+  </ind_fieldsStops>
+  <ind_structureFreeFields type="array" id="$structureFreeFields">
+    <ind_0 type="scalar" id="0"><![CDATA[]]></ind_0>
+    <ind_1 type="scalar" id="1"><![CDATA[]]></ind_1>
+    <ind_2 type="scalar" id="2"><![CDATA[]]></ind_2>
+    <ind_3 type="scalar" id="3"><![CDATA[]]></ind_3>
+    <ind_4 type="scalar" id="4"><![CDATA[]]></ind_4>
+    <ind_5 type="scalar" id="5"><![CDATA[]]></ind_5>
+    <ind_6 type="scalar" id="6"><![CDATA[]]></ind_6>
+  </ind_structureFreeFields>
+  <ind_fieldsLengths type="array" id="$fieldsLengths">
+    <ind_0 type="scalar" id="0"><![CDATA[]]></ind_0>
+    <ind_1 type="scalar" id="1"><![CDATA[]]></ind_1>
+    <ind_2 type="scalar" id="2"><![CDATA[]]></ind_2>
+    <ind_3 type="scalar" id="3"><![CDATA[]]></ind_3>
+  </ind_fieldsLengths>
+  <ind_mandatoryFields type="array" id="$mandatoryFields">
+    <ind_0 type="scalar" id="0"><![CDATA[]]></ind_0>
+    <ind_1 type="scalar" id="1"><![CDATA[]]></ind_1>
+    <ind_2 type="scalar" id="2"><![CDATA[]]></ind_2>
+    <ind_3 type="scalar" id="3"><![CDATA[]]></ind_3>
+  </ind_mandatoryFields>
+  <ind_dataFieldsEvents type="array" id="$dataFieldsEvents">
+    <ind_0 type="scalar" id="0"><![CDATA[]]></ind_0>
+    <ind_1 type="scalar" id="1"><![CDATA[]]></ind_1>
+    <ind_2 type="scalar" id="2"><![CDATA[]]></ind_2>
+    <ind_3 type="scalar" id="3"><![CDATA[]]></ind_3>
+  </ind_dataFieldsEvents>
+  <ind_submitFormEvents type="array" id="submitFormEvents"/>
+  <ind_resetButtonEvents type="array" id="resetButtonEvents"/>
+  <ind_submitButtonEvents type="array" id="submitButtonEvents"/>
+  <ind_stringDataFieldsRegexps type="array" id="$stringDataFieldsRegexps">
+    <ind_0 type="scalar" id="0"><![CDATA[]]></ind_0>
+    <ind_1 type="scalar" id="1"><![CDATA[]]></ind_1>
+    <ind_2 type="scalar" id="2"><![CDATA[]]></ind_2>
+    <ind_3 type="scalar" id="3"><![CDATA[]]></ind_3>
+  </ind_stringDataFieldsRegexps>
+  <ind_fieldsSelectedItems type="array" id="$fieldsSelectedItems"/>
+</Items>

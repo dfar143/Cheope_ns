@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Items>
+  <ind_op type="scalar" id="op"><![CDATA[]]></ind_op>
+  <ind_type type="scalar" id="type"><![CDATA[javascript_code]]></ind_type>
+  <ind_num type="scalar" id="num"><![CDATA[0]]></ind_num>
+  <ind_shortName type="scalar" id="shortName"><![CDATA[]]></ind_shortName>
+  <ind_javascriptCode type="scalar" id="@javascriptCode"><![CDATA[const {
+        TextField,Autocomplete,Button
+      } = MaterialUI;
+      console.log(TextField);
+	  console.log(Button);
+	  console.log(Autocomplete);
+	  
+ function ComboBox() {
+  return (
+    <Autocomplete
+      disablePortal
+      id="combo-box-demo"
+      options={top100Films}
+      sx={{ width: 300 }}
+      renderInput={(params) => <TextField {...params} label="Movie" />}
+    />
+  );
+}
+
+// Top 100 films as rated by IMDb users. http://www.imdb.com/chart/top
+const top100Films = [
+  { label: 'The Shawshank Redemption', year: 1994 },
+  { label: 'The Godfather', year: 1972 },
+  { label: 'The Godfather: Part II', year: 1974 },
+] ;
+
+     const root = ReactDOM.createRoot(document.getElementById('html_tags__0'));
+      root.render(
+        <ComboBox />,
+      );]]></ind_javascriptCode>
+  <ind_interfacesContainer type="container" id="interfacesContainer"/>
+  <ind_pageName type="scalar" id="pageName"><![CDATA[Test]]></ind_pageName>
+</Items>

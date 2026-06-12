@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Items>
+  <sections name="STRUCTURE DEFINITION SECTION">
+    <section name="">
+      <def name="">
+        <method_call instanceName="" parent="" name="addSon">
+          <var name="">dbObjProva_4</var>
+          <arg name="">
+            <var name="">dbObjProva_6</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="addSon">
+          <var name="">dbObjProva_2</var>
+          <arg name="">
+            <var name="">dbObjProva</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="addSon">
+          <var name="">dbObjProva_2</var>
+          <arg name="">
+            <var name="">dbObjProva_3</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="addSon">
+          <var name="">dbObjProva_3</var>
+          <arg name="">
+            <var name="">dbObjProva_2</var>
+          </arg>
+        </method_call>
+      </def>
+    </section>
+  </sections>
+</Items>

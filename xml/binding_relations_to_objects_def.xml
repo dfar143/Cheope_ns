@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<Items>
+  <sections name="">
+    <section name="">
+      <def name="">
+        <var name="">rels</var>
+        <function_call name="array"/>
+      </def>
+      <def name="">
+        <var name="">rels[0]</var>
+        <var name="">objRelMNProva_2Prova_3</var>
+      </def>
+      <def name="">
+        <var name="">rels[1]</var>
+        <var name="">objRelMNProva_3Prova_2</var>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setRels">
+          <var name="">dbObjProva_3</var>
+          <arg name="">
+            <var name="">rels</var>
+          </arg>
+        </method_call>
+      </def>
+    </section>
+    <section name="">
+      <def name="">
+        <var name="">rels</var>
+        <function_call name="array"/>
+      </def>
+      <def name="">
+        <var name="">rels[0]</var>
+        <var name="">objRel1NProva_4Prova_6</var>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setRels">
+          <var name="">dbObjProva_4</var>
+          <arg name="">
+            <var name="">rels</var>
+          </arg>
+        </method_call>
+      </def>
+    </section>
+    <section name="">
+      <def name="">
+        <var name="">rels</var>
+        <function_call name="array"/>
+      </def>
+      <def name="">
+        <var name="">rels[0]</var>
+        <var name="">objRel1NProva_2Prova</var>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setRels">
+          <var name="">dbObjProva</var>
+          <arg name="">
+            <var name="">rels</var>
+          </arg>
+        </method_call>
+      </def>
+    </section>
+    <section name="">
+      <def name="">
+        <var name="">rels</var>
+        <function_call name="array"/>
+      </def>
+      <def name="">
+        <var name="">rels[0]</var>
+        <var name="">objRel1NProva_2Prova</var>
+      </def>
+      <def name="">
+        <var name="">rels[1]</var>
+        <var name="">objRelMNProva_2Prova_3</var>
+      </def>
+      <def name="">
+        <var name="">rels[2]</var>
+        <var name="">objRelMNProva_3Prova_2</var>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setRels">
+          <var name="">dbObjProva_2</var>
+          <arg name="">
+            <var name="">rels</var>
+          </arg>
+        </method_call>
+      </def>
+    </section>
+    <section name="">
+      <def name="">
+        <var name="">rels</var>
+        <function_call name="array"/>
+      </def>
+      <def name="">
+        <var name="">rels[0]</var>
+        <var name="">objRel1NProva_4Prova_6</var>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setRels">
+          <var name="">dbObjProva_6</var>
+          <arg name="">
+            <var name="">rels</var>
+          </arg>
+        </method_call>
+      </def>
+    </section>
+    <section name="">
+      <def name="">
+        <var name="">rels</var>
+        <function_call name="array"/>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setRels">
+          <var name="">dbObjProva_3_prova_2</var>
+          <arg name="">
+            <var name="">rels</var>
+          </arg>
+        </method_call>
+      </def>
+    </section>
+  </sections>
+</Items>

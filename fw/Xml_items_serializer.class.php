@@ -1,0 +1,309 @@
+<?
+namespace Cheope_ns\fw;
+require_once("filesystem.const.php");
+require_once("generic.fun.php");
+require_once("Xml_items_loadDataClasses.class.php");
+require_once("Serializer.class.php");
+require_once("Creator.tra.php");
+
+class Xml_items_serializer extends Serializer
+{
+ Use Creator;
+ 
+ const ERROR_1 = "Xml_items_serializer: formato nome interfaccia errato.";
+ const ERROR_2 = "Xml_items_serializer: il nome dell'applicazione dell'interfaccia è errato.";
+ const INTERACE_NAME_SEP = STRING_CANCELLETTO;
+ const ROOT_TAG = "Items";	
+	
+	var $dir = STRING_NULL;
+	var $appName = STRING_NULL;
+	var $doc = null;
+	var $root = null;
+	var $itemsFactory = null;
+	var $appDir = STRING_NULL;
+	var $resolveRef = true;	
+	var $autoCDataEnabled = true;
+	var $forceCData = false;
+	
+	function __construct(string $actFileName=STRING_NULL)
+	{
+		parent::__construct($actFileName);
+		$doc = Creator::create("DOMDocument",STRING_BACKSLASH,"1.0");
+		$this->setDoc($doc);
+	  $root = $doc->createElement(self::ROOT_TAG);
+	  $doc->appendChild($root);
+    $this->setRoot($root);
+    $this->itemsFactory = $this->createItemsFactory();
+	}
+
+  function createItemsFactory():Items_factory
+  {
+  	return Creator::create(getClassNameForCreate(Classes_info::ITEMS_FACTORY_CLASS),STRING_NULL,STRING_NULL);
+  }
+
+	
+	function setForceCData(bool $actForceCData):void
+	{
+		$this->forceCData = $actForceCData;
+	}
+	
+	function getForceCData():bool
+	{
+		return $this->forceCData;
+	}
+	
+	function setAutoCDataEnabled(bool $actAutoCData):void
+	{
+		$this->autoCDataEnabled = $actAutoCData;
+	}
+	
+	function getAutoCDataEnabled():bool
+	{
+		return $this->autoCDataEnabled;
+	}
+
+	function setDir(string $actDir):void
+	{
+		$this->dir = $actDir;
+	}
+	
+	function getDir():string
+	{
+		return $this->dir;
+	}
+	
+	function setResolveRef(bool $actResolveRef):void
+	{
+		$this->resolveRef = $actResolveRef;
+	}
+	
+	function getResolveRef():bool
+	{
+		return $this->resolveRef;
+	}
+	
+	function setAppName(string $actAppName):void
+	{
+		$this->appName = $actAppName;
+	}
+	
+	function getAppName():string
+	{
+		return $this->appName;
+	}
+	
+	function setDoc(\DOMDocument $actDoc):void
+	{
+		$this->doc = $actDoc;
+	}
+	
+	function getDoc():\DOMDocument
+	{
+		return $this->doc;
+	}
+	
+	function setRoot(\DOMElement $actRoot):void
+	{
+		$this->root = $actRoot;
+	}
+	
+	function getRoot():\DOMElement|string
+	{
+		return $this->root;
+	}
+	
+	function setItemsFactory(Items_factory $actItemsFactory):void
+	{
+		$this->itemsFactory = $actItemsFactory;
+	}
+	
+	function getItemsFactory():Items_factory
+	{
+		return $this->itemsFactory;
+	}
+	
+	function getAppDir():string
+	{
+		return $this->appDir;
+	}
+	
+	function setAppDir(string $actAppDir):void
+	{
+		$this->appDir = $actAppDir;
+	}
+	
+	// metodo privato richiamato da loadItems
+	private function loadItemsRecurse(\DOMElement &$actFatherNode,$actItems):void
+	{
+	 $doc = $this->getDoc();
+   $appName = $this->getAppName();
+   $autoCDataEnabled = $this->getAutoCDataEnabled();
+   $forceCData = $this->getForceCData();
+   if(is_object($actItems))
+   {
+   	$fullClassName = strToLower(get_class($actItems));
+	$fullClassName1=$fullClassName;
+	//echo $fullClassName;
+	//echo " ";
+   	$lastItemOfFullClassName = preg_split('/[\\\]/',$fullClassName,-1,
+   	PREG_SPLIT_NO_EMPTY)[2]; 	   	
+   	$fullClassNameSub = explode(VAR_SEP,$lastItemOfFullClassName);
+   	$fullClassNamesSubCount = count($fullClassNameSub);
+   	$newFullClassName = $fullClassNameSub[0];
+   	for($i=1;$i<=$fullClassNamesSubCount-2;$i++)
+   	 $newFullClassName .= VAR_SEP . $fullClassNameSub[$i];
+   	$el = $doc->createElement($newFullClassName);
+   	$el = $actFatherNode->appendChild($el);
+   	$objectVars = get_object_vars($actItems);
+	//echo $fullClassName1;
+	//if ($fullClassName1=="cheope_ns\\fw\\function_def_item")
+	//{
+	//	echo "W";
+	//	print_r($objectVars);
+	//	echo "W";
+	//}
+	//print_r($objectVars);
+   	try
+   	{
+   	 foreach($objectVars as $ind=>$var)
+   	 {
+   		if($ind != "item")
+   		{
+   		 if(is_array($var))
+   		 {
+   		 	$exc = Creator::create("Exception",STRING_BACKSLASH,"Array :" . print_r($actItems));
+   		  throw $exc;
+   		 }
+   		 $el->setAttribute($ind,$var);
+		 //echo $ind;
+		 //echo " ";
+		 //if($ind=="retType")
+		 // echo "ZZZZZZZZZZZZZZZZZZ";
+   	  }
+   	 }
+    }
+    catch(\Exception $ex)
+    {
+  	 echo("ERROR:" . $ex->getMessage());
+    }
+   	$nextItems = $actItems->getItem();
+   	if(is_array($nextItems))
+   	{
+     foreach($nextItems as $ind=>$item)
+     {
+   	  $this->loadItemsRecurse($el,$item);
+     }
+    }
+    else
+     $this->loadItemsRecurse($el,$nextItems);
+   	$el->setAttribute("name", $actItems->getName());
+   	$el = $actFatherNode->appendChild($el);
+   }
+   elseif(is_array($actItems))
+   {
+    foreach($actItems as $ind=>$item)
+    {
+   	 $this->loadItemsRecurse($actFatherNode,$item);
+    }  	
+   }
+   elseif(is_string($actItems))
+   {
+   	if ((((strpos($actItems,STRING_OPEN_ANGLE_BRACKET)!==false)||
+   	(strpos($actItems,STRING_CLOSE_ANGLE_BRACKET)!==false))&& ($autoCDataEnabled))|| 
+   	($forceCData))
+   	{
+   	 $el = $doc->createCDATASection($actItems);
+   	}
+   	else
+   	{
+   	 $el = $doc->createTextNode($actItems);
+    }
+    $el = $actFatherNode->appendChild($el);
+   }
+   return;
+	}
+	
+	// carica gli items nel documento DOM
+	function loadItems(array|string $actItems=STRING_NULL):void
+	{
+		$doc = $this->getDoc();
+		$root = $this->getRoot();
+		if($actItems == STRING_NULL)
+		{
+		 $items = $this->getItems();
+	  }
+	  else
+	   $items = $actItems;
+	  
+	  $this->loadItemsRecurse($root,$items);
+	}
+	
+	// salva il documento DOM su disco
+	function saveData():void
+	{
+		$doc = $this->getDoc();
+		$fileName = $this->getFileName();
+		$doc->formatOutput = true;
+		$doc->save($fileName);
+	}
+	
+	
+	// metodo privato richiamato da loadData
+	public function loadDataRecurse(\SimpleXMLElement $actItem):array
+	{
+	 $loadedValues = array();
+   $itemsFactory = $this->getItemsFactory();
+      
+   $i=0;
+   
+   	if(count($actItem)==0)
+   	{
+     if(trim($actItem[0]) != STRING_NULL)
+     {
+   	  $loadedValues[0] = $actItem;
+   	 }
+    }
+    foreach($actItem as $ind=>$item)
+    {
+     $factory = Creator::create("LoadData_items_factory",STRING_NULL,$item,$itemsFactory);
+     //$factory = new LoadData_items_factory($item,$itemsFactory);
+     
+     $factory->setResolveRef($this->getResolveRef());
+     $factory->setAppDir($this->getAppDir());
+     $obj = $factory->create($this,$ind);
+     $newItem = $obj->exec();
+     $loadedValues[$i++] = $newItem;
+    } 
+	 return $loadedValues;
+	}
+	
+	// Carica i dati da disco nel buffer interno.
+	function loadData():void
+	{
+	 $loadedValues = array();
+	 $values = array();
+	 $fileName = $this->getFileName();
+	 $dir = $this->getDir();
+	 $path=(($dir != STRING_NULL)?($dir . DIR_SEP . $fileName):($fileName));
+   $ind = STRING_NULL;
+   $i=0;
+     //echo $path;
+	 $xml = simplexml_load_file($path);
+	 $objectVars = get_object_vars($xml);
+	 $objectVarsKeys = array_keys($objectVars);
+   $itemsFactory = $this->getItemsFactory();
+	 foreach($xml->children() as $item)
+	 {
+	 	$values = $this->loadDataRecurse($item);
+    $objectVarKey = $objectVarsKeys[$i];     
+   	$itemsFactory->setItemStr($objectVarKey);
+   	$newItem = $itemsFactory->create($values); 	
+   	$newItem->setName((string)$item['name']);  	
+   	$loadedValues[$i++] = $newItem;
+	 }
+	 $this->setItems($loadedValues);
+	}
+	
+}	
+	
+?>

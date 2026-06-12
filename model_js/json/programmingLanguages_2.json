@@ -1,0 +1,36 @@
+{
+identifier:'name',
+label:'name',
+items:[
+       {
+        name:'Object-Oriented',
+        type:'category',
+        children:[
+                  {name:'Javascript',type:'language'},
+                  {
+                  name:'Java',
+                  type:'language',
+                  children:[{name:'ciao',type:'category'}]},
+                  {name:'Ruby',type:'language'},
+                 ]
+       },
+       {
+        name:'Imperative',
+        type:'category',
+        children:[
+                  {name:'C',type:'language'},
+                  {name:'Fortran',type:'language'},
+                  {name:'Basic',type:'language'},
+                 ]
+       },
+       {
+        name:'Functional',
+        type:'category',
+        children:[
+                  {name:'Lisp',type:'language'},
+                  {name:'Erlang',type:'language'},
+                  {name:'Scheme',type:'language'},
+                 ]
+       }
+      ]
+}

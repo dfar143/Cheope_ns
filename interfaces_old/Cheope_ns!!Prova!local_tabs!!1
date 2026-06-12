@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+<Items>
+  <ind_appName type="scalar" id="appName"><![CDATA[Cheope_ns]]></ind_appName>
+  <ind_pageName type="scalar" id="pageName"><![CDATA[Cheope_ns]]></ind_pageName>
+  <ind_op type="scalar" id="op"><![CDATA[]]></ind_op>
+  <ind_type type="scalar" id="type"><![CDATA[local_tabs]]></ind_type>
+  <ind_num type="scalar" id="num"><![CDATA[1]]></ind_num>
+  <ind_shortName type="scalar" id="shortName"><![CDATA[]]></ind_shortName>
+  <ind_interfacesContainer type="container" id="interfacesContainer"/>
+  <ind_cssClass type="scalar" id="cssClass"><![CDATA[local_tabs]]></ind_cssClass>
+  <ind_style type="scalar" id="@style"><![CDATA[]]></ind_style>
+  <ind_dispFields type="array" id="$dispFields"/>
+  <ind_bootstrapEnabled type="scalar" id="*bootstrapEnabled"><![CDATA[false]]></ind_bootstrapEnabled>
+  <ind_javascriptEnabled type="scalar" id="*javascriptEnabled"><![CDATA[false]]></ind_javascriptEnabled>
+  <ind_javascriptModule type="scalar" id="javascriptModule"><![CDATA[]]></ind_javascriptModule>
+  <ind_cssModule type="scalar" id="cssModule"><![CDATA[./css/local_tabs.css]]></ind_cssModule>
+  <ind_delayedModule type="scalar" id="delayedModule"><![CDATA[false]]></ind_delayedModule>
+  <ind_obj type="db_item" id="obj"><![CDATA[Prova]]></ind_obj>
+  <ind_inheritData type="scalar" id="*inheritData"><![CDATA[false]]></ind_inheritData>
+  <ind_inheritDataFieldName type="scalar" id="*inheritDataFieldName"><![CDATA[false]]></ind_inheritDataFieldName>
+  <ind_dataFields type="array" id="$dataFields">
+    <ind_0 type="scalar" id="0"><![CDATA[Data_1]]></ind_0>
+    <ind_1 type="scalar" id="1"><![CDATA[Data_2]]></ind_1>
+    <ind_2 type="scalar" id="2"><![CDATA[Data_3]]></ind_2>
+    <ind_3 type="scalar" id="3"><![CDATA[Data_4]]></ind_3>
+  </ind_dataFields>
+  <ind_dataFieldsDomains type="array" id="$dataFieldsDomains">
+    <ind_0 type="scalar" id="0"><![CDATA[atomic]]></ind_0>
+    <ind_1 type="scalar" id="1"><![CDATA[atomic]]></ind_1>
+    <ind_2 type="scalar" id="2"><![CDATA[atomic]]></ind_2>
+    <ind_3 type="scalar" id="3"><![CDATA[atomic]]></ind_3>
+  </ind_dataFieldsDomains>
+  <ind_dataFieldsDomainsValues type="array" id="$dataFieldsDomainsValues">
+    <ind_0 type="scalar" id="0"><![CDATA[]]></ind_0>
+    <ind_1 type="scalar" id="1"><![CDATA[]]></ind_1>
+    <ind_2 type="scalar" id="2"><![CDATA[]]></ind_2>
+    <ind_3 type="scalar" id="3"><![CDATA[]]></ind_3>
+  </ind_dataFieldsDomainsValues>
+  <ind_dataSource type="array" id="$dataSource">
+    <ind_0 type="array" id="0">
+      <ind_Id_prova type="scalar" id="Id_prova"><![CDATA[6]]></ind_Id_prova>
+      <ind_Data_1 type="scalar" id="Data_1"><![CDATA[www]]></ind_Data_1>
+      <ind_Data_2 type="scalar" id="Data_2"><![CDATA[]]></ind_Data_2>
+      <ind_Data_3 type="scalar" id="Data_3"><![CDATA[]]></ind_Data_3>
+      <ind_Data_4 type="scalar" id="Data_4"><![CDATA[]]></ind_Data_4>
+      <ind_Data_5 type="scalar" id="Data_5"><![CDATA[]]></ind_Data_5>
+      <ind_Id_prova_2 type="scalar" id="Id_prova_2"><![CDATA[0]]></ind_Id_prova_2>
+      <ind_Campo4 type="scalar" id="Campo4"><![CDATA[]]></ind_Campo4>
+      <ind_Campo5 type="scalar" id="Campo5"><![CDATA[false]]></ind_Campo5>
+    </ind_0>
+    <ind_1 type="array" id="1">
+      <ind_Id_prova type="scalar" id="Id_prova"><![CDATA[7]]></ind_Id_prova>
+      <ind_Data_1 type="scalar" id="Data_1"><![CDATA[bbb]]></ind_Data_1>
+      <ind_Data_2 type="scalar" id="Data_2"><![CDATA[]]></ind_Data_2>
+      <ind_Data_3 type="scalar" id="Data_3"><![CDATA[]]></ind_Data_3>
+      <ind_Data_4 type="scalar" id="Data_4"><![CDATA[]]></ind_Data_4>
+      <ind_Data_5 type="scalar" id="Data_5"><![CDATA[]]></ind_Data_5>
+      <ind_Id_prova_2 type="scalar" id="Id_prova_2"><![CDATA[0]]></ind_Id_prova_2>
+      <ind_Campo4 type="scalar" id="Campo4"><![CDATA[]]></ind_Campo4>
+      <ind_Campo5 type="scalar" id="Campo5"><![CDATA[false]]></ind_Campo5>
+    </ind_1>
+    <ind_2 type="array" id="2">
+      <ind_Id_prova type="scalar" id="Id_prova"><![CDATA[8]]></ind_Id_prova>
+      <ind_Data_1 type="scalar" id="Data_1"><![CDATA[bbb]]></ind_Data_1>
+      <ind_Data_2 type="scalar" id="Data_2"><![CDATA[]]></ind_Data_2>
+      <ind_Data_3 type="scalar" id="Data_3"><![CDATA[]]></ind_Data_3>
+      <ind_Data_4 type="scalar" id="Data_4"><![CDATA[]]></ind_Data_4>
+      <ind_Data_5 type="scalar" id="Data_5"><![CDATA[]]></ind_Data_5>
+      <ind_Id_prova_2 type="scalar" id="Id_prova_2"><![CDATA[0]]></ind_Id_prova_2>
+      <ind_Campo4 type="scalar" id="Campo4"><![CDATA[]]></ind_Campo4>
+      <ind_Campo5 type="scalar" id="Campo5"><![CDATA[false]]></ind_Campo5>
+    </ind_2>
+    <ind_3 type="array" id="3">
+      <ind_Id_prova type="scalar" id="Id_prova"><![CDATA[9]]></ind_Id_prova>
+      <ind_Data_1 type="scalar" id="Data_1"><![CDATA[bbb]]></ind_Data_1>
+      <ind_Data_2 type="scalar" id="Data_2"><![CDATA[]]></ind_Data_2>
+      <ind_Data_3 type="scalar" id="Data_3"><![CDATA[]]></ind_Data_3>
+      <ind_Data_4 type="scalar" id="Data_4"><![CDATA[]]></ind_Data_4>
+      <ind_Data_5 type="scalar" id="Data_5"><![CDATA[]]></ind_Data_5>
+      <ind_Id_prova_2 type="scalar" id="Id_prova_2"><![CDATA[0]]></ind_Id_prova_2>
+      <ind_Campo4 type="scalar" id="Campo4"><![CDATA[]]></ind_Campo4>
+      <ind_Campo5 type="scalar" id="Campo5"><![CDATA[false]]></ind_Campo5>
+    </ind_3>
+    <ind_4 type="array" id="4">
+      <ind_Id_prova type="scalar" id="Id_prova"><![CDATA[10]]></ind_Id_prova>
+      <ind_Data_1 type="scalar" id="Data_1"><![CDATA[bbb]]></ind_Data_1>
+      <ind_Data_2 type="scalar" id="Data_2"><![CDATA[]]></ind_Data_2>
+      <ind_Data_3 type="scalar" id="Data_3"><![CDATA[]]></ind_Data_3>
+      <ind_Data_4 type="scalar" id="Data_4"><![CDATA[]]></ind_Data_4>
+      <ind_Data_5 type="scalar" id="Data_5"><![CDATA[]]></ind_Data_5>
+      <ind_Id_prova_2 type="scalar" id="Id_prova_2"><![CDATA[0]]></ind_Id_prova_2>
+      <ind_Campo4 type="scalar" id="Campo4"><![CDATA[]]></ind_Campo4>
+      <ind_Campo5 type="scalar" id="Campo5"><![CDATA[false]]></ind_Campo5>
+    </ind_4>
+    <ind_5 type="array" id="5">
+      <ind_Id_prova type="scalar" id="Id_prova"><![CDATA[2]]></ind_Id_prova>
+      <ind_Data_1 type="scalar" id="Data_1"><![CDATA[aaa]]></ind_Data_1>
+      <ind_Data_2 type="scalar" id="Data_2"><![CDATA[bbbb]]></ind_Data_2>
+      <ind_Data_3 type="scalar" id="Data_3"><![CDATA[bbbb]]></ind_Data_3>
+      <ind_Data_4 type="scalar" id="Data_4"><![CDATA[]]></ind_Data_4>
+      <ind_Data_5 type="scalar" id="Data_5"><![CDATA[]]></ind_Data_5>
+      <ind_Id_prova_2 type="scalar" id="Id_prova_2"><![CDATA[1]]></ind_Id_prova_2>
+      <ind_Campo4 type="scalar" id="Campo4"><![CDATA[cc1]]></ind_Campo4>
+      <ind_Campo5 type="scalar" id="Campo5"><![CDATA[true]]></ind_Campo5>
+    </ind_5>
+    <ind_6 type="array" id="6">
+      <ind_Id_prova type="scalar" id="Id_prova"><![CDATA[3]]></ind_Id_prova>
+      <ind_Data_1 type="scalar" id="Data_1"><![CDATA[aaa]]></ind_Data_1>
+      <ind_Data_2 type="scalar" id="Data_2"><![CDATA[bbbb]]></ind_Data_2>
+      <ind_Data_3 type="scalar" id="Data_3"><![CDATA[bbbb]]></ind_Data_3>
+      <ind_Data_4 type="scalar" id="Data_4"><![CDATA[]]></ind_Data_4>
+      <ind_Data_5 type="scalar" id="Data_5"><![CDATA[]]></ind_Data_5>
+      <ind_Id_prova_2 type="scalar" id="Id_prova_2"><![CDATA[1]]></ind_Id_prova_2>
+      <ind_Campo4 type="scalar" id="Campo4"><![CDATA[cc2]]></ind_Campo4>
+      <ind_Campo5 type="scalar" id="Campo5"><![CDATA[true]]></ind_Campo5>
+    </ind_6>
+    <ind_7 type="array" id="7">
+      <ind_Id_prova type="scalar" id="Id_prova"><![CDATA[4]]></ind_Id_prova>
+      <ind_Data_1 type="scalar" id="Data_1"><![CDATA[aaaa]]></ind_Data_1>
+      <ind_Data_2 type="scalar" id="Data_2"><![CDATA[bbbb]]></ind_Data_2>
+      <ind_Data_3 type="scalar" id="Data_3"><![CDATA[bbbb]]></ind_Data_3>
+      <ind_Data_4 type="scalar" id="Data_4"><![CDATA[]]></ind_Data_4>
+      <ind_Data_5 type="scalar" id="Data_5"><![CDATA[]]></ind_Data_5>
+      <ind_Id_prova_2 type="scalar" id="Id_prova_2"><![CDATA[2]]></ind_Id_prova_2>
+      <ind_Campo4 type="scalar" id="Campo4"><![CDATA[cc3]]></ind_Campo4>
+      <ind_Campo5 type="scalar" id="Campo5"><![CDATA[false]]></ind_Campo5>
+    </ind_7>
+  </ind_dataSource>
+  <ind_fieldsFromDataSource type="scalar" id="*fieldsFromDataSource"><![CDATA[false]]></ind_fieldsFromDataSource>
+  <ind_selectedTab type="scalar" id="selectedTab"><![CDATA[0]]></ind_selectedTab>
+  <ind_voicesField type="scalar" id="voicesField"><![CDATA[]]></ind_voicesField>
+</Items>

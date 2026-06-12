@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<Items>
+  <sections name="">
+    <section name="aliases_definition_0">
+      <def name="">
+        <var name="">dbNode</var>
+        <method_call instanceName="" parent="" name="getElementByAliasName">
+          <var name="">dbStructTree</var>
+          <arg name="">
+            <const name="">TABELLA_PROVA_3</const>
+          </arg>
+        </method_call>
+      </def>
+    </section>
+    <section name="aliases_definition_1"/>
+    <section name="aliases_definition_2">
+      <def name="">
+        <var name="">dbNode</var>
+        <method_call instanceName="" parent="" name="getElementByAliasName">
+          <var name="">dbStructTree</var>
+          <arg name="">
+            <const name="">TABELLA_PROVA</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">dbObjAlias_1</var>
+        <clone_call name="">
+          <var name="">dbNode</var>
+        </clone_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="setAliasName">
+          <var name="">dbObjAlias_1</var>
+          <arg name="">
+            <const name="">ALIAS_ALIAS_1</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <var name="">dbStructTree</var>
+          <arg name="">
+            <var name="">dbObjAlias_1</var>
+          </arg>
+        </method_call>
+      </def>
+    </section>
+    <section name="aliases_definition_3"/>
+    <section name="aliases_definition_4"/>
+    <section name="aliases_definition_5"/>
+  </sections>
+</Items>

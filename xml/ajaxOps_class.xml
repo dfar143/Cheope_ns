@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<Items>
+  <sections name="Libreria classi AjaxOps.">
+    <section name="Inclusione librerie.">
+      <def name="">
+        <namespace name="">Cheope_ns\fw</namespace>
+      </def>
+      <def name="">
+        <function_call name="require_once">
+          <arg name="">
+            <string type="double_quoted" name="">AjaxOp.class.php</string>
+          </arg>
+        </function_call>
+      </def>
+      <def name="">
+        <function_call name="require_once">
+          <arg name="">
+            <string type="double_quoted" name="">prova_ns.fun.php</string>
+          </arg>
+        </function_call>
+      </def>
+      <def name="">
+        <function_call name="require_once">
+          <arg name="">
+            <string type="double_quoted" name="">Creator.tra.php</string>
+          </arg>
+        </function_call>
+      </def>
+    </section>
+    <section name="Classi AjaxOps.">
+      <ref name="">ajaxOpJavascriptInjection</ref>
+      <ref name="">ajaxOpLocalization</ref>
+    </section>
+  </sections>
+</Items>

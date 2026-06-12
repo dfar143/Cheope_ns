@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<Items>
+  <ind_op type="scalar" id="op"><![CDATA[]]></ind_op>
+  <ind_type type="scalar" id="type"><![CDATA[accordion]]></ind_type>
+  <ind_num type="scalar" id="num"><![CDATA[1]]></ind_num>
+  <ind_shortName type="scalar" id="shortName"><![CDATA[]]></ind_shortName>
+  <ind_cssClass type="scalar" id="cssClass"><![CDATA[accordion]]></ind_cssClass>
+  <ind_obj type="db_item" id="obj"><![CDATA[OBJ_NONE]]></ind_obj>
+  <ind_inheritData type="scalar" id="*inheritData"><![CDATA[false]]></ind_inheritData>
+  <ind_inheritDataFieldName type="scalar" id="*inheritDataFieldName"><![CDATA[false]]></ind_inheritDataFieldName>
+  <ind_fieldsFromDataSource type="scalar" id="*fieldsFromDataSource"><![CDATA[false]]></ind_fieldsFromDataSource>
+  <ind_dataSource type="array" id="dataSource"/>
+  <ind_fillSpace type="scalar" id="fillSpace"><![CDATA[true]]></ind_fillSpace>
+  <ind_autoHeight type="scalar" id="autoHeight"><![CDATA[false]]></ind_autoHeight>
+  <ind_collapsible type="scalar" id="collapsible"><![CDATA[true]]></ind_collapsible>
+  <ind_event type="scalar" id="event"><![CDATA[click]]></ind_event>
+  <ind_voicesField type="scalar" id="voicesField"><![CDATA[]]></ind_voicesField>
+  <ind_style type="scalar" id="@style"><![CDATA[]]></ind_style>
+  <ind_dispFields type="array" id="dispFields"/>
+  <ind_dataFields type="array" id="dataFields">
+    <ind_0 type="scalar" id="0"><![CDATA[campo1]]></ind_0>
+  </ind_dataFields>
+  <ind_dataFieldsDomains type="array" id="dataFieldsDomains">
+    <ind_0 type="scalar" id="0"><![CDATA[set]]></ind_0>
+  </ind_dataFieldsDomains>
+  <ind_dataFieldsDomainsValues type="array" id="dataFieldsDomainsValues">
+    <ind_0 type="array" id="0">
+      <ind_0 type="scalar" id="0"><![CDATA[AAAAa]]></ind_0>
+      <ind_1 type="scalar" id="1"><![CDATA[BBBB]]></ind_1>
+    </ind_0>
+  </ind_dataFieldsDomainsValues>
+  <ind_interfacesContainer type="container" id="interfacesContainer">
+    <ind_0 type="interface" id="0"><![CDATA[Cheope_ns!!html_tags!!1]]></ind_0>
+  </ind_interfacesContainer>
+  <ind_pageName type="scalar" id="pageName"><![CDATA[Prova]]></ind_pageName>
+</Items>

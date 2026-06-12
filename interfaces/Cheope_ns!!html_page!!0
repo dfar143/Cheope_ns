@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Items>
+  <ind_op type="scalar" id="op"><![CDATA[]]></ind_op>
+  <ind_type type="scalar" id="type"><![CDATA[html_page]]></ind_type>
+  <ind_num type="scalar" id="num"><![CDATA[0]]></ind_num>
+  <ind_shortName type="scalar" id="shortName"><![CDATA[]]></ind_shortName>
+  <ind_cssClass type="scalar" id="cssClass"><![CDATA[]]></ind_cssClass>
+  <ind_bootstrapEnabled type="scalar" id="*bootstrapEnabled"><![CDATA[false]]></ind_bootstrapEnabled>
+  <ind_docTypeString type="scalar" id="docTypeString"><![CDATA[]]></ind_docTypeString>
+  <ind_xmlPrologVersion type="scalar" id="xmlPrologVersion"><![CDATA[1]]></ind_xmlPrologVersion>
+  <ind_xmlPrologEncType type="scalar" id="xmlPrologEncType"><![CDATA[]]></ind_xmlPrologEncType>
+  <ind_pageMetaCharset type="scalar" id="pageMetaCharset"><![CDATA[]]></ind_pageMetaCharset>
+  <ind_lang type="scalar" id="lang"><![CDATA[]]></ind_lang>
+  <ind_htmlNameSpace type="scalar" id="htmlNameSpace"><![CDATA[]]></ind_htmlNameSpace>
+  <ind_dojoEnabled type="scalar" id="*dojoEnabled"><![CDATA[false]]></ind_dojoEnabled>
+  <ind_jQueryEnabled type="scalar" id="*jQueryEnabled"><![CDATA[false]]></ind_jQueryEnabled>
+  <ind_cssExtModule type="scalar" id="cssExtModule"><![CDATA[]]></ind_cssExtModule>
+  <ind_jsExtModule type="scalar" id="jsExtModule"><![CDATA[]]></ind_jsExtModule>
+  <ind_localizationEnabled type="scalar" id="*localizationEnabled"><![CDATA[true]]></ind_localizationEnabled>
+    <ind_uiMaterialEnabled type="scalar" id="uiMaterialEnabled"><![CDATA[false]]></ind_uiMaterialEnabled>
+  <ind_locale type="scalar" id="locale"><![CDATA[IT]]></ind_locale>
+  <ind_bodyStructTemplate type="interface" id="bodyStructTemplate"><![CDATA[Cheope_ns!!!icon_bar_vert!!0]]></ind_bodyStructTemplate>
+  <ind_bodyOnLoad type="scalar" id="@bodyOnLoad"><![CDATA[]]></ind_bodyOnLoad>
+  <ind_bodyOnUnLoad type="scalar" id="@bodyOnUnLoad"><![CDATA[]]></ind_bodyOnUnLoad>
+  <ind_ajaxOps type="array" id="ajaxOps"/>
+  <ind_interfacesContainer type="container" id="interfacesContainer"/>
+</Items>

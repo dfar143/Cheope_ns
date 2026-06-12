@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<Items>
+  <ind_op type="scalar" id="op"></ind_op>
+  <ind_type type="scalar" id="type">form_section</ind_type>
+  <ind_num type="scalar" id="num">0</ind_num>
+  <ind_shortName type="scalar" id="shortName"></ind_shortName>
+  <ind_cssClass type="scalar" id="cssClass">form_section</ind_cssClass>
+  <ind_style type="scalar" id="@style"></ind_style>
+  <ind_dispFields type="array" id="dispFields"></ind_dispFields>
+  <ind_bootstrapEnabled type="scalar" id="*bootstrapEnabled"><![CDATA[true]]></ind_bootstrapEnabled>
+  <ind_cssModule type="scalar" id="cssModule"><![CDATA[./css/form_section.css]]></ind_cssModule>
+  <ind_obj type="db_item" id="obj"></ind_obj>
+  <ind_inheritData type="scalar" id="*inheritData"><![CDATA[false]]></ind_inheritData>
+  <ind_inheritDataFieldName type="scalar" id="*inheritDataFieldName"><![CDATA[false]]></ind_inheritDataFieldName>
+  <ind_fieldsFromDataSource type="scalar" id="*fieldsFromDataSource">false
+   </ind_fieldsFromDataSource>
+  <ind_dataFields type="array" id="dataFields">
+  </ind_dataFields>
+  <ind_dataFieldsDomains type="array" id="dataFieldsDomains">
+  </ind_dataFieldsDomains>
+  <ind_dataFieldsDomainsValues type="array" id="dataFieldsDomainsValues">
+  </ind_dataFieldsDomainsValues>
+  <ind_gridDimX type="scalar" id="gridDimX"></ind_gridDimX>
+  <ind_gridDimY type="scalar" id="gridDimY"></ind_gridDimY>  	 
+  <ind_rowsClasses type="array" id="rowsClasses"></ind_rowsClasses>
+  <ind_rowsStyles type="array" id="rowsStyles"></ind_rowsStyles> 	
+  <ind_rowsClass type="scalar" id="rowsClass"></ind_rowsClass>
+  <ind_rowsStyle type="scalar" id="rowsStyle"></ind_rowsStyle>
+  <ind_fieldsColStyles type="array" id="$fieldsColStyles"></ind_fieldsColStyles>
+  <ind_fieldsColClasses type="array" id="$fieldsColClasses"/>
+  <ind_fieldsStyles type="array" id="$fieldsStyles"></ind_fieldsStyles>
+  <ind_fieldsTypes type="array" id="$fieldsTypes"></ind_fieldsTypes>
+  <ind_fieldsLabels type="array" id="$fieldsLabels"></ind_fieldsLabels>
+  <ind_fieldsStops type="array" id="$fieldsStops"></ind_fieldsStops>
+  <ind_fieldsLengths type="array" id="$fieldsLengths"></ind_fieldsLengths> 
+  <ind_fieldsMandatory type="array" id="$fieldsMandatory"></ind_fieldsMandatory>
+  <ind_labelSpacerWidth type="scalar" id="labelSpacerWidth"></ind_labelSpacerWidth>
+  <ind_fieldsDefaultValues type="array" id="$fieldsDefaultValues"></ind_fieldsDefaultValues> 
+  <ind_fieldsHints type="array" id="$fieldsHints"></ind_fieldsHints>
+  <ind_fieldsEvents type="array" id="$fieldsEvents">
+  </ind_fieldsEvents>
+  <ind_fieldsRegexps type="array" id="$fieldsRegexps"></ind_fieldsRegexps>
+  <ind_labels type="array" id="$labels"></ind_labels>
+  <ind_fieldsToolTips type="array" id="$fieldsToolTips"></ind_fieldsToolTips>
+  <ind_fieldsDirections type="array" id="$fieldsDirections"></ind_fieldsDirections>
+  <ind_cellPadding type="scalar" id="cellPadding"></ind_cellPadding>
+  <ind_cellSpacing type="scalar" id="cellSpacing"></ind_cellSpacing>
+</Items>

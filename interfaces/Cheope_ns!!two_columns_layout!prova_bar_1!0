@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Items>
+  <ind_type type="scalar" id="type"><![CDATA[two_columns_layout]]></ind_type>
+  <ind_op type="scalar" id="op"><![CDATA[prova_bar_1]]></ind_op>
+  <ind_num type="scalar" id="num"><![CDATA[0]]></ind_num>
+  <ind_shortName type="scalar" id="shortName"><![CDATA[]]></ind_shortName>
+  <ind_withContainer type="scalar" id="withContainer"><![CDATA[true]]></ind_withContainer>
+  <ind_containerStyle type="scalar" id="@containerStyle"><![CDATA[width:100%;height:100%]]></ind_containerStyle>
+  <ind_dispFields type="array" id="dispFields"/>
+  <ind_containerLeftStyle type="scalar" id="@containerLeftStyle"><![CDATA[width:50%;height:100%]]></ind_containerLeftStyle>
+  <ind_interfacesContainerLeft type="container" id="interfacesContainerLeft">
+    <ind_0 type="interface" id="0"><![CDATA[Cheope_ns!!!level_menu_2!!1]]></ind_0>
+  </ind_interfacesContainerLeft>
+  <ind_containerRightStyle type="scalar" id="@containerRightStyle"><![CDATA[width:50%;height:100%]]></ind_containerRightStyle>
+  <ind_interfacesContainerRight type="container" id="interfacesContainerRight">
+    <ind_0 type="interface" id="0"><![CDATA[Cheope_ns!!!sidenav!!0]]></ind_0>
+    <ind_1 type="interface" id="1"><![CDATA[Cheope_ns!!!level_menu_2!!0]]></ind_1>
+  </ind_interfacesContainerRight>
+</Items>

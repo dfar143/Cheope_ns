@@ -1,0 +1,314 @@
+<?
+namespace Cheope_ns\fw;
+require_once("root.def.php");
+require_once(FRAMEWORK_PATH . "Cheope_ns_manage_fields_op_page.class.php");
+
+ $interfaceJavascriptTemplate2 = Creator::create(Interfaces_info::INT_JAVASCRIPT_DATA_TEMPLATE,STRING_NULL,"manageFieldsOp2",NUM_1);
+ //$interfaceJavascriptTemplate2 = new Javascript_data_template("manageFieldsOp2",NUM_1);
+ $dataFields = array(FIELD_FIELD,FIELD_DOMAIN,FIELD_DOMAIN_VALUE);
+ $interfaceJavascriptTemplate2->setDataFields($dataFields);
+ $fieldsDomains = array(Int_domain::FIELD_DOMAIN_ATOMIC,Int_domain::FIELD_DOMAIN_ATOMIC,Int_domain::FIELD_DOMAIN_ATOMIC);
+ $interfaceJavascriptTemplate2->setDataFieldsDomains($fieldsDomains);
+ $fieldsDomainsValues = array(Int_domain::FIELD_DOMAIN_VALUE_NONE ,Int_domain::FIELD_DOMAIN_VALUE_NONE ,Int_domain::FIELD_DOMAIN_VALUE_NONE );
+ $interfaceJavascriptTemplate2->setDataFieldsDomainsValues($fieldsDomainsValues);
+ $interfaceJavascriptTemplate2->setDataExchangeType("xml");
+ $interfaceJavascriptTemplate2->setCallBackPost("collectFieldsProps");
+ $interfaceJavascriptTemplate2->setCallBackFunPattern("/[CDATA]|[.]/");
+ $interfaceJavascriptTemplate2->setJavascriptTemplate("<tr id=\"Row_id_{COUNT}\" class=\"dojoDndItem\">" .
+ "<td width=\"30%\"><input id=\"Name_id_{COUNT}\" value=\"{FIELD}\" class=\"name\" onchange=\"input_field_onChange(this);\"></input></td>" .
+ "<td width=\"30%\"><input id=\"Domain_id_{COUNT}\" class=\"domain\" value=\"{DOMAIN}\" onchange=\"input_domain_onChange(this);\"></input></td>" .
+ "<td width=\"30%\"><textarea id=\"Domain_value_id_{COUNT}\" class=\"domain_value\" onchange=\"input_domain_value_onChange(this);\">{DOMAIN_VALUE}</textarea></td>" .
+ "<td width=\"10%\"><img src=\"./img/close.gif\"" .
+ " onclick=\"" .
+ "var parent=\$(this).parent().parent();parent.remove();var i=0;" .
+    "\$('#tbody_id > tr').each(function(){this.id='Row_id_' + i;" .
+    "\$(this).find('td > input').get(0).id ='Name_id_' + i;" .
+    "\$(this).find('td > input').get(1).id ='Domain_id_' + i;" .
+    "\$(this).find('td > textarea').get(0).id ='Domain_value_id_' + i;" .
+    "i++;});" .
+    "interfacesContainer.getInterface('Op6').putData();" .
+ "\"></img></td>" .
+ "</tr>"); 
+
+ $interfaceJavascriptTemplate1 = Creator::create(Interfaces_info::INT_JAVASCRIPT_DATA_TEMPLATE,STRING_NULL,"manageFieldsOp1",NUM_1);
+ //$interfaceJavascriptTemplate1 = new Javascript_data_template("manageFieldsOp1",NUM_1);
+ $dataFields = array(FIELD_OBJ_1);
+ $interfaceJavascriptTemplate1->setDataFields($dataFields);
+ $fieldsDomains = array(Int_domain::FIELD_DOMAIN_OBJ);
+ $interfaceJavascriptTemplate1->setDataFieldsDomains($fieldsDomains);
+ $fieldsDomainsValues = array($interfaceJavascriptTemplate2);
+ $interfaceJavascriptTemplate1->setDataFieldsDomainsValues($fieldsDomainsValues);
+ $interfaceJavascriptTemplate1->setHookId("html_tags__0");
+ $interfaceJavascriptTemplate1->setCallBackFunPattern("/[CDATA]|[.]/");
+ $interfaceJavascriptTemplate1->setJavascriptTemplate("<table id=\"fields\" cellpadding=\"5\" width=\"350\">" .
+ "<thead>" .
+ "<tr>" .
+ "<th>" . LABEL_CAMPI . "</th>" .
+ "<th>" . LABEL_DOMINI . "</th>" .
+ "<th>" . LABEL_VALORI_DOMINI . "</th>" .
+ "</tr></thead><tbody id=\"tbody_id\">{OBJ_1}" .
+ "</tbody></table>");
+
+ $interfaceJavascriptFrag1 = Creator::create(Interfaces_info::INT_JAVASCRIPT_FRAGMENT,STRING_NULL,"Op1",NUM_1);
+ //$interfaceJavascriptFrag1 = new Javascript_fragment("Op1",NUM_1);
+ $interfaceJavascriptFrag1->setHookId(STRING_NULL);
+ $interfaceJavascriptFrag1->setJavascriptFragment("dndSource = " .
+ "new dojo.dnd.Source(\"tbody_id\",{skipForm:true," .
+  	"creator:function(actItem,actHint)" .
+  	"{" .
+  	"var tr = document.createElement(\"tr\");" .
+  	"var num = $(\"#fields > tbody > tr\").size();" .
+  	"tr.id= \"Row_id_\" + num;" .
+    
+    "var td1 = document.createElement(\"td\");" .
+    "var input = document.createElement(\"input\");" .
+    "input.value = actItem.fieldName;" . 
+    "input.id=\"Name_id_\" + num;"  .
+    "\$(input).addClass(\"name\");" .
+    "input.onchange=function(){input_field_onChange(input)};" .
+    "td1.appendChild(input);" .
+    "tr.appendChild(td1);" .
+    
+    "var td2 = document.createElement(\"td\");" .
+    "var input1 = document.createElement(\"input\");" .
+    "input1.value=actItem.fieldDomain;" .
+    "input1.id=\"Domain_id_\" + num;" .
+    "\$(input1).addClass(\"domain\");" .
+    "input1.onchange=function(){input_domain_onChange()};" . 
+    "td2.appendChild(input1);" .
+    "tr.appendChild(td2);" .
+    
+    "var td3 = document.createElement(\"td\");" .
+    "var textarea = document.createElement(\"textarea\");" .
+    "textarea.innerHTML=actItem.fieldDomainValue;" .
+    "textarea.id=\"Domain_value_id_\" + num;" . 
+    "textareaId = textarea.id;" .
+    "\$(textarea).addClass(\"domain_value\");" .
+    "td3.appendChild(textarea);" .
+    "tr.appendChild(td3);" .
+        
+    "var img = document.createElement(\"img\");" .
+    "img.src=\"./img/close.gif\";" . 
+    "var imgObj = \$(img).click(function(){" .
+    "var parent=$(this).parent().parent();parent.remove();var i=0;" .
+    "\$(\"#body_id > tr\").each(function(){this.id=\"Row_id_\" + i;" .
+    "\$(this).find('td > input').get(0).id ='Name_id_' + i;" .
+    "\$(this).find('td > input').get(1).id ='Domain_id_' + i;" .
+    "\$(this).find('td > textarea').get(0).id ='Domain_value_id_' + i;" .
+    "i++;});" .
+    "});" . 
+    "var td4 = document.createElement(\"td\");" . 
+    "td4.appendChild(img);" .
+    "tr.appendChild(td4);" .
+    "return {node: tr, data: actItem, type: \"text\"};" .
+  	"}" .
+    " });" .
+    "dojo.connect(dndSource,\"onDndDrop\"," .
+    "function(){setTimeout(function(){interfacesContainer.getInterface('Op6').putData();},0);});");
+
+ $interfaceJavascriptDataFrag1 = Creator::create(Interfaces_info::INT_JAVASCRIPT_DATA_FRAGMENT,STRING_NULL,"Op2",NUM_1);
+ //$interfaceJavascriptDataFrag1 = new Javascript_data_fragment("Op2",NUM_1);
+ $dataFields = array(FIELD_INTERFACCIA);
+ $interfaceJavascriptDataFrag1->setDataFields($dataFields);
+ $fieldsDomains = array(Int_domain::FIELD_DOMAIN_ATOMIC);
+ $interfaceJavascriptDataFrag1->setDataFieldsDomains($fieldsDomains);
+ $fieldsDomainsValues = array(Int_domain::FIELD_DOMAIN_VALUE_NONE );
+ $interfaceJavascriptDataFrag1->setDataFieldsDomainsValues($fieldsDomainsValues);
+ $interfaceJavascriptDataFrag1->setHookId(STRING_NULL);
+ $interfaceJavascriptDataFrag1->setEnableDataFromRemote(false);
+ $interfaceJavascriptDataFrag1->setCallBackFunPattern("/[0-9a-zA-Z_=\-\<\>\?\"\.\s\/]*/");
+ $interfaceJavascriptDataFrag1->setJavascriptFragment("var intName = \"#INTERFACCIA#\";" .
+ "var intItems = intName.split(\"" . XML_INTERFACE_SERIALIZER::INTERFACE_NAME_SEP . "\");" .
+ "var num = intItems.length;" .
+ "window.intName=intName;" .
+ "window.intPage=intItems[1];" .
+ "window.intObj=\"" . STRING_NULL . "\";" .
+ "if(num==5) window.intType=intItems[2]; else if(num==6){" .
+ "window.intObj=intItems[2];window.intType=intItems[3];}");
+
+ $interfaceJavascriptFrag2 = Creator::create(Interfaces_info::INT_JAVASCRIPT_FRAGMENT,STRING_NULL,"Op3",NUM_1);
+ //$interfaceJavascriptFrag2 = new Javascript_fragment("Op3",NUM_1);
+ $interfaceJavascriptFrag2->setHookId(STRING_NULL);
+ $interfaceJavascriptFrag2->setJavascriptFragment("\$(\".domain\").each(function(){" .
+ "var currentTypeId=this.id; var idItems = currentTypeId.split(\"_\");" .
+ "var idIndex = idItems[idItems.length - 1];setDomainMenu(currentTypeId," .
+ "\"Domain_value_id_\" + idIndex);var inputFieldDomain = $('#Domain_id_' + idIndex).val();" .
+ "if(inputFieldDomain == 'object') setDomainValueMenu('Domain_value_id_' + idIndex);});");
+
+ $interfaceJavascriptFrag3 = Creator::create(Interfaces_info::INT_JAVASCRIPT_FRAGMENT,STRING_NULL,"Op4",NUM_1);
+ //$interfaceJavascriptFrag3 = new Javascript_fragment("Op4",NUM_1);
+ $interfaceJavascriptFrag3->setHookId(STRING_NULL);
+ $interfaceJavascriptFrag3->setJavascriptFragment(
+ "var intObj = \$(window.parent.document).find(\"#obj\").val();" .
+ "var fields = getNodeFields(intObj);" .
+ "\$(\".name\").each(" .
+ "function()" .
+ "{" .
+ "var currentTypeId = this.id; var idItems = currentTypeId.split(\"_\");" . 
+ "var idIndex = idItems[idItems.length - 1];setFieldNameMenu(currentTypeId," .
+ "\"Domain_id_\" + idIndex,\"Domain_value_id_\" + idIndex,fields);".
+ "});");
+
+ $interfaceJavascriptFrag4 = Creator::create(Interfaces_info::INT_JAVASCRIPT_FRAGMENT,STRING_NULL,"Op5",NUM_1); 
+ //$interfaceJavascriptFrag4 = new Javascript_fragment("Op5",NUM_1);
+ $interfaceJavascriptFrag4->setHookId(STRING_NULL);	
+ $interfaceJavascriptFrag4->setJavascriptFragment(
+ "var intObj = \$(window.parent.document).find(\"#obj\").val();" .
+ "var fields = getNodeFields(intObj);" .
+ "setFieldNameMenu(\"input_name_id\",\"input_domain_id\",\"input_domain_value_id\",fields);" .
+ "setDomainMenu(\"input_domain_id\",\"input_domain_value_id\");");
+
+ $interfaceJavascriptFrag5 = Creator::create(Interfaces_info::INT_JAVASCRIPT_FRAGMENT,STRING_NULL,"Op6",NUM_1); 
+ //$interfaceJavascriptFrag5 = new Javascript_fragment("Op6",NUM_1);
+ $interfaceJavascriptFrag5->setHookId(STRING_NULL);
+ $interfaceJavascriptFrag5->setJavascriptFragment("var result = ajaxHandler.getOpByName('manageFieldsOp2').result;" .
+ "if(result){" .
+ "var fieldNames = [];" .
+ "var i=0;" .
+ "\$(\".name\").each(function(){if(\$(this).val()!=\"undefined\")" .
+ "fieldNames[i++] = \$(this).val();});" .
+ "var fieldDomains = [];" .
+ "var i=0;" .
+ "\$(\".domain\").each(function(){if(\$(this).val()!=\"undefined\")" .
+ "fieldDomains[i++] = \$(this).val();});" .
+ "var fieldDomainsValues = [];" .
+ "var i=0;" .
+ "\$(\".domain_value\").each(function(){if(\$(this).val()!=\"undefined\")" .
+ "fieldDomainsValues[i++] = \$(this).val();});" .
+ "var fieldsAttrs={\"names\":fieldNames," .
+ "\"domains\":fieldDomains,\"domainsValues\":fieldDomainsValues};" .
+ "window.returnVal = fieldsAttrs;}" .
+ "else window.returnVal=false;");
+
+ $interfaceFrame2 = Creator::create(Interfaces_info::INT_HTML_DIV_TAG,STRING_NULL);
+ //$interfaceFrame2 = new Html_div_tag();
+ $dispFields = array(LABEL_CAMPI);
+ $interfaceFrame2->setDispFields($dispFields);
+ $decoratedIntFrame2 = Creator::create(Interfaces_info::INT_HTML_FIELDSET_DECORATOR,STRING_NULL,$interfaceFrame2);
+ //$decoratedIntFrame2 = new Html_fieldset_decorator($interfaceFrame2);
+ $decoratedIntFrame2->setCssClass(CSS_FRAME_DEC);
+
+ $interfaceFrameContainer2 = Creator::create(getClassNameForCreate(Classes_info::INTERFACES_CONTAINER_CLASS),STRING_NULL,STRING_NULL);
+ //$interfaceFrameContainer2 = new Interfaces_container(STRING_NULL);
+ $interfaceFrame2->setInterfacesContainer($interfaceFrameContainer2);
+ 
+ $interfaceLabel1 = Creator::create(Interfaces_info::INT_HTML_LABEL_TAG,STRING_NULL);
+ //$interfaceLabel1 = new Html_label_tag();
+ $attribs = array("for"=>"input_name_id","style"=>"margin-right:5px;");
+ $interfaceLabel1->setAttribs($attribs);
+ $interfaceLabel1->setTagBody(LABEL_NUOVO_CAMPO);
+ 
+ $interfaceInput1 = Creator::create(Interfaces_info::INT_HTML_INPUT_TAG,STRING_NULL);
+ //$interfaceInput1 = new Html_input_tag();
+ $attribs = array("id"=>"input_name_id","type"=>"text", "size"=>"15",
+ "onChange"=>"input_onChange(this)");
+ $interfaceInput1->setAttribs($attribs);
+
+ $intSpan1 = Creator::create(Interfaces_info::INT_HTML_SPAN_TAG,STRING_NULL); 
+ //$intSpan1 = new Html_span_tag();
+ $intSpan1->setTagBody(ENTITY_SPACE . ENTITY_SPACE . ENTITY_SPACE);
+
+ $interfaceInput2 = Creator::create(Interfaces_info::INT_HTML_INPUT_TAG,STRING_NULL);  
+ //$interfaceInput2 = new Html_input_tag();
+ $attribs = array("id"=>"input_domain_id","type"=>"text", "size"=>"15");
+ $interfaceInput2->setAttribs($attribs); 
+
+ $intSpan2 = Creator::create(Interfaces_info::INT_HTML_SPAN_TAG,STRING_NULL);  
+ //$intSpan2 = new Html_span_tag();
+ $intSpan2->setTagBody(ENTITY_SPACE . ENTITY_SPACE . ENTITY_SPACE);
+ 
+ $interfaceTextArea1 = Creator::create("Html_textarea_tag",STRING_NULL);   
+ //$interfaceTextArea1 = new Html_textarea_tag();
+ $attribs = array("id"=>"input_domain_value_id","style"=>"margin-top:10px;padding:0px");
+ $interfaceTextArea1->setAttribs($attribs); 
+
+ $intSpan3 = Creator::create(Interfaces_info::INT_HTML_SPAN_TAG,STRING_NULL);  
+ //$intSpan3 = new Html_span_tag();
+ $intSpan3->setTagBody(ENTITY_SPACE . ENTITY_SPACE . ENTITY_SPACE);
+
+ $intDiv2 = Creator::create(Interfaces_info::INT_HTML_DIV_TAG,STRING_NULL);    
+ //$intDiv2 = new Html_div_tag();
+ $attribs = array("id"=>$intDiv2->getId(),"style"=>"margin-bottom:5px;");
+ $intDiv2->setAttribs($attribs);
+ $intDivCont2 = Creator::create(getClassNameForCreate(Classes_info::INTERFACES_CONTAINER_CLASS),STRING_NULL,STRING_NULL);   
+ //$intDivCont2 = new Interfaces_container(STRING_NULL);
+ $intDivCont2->add($interfaceLabel1);
+ $intDivCont2->add($interfaceInput1);
+ $intDivCont2->add($intSpan1);
+ $intDivCont2->add($interfaceInput2);
+ $intDivCont2->add($intSpan2);
+ $intDivCont2->add($interfaceTextArea1);
+ $intDivCont2->add($intSpan3);
+ $intDiv2->setInterfacesContainer($intDivCont2);  
+
+ $intButton1 = Creator::create(Interfaces_info::INT_HTML_BUTTON_TAG,STRING_NULL);      
+ //$intButton1 = new Html_button_tag();
+ $intButton1->setTagBody("+");
+ $attribs = array("id"=>"button_1","onclick"=>"button_1_onClick(this);");
+ $intButton1->setAttribs($attribs);
+
+ $intDiv1 = Creator::create(Interfaces_info::INT_HTML_DIV_TAG,STRING_NULL);     
+ //$intDiv1 = new Html_div_tag();
+ $intDivCont = Creator::create(getClassNameForCreate(Classes_info::INTERFACES_CONTAINER_CLASS),STRING_NULL,STRING_NULL);   
+ //$intDivCont = new Interfaces_container(STRING_NULL);
+ $intDivCont->add($intDiv2);
+ $intDivCont->add($intButton1);
+ $intDiv1->setInterfacesContainer($intDivCont);
+
+ $interfaceFrame1 = Creator::create(Interfaces_info::INT_HTML_DIV_TAG,STRING_NULL);       
+ //$interfaceFrame1 = new Html_div_tag();
+ $dispFields = array(LABEL_VOID);
+ $interfaceFrame1->setStyle("overflow:auto;");
+ $interfaceFrame1->setDispFields($dispFields);
+ $interfaceFrame1->setCssClass(CSS_FRAME);
+
+ $interfaceFrameContainer1 = Creator::create(getClassNameForCreate(Classes_info::INTERFACES_CONTAINER_CLASS),STRING_NULL,STRING_NULL);    
+ //$interfaceFrameContainer1 = new Interfaces_container(STRING_NULL);
+ $interfaceFrameContainer1->add($decoratedIntFrame2);
+ $interfaceFrameContainer1->add($intDiv1);
+ $interfaceFrame1->setInterfacesContainer($interfaceFrameContainer1);
+ $interfaceFrame1->setCssClass(CSS_FRAME);
+
+ $interfaceTempMsg1 = Creator::create(APPLICATION_NAME . VAR_SEP . Interfaces_info::INT_TEMP_MSG,OP_NONE,NUM_0,true,true);
+ //$interfaceTempMsg1 = new Cheope_ns_temp_msg(OP_NONE,NUM_0,true,true);
+ $interfaceTempMsg1->setGesPage(PAGE_LOGIN);
+ $interfaceTempMsg1->setIsSequenceActive(true);
+ $interfaceTempMsg1->setText(MSG_10);
+ $interfaceTempMsg1->setSequenceStrings(array(STRING_NULL,MSG_10));
+ $interfaceTempMsg1->setButtonFlag(false);
+
+ $interfacesContainer = Creator::create(getClassNameForCreate(Classes_info::INTERFACES_CONTAINER_CLASS),STRING_NULL,CONTENITORE_GLOBALE_INTERFACCE);     
+ //$interfacesContainer = new Interfaces_container(CONTENITORE_GLOBALE_INTERFACCE);
+ $interfacesContainer->add($interfaceJavascriptTemplate2);
+ $interfacesContainer->add($interfaceJavascriptTemplate1);
+ $interfacesContainer->add($interfaceJavascriptFrag1);
+ $interfacesContainer->add($interfaceJavascriptDataFrag1);
+ $interfacesContainer->add($interfaceJavascriptFrag2);
+ $interfacesContainer->add($interfaceJavascriptFrag3);
+ $interfacesContainer->add($interfaceJavascriptFrag4);
+ $interfacesContainer->add($interfaceJavascriptFrag5);
+ $interfacesContainer->add($interfaceTempMsg1);
+ $interfacesContainer->add($interfaceFrame2);
+ $interfacesContainer->add($decoratedIntFrame2);
+ $interfacesContainer->add($interfaceFrame1);
+
+ $page = Creator::create(APPLICATION_NAME . VAR_SEP . DEFAULT_PAGE_NAME . VAR_SEP . "op_page",STRING_NULL);
+ //$page = new Cheope_ns_manage_fields_op_page();
+ $ajaxOps = array(AJAX_OP_GET_ALL_INTERFACES_OF_PAGE,
+ AJAX_OP_GET_ALL_TABLE_FIELDS,
+ AJAX_OP_GET_ALL_ALIAS_FIELDS,
+ AJAX_OP_GET_ALL_QUERY_FIELDS,
+ AJAX_OP_GET_ALL_MODULE_FIELDS,
+ AJAX_OP_GET_ALL_BIND_FIELDS,
+ AJAX_OP_GET_NODE_TYPE,
+ AJAX_OP_FILTER_PARENTS_INTERFACES_FILES);
+ $page->setAjaxOps($ajaxOps);
+ $page->setJQueryEnabled(true);
+ $page->setDojoEnabled(true);
+ $page->setCREnabled(true);
+ $page->setInterfacesContainer($interfacesContainer);
+ $page->setLocalizationEnabled(true);
+ $page->setLocale("EN");
+ $page->putData();
+
+?>

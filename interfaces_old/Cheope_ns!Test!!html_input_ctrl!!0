@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Items>
+  <ind_op type="scalar" id="op"><![CDATA[]]></ind_op>
+  <ind_type type="scalar" id="type"><![CDATA[html_input_ctrl]]></ind_type>
+  <ind_num type="scalar" id="num"><![CDATA[0]]></ind_num>
+  <ind_cssClass type="scalar" id="cssClass"><![CDATA[input_ctrl]]></ind_cssClass>
+  <ind_obj type="db_item" id="obj"><![CDATA[OBJ_NONE]]></ind_obj>
+  <ind_inheritData type="scalar" id="*inheritData"><![CDATA[true]]></ind_inheritData>
+  <ind_inheritDataFieldName type="scalar" id="*inheritDataFieldName"><![CDATA[false]]></ind_inheritDataFieldName>
+  <ind_fieldsFromDataSource type="scalar" id="*fieldsFromDataSource"><![CDATA[false]]></ind_fieldsFromDataSource>
+  <ind_dataSource type="array" id="dataSource"/>
+  <ind_prefixBeforeName type="scalar" id="prefixBeforeName"><![CDATA[]]></ind_prefixBeforeName>
+  <ind_tabIndex type="scalar" id="tabIndex"><![CDATA[0]]></ind_tabIndex>
+  <ind_stop type="scalar" id="stop"><![CDATA[]]></ind_stop>
+  <ind_selectedItem type="scalar" id="selectedItem"><![CDATA[]]></ind_selectedItem>
+  <ind_fieldLength type="scalar" id="fieldLength"><![CDATA[]]></ind_fieldLength>
+  <ind_style type="scalar" id="@style"><![CDATA[]]></ind_style>
+  <ind_dispFields type="array" id="dispFields"/>
+  <ind_dataFields type="array" id="dataFields">
+    <ind_0 type="scalar" id="0"><![CDATA[Campo1]]></ind_0>
+  </ind_dataFields>
+  <ind_dataFieldsDomains type="array" id="dataFieldsDomains">
+    <ind_0 type="scalar" id="0"><![CDATA[atomic]]></ind_0>
+  </ind_dataFieldsDomains>
+  <ind_dataFieldsDomainsValues type="array" id="dataFieldsDomainsValues">
+    <ind_0 type="scalar" id="0"><![CDATA[AAA]]></ind_0>
+  </ind_dataFieldsDomainsValues>
+  <ind_dataFieldEvents type="array" id="dataFieldEvents"/>
+  <ind_pageName type="scalar" id="pageName"><![CDATA[Test]]></ind_pageName>
+</Items>

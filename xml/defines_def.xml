@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<items>
+<sections  name="DEFINES SECTION">
+	<section  name="define">
+        <def name="">
+        <function_call name="define">
+          <arg name="">
+            <expr name="">__NAMESPACE__ . '\REL_STRUCT'</expr>
+          </arg>
+          <arg name="">
+            <string type="double_quoted" name="">Struct</string>
+          </arg>
+        </function_call>
+        </def>
+	</section>
+</sections>
+</items>

@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Items>
+  <ind_op type="scalar" id="op"><![CDATA[Test]]></ind_op>
+  <ind_type type="scalar" id="type"><![CDATA[php_fragment]]></ind_type>
+  <ind_num type="scalar" id="num"><![CDATA[0]]></ind_num>
+  <ind_phpFragment type="scalar" id="@phpFragment"><![CDATA[$html_writer = $thisObj->getHtmlWriter();
+    $html_writer->putGenericHtmlString('<br/>');
+  $html_writer->putGenericHtmlString('<br/>');
+  $html_writer->putGenericHtmlString('<div style="display:block;float:left;margin-top:20px;">');
+  $html_writer->putGenericHtmlString('<br/>');
+  $html_writer->putGenericHtmlString('<br/>');
+  $html_writer->putInputTag("Id","Name","Style","Class",3,"text","true",10,10,2);
+  $html_writer->putGenericHtmlString('<br/>');
+  $html_writer->putTextAreaTag("Id0","Name0","Style","Class",3,5,5);
+  $html_writer->putGenericHtmlString('<br/>');
+  $html_writer->putSelectTag("Id01","Name01","Style","Class",array("aaa"=>"AAA","bbb"=>"BBB","ccc"=>"CCC"),'4',true);
+  $html_writer->putGenericHtmlString('<br/>');
+$html_writer->putDojoRadioButton("Id1","Name1","Style",array('aaa'=>'AAA','bbb'=>'BBB'),array('label 1'=>0,'label 2'=>1));
+$html_writer->putGenericHtmlString('<br/>');
+$html_writer->putDojoCheckBox("Id2","Name2","Style",true,"CheckBoxValue",'ToolTip');
+$html_writer->putGenericHtmlString('<br/>');
+$html_writer->putDojoSimpleTextarea("Id3","Name3","width:auto;","true","AAAABBBBCCCC",10,10,"ToolTip");
+$html_writer->putGenericHtmlString('<br/>');
+$html_writer->putDojoMultiSelect("Id4","Name4",array("aaa"=>"AAA","bbb"=>"BBB"),"","aaa","10","ToolTip","left");
+$html_writer->putGenericHtmlString('<br/>');
+$html_writer->putDojoComboBox("Id5","Name5","",array("aaa"=>"AAA","bbb"=>"BBB","ccc"=>"CCC","ddd"=>"DDD"),3,"Prompt","Invalid msg","Tooltip msg","left","[AAA]+",1,true,true);
+$html_writer->putGenericHtmlString('<br/>');
+$html_writer->putDojoDateTextBox("Id6","Name6","color:black;height:50px;font-size:15pt;","gg/mm/yyyy","10/10/2025");
+$html_writer->putGenericHtmlString('<br/>');
+$html_writer->putDojoValidationTextBox("Id7","Name7","color:black;","AAA",true,10,"Prompt msg","Invalid msg","[AAA]+","Tooltip msg","l");
+$html_writer->putGenericHtmlString('</div>');]]></ind_phpFragment>
+</Items>

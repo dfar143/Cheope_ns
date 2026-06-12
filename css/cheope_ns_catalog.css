@@ -1,0 +1,33 @@
+#html_tags_dec__1
+{
+	margin-top:8px;
+}
+
+th
+{
+	text-align:left;
+	border-bottom:1px solid white;
+	color:cyan;
+	margin-bottom:5px;
+}
+
+thead
+{
+ margin-bottom:5px;
+}
+
+#html_tags__5
+{
+	overflow:auto;
+}
+
+#html_tags__8
+{
+	height:300px;
+	overflow:auto;
+}
+
+#html_tags__10
+{
+	overflow:auto;
+}

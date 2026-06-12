@@ -1,0 +1,234 @@
+<?xml version="1.0"?>
+<Items>
+  <block_def brackets="" name="">
+    <def name="">
+      <namespace name="">
+  			Cheope_ns\fw
+  		</namespace>
+    </def>
+    <def name="">
+      <function_call name="require_once">
+        <arg name="">
+          <string type="double_quoted" name="">struct.fun.php</string>
+        </arg>
+      </function_call>
+    </def>
+    <def name="">
+      <function_call name="require_once">
+        <arg name="">
+          <string type="double_quoted" name="">Cheope_ns_page.class.php</string>
+        </arg>
+      </function_call>
+    </def>
+    <def name="">
+      <function_call name="require_once">
+        <arg name="">
+          <string type="double_quoted" name="">cheope_ns_db_struct.def.php</string>
+        </arg>
+      </function_call>
+    </def>
+    <def name="">
+      <function_call name="require_once">
+        <arg name="">
+          <string type="double_quoted" name="">cheope_ns_db_queries.def.php</string>
+        </arg>
+      </function_call>
+    </def>
+    <def name="">
+      <function_call name="require_once">
+        <arg name="">
+          <string type="double_quoted" name="">cheope_ns_db_connections.def.php</string>
+        </arg>
+      </function_call>
+    </def>
+    <def name="">
+      <function_call name="require_once">
+        <arg name="">
+          <string type="double_quoted" name="">cheope_ns_db_binds.def.php</string>
+        </arg>
+      </function_call>
+    </def>
+    <def name="">
+      <function_call name="require_once">
+        <arg name="">
+          <string type="double_quoted" name="">Cheope_ns_barGradex.class.php</string>
+        </arg>
+      </function_call>
+    </def>
+    <def name="">
+      <function_call name="define">
+        <arg name="">
+          <string type="single_quoted" name="">DEFAULT_PAGE_NAME</string>
+        </arg>
+        <arg name="">
+          <string type="double_quoted" name="">preview</string>
+        </arg>
+      </function_call>
+    </def>
+    <def name="">
+      <function_call name="define">
+        <arg name="">
+          <string type="single_quoted" name="">THIS_PAGE</string>
+        </arg>
+        <arg name="">
+          <string type="double_quoted" name="">preview.php</string>
+        </arg>
+      </function_call>
+    </def>
+    <class_def extendsClass="Cheope_ns_page" name="Cheope_ns_preview_op_page">
+      <block_def brackets="" name="">
+        <function_def retType="" name="__construct">
+          <args_list name="">
+            <arg name="">
+              <expr name="">$actNum=0</expr>
+            </arg>
+          </args_list>
+          <block_def brackets="" name="">
+            <def name="">
+              <function_call name="spl_autoload_register">
+                <arg name="">
+                  <function_call name="array">
+                    <arg name="">
+                      <var name="">this</var>
+                    </arg>
+                    <arg name="">
+                      <string type="single_quoted" name="">autoload</string>
+                    </arg>
+                  </function_call>
+                </arg>
+              </function_call>
+            </def>
+            <def name="">
+              <method_call instanceName="" parent="1" name="__construct">
+                <string type="" name="">parent</string>
+                <arg name="">
+                  <const name="">DEFAULT_PAGE_NAME</const>
+                </arg>
+                <arg name="">
+                  <const name="">OP_NONE</const>
+                </arg>
+                <arg name="">
+                  <var name="">actNum</var>
+                </arg>
+              </method_call>
+            </def>
+            <def name="">
+              <class_prop name="isASessionPage">
+                <var name="">this</var>
+              </class_prop>
+              <expr name="">
+ 	     			   true
+ 	     		    </expr>
+            </def>
+          </block_def>
+        </function_def>
+        <function_def retType="void" name="putLinkTags">
+          <arg name=""/>
+          <block_def brackets="" name="">
+            <def name="">
+              <method_call instanceName="" parent="1" name="putLinkTags">
+                <arg name="">
+                  <expr name="">parent</expr>
+                </arg>
+                <arg name=""/>
+              </method_call>
+            </def>
+            <def name="">
+              <function_call name="putLinkTag">
+                <args_list name="">
+                  <arg name="">
+                    <const name="">STRING_NULL</const>
+                  </arg>
+                  <arg name="">
+                    <code name=""> CLIENT_DOJO_CSS_PATH . DIR_SEP . "dojo" .  STYLE_SHEET_FILE_POSTFIX  </code>
+                  </arg>
+                </args_list>
+              </function_call>
+            </def>
+            <def name="">
+              <function_call name="putLinkTag">
+                <args_list name="">
+                  <arg name="">
+                    <const name="">STRING_NULL</const>
+                  </arg>
+                  <arg name="">
+                    <code name=""> CLIENT_DIJIT_CSS_PATH . DIR_SEP . "nihilo" .  DIR_SEP . "nihilo" .  STYLE_SHEET_FILE_POSTFIX  </code>
+                  </arg>
+                </args_list>
+              </function_call>
+            </def>
+          </block_def>
+        </function_def>
+        <function_def retType="void" name="putClientScriptIncludeCode">
+          <arg name=""/>
+          <block_def brackets="" name="">
+            <def name="">
+              <method_call instanceName="" parent="1" name="putClientScriptIncludeCode">
+                <arg name="">
+                  <expr name="">parent</expr>
+                </arg>
+              </method_call>
+            </def>
+            <def name="">
+              <var name="">htmlWriter</var>
+              <method_call instanceName="" parent="" name="getHtmlWriter">
+                <var name="">this</var>
+                <arg name=""/>
+              </method_call>
+            </def>
+            <def name="">
+              <method_call instanceName="" parent="" name="put">
+                <var name="">htmlWriter</var>
+                <arg name="">
+                  <code name=""><![CDATA["<script>dojo.require(\"dojo.parser\")</script>"]]></code>
+                </arg>
+              </method_call>
+            </def>
+            <def name="">
+              <method_call instanceName="" parent="" name="put">
+                <var name="">htmlWriter</var>
+                <arg name="">
+                  <code name=""><![CDATA["<script>dojo.addOnLoad(function(){dojo.parser.parse();document.body.className+=' nihilo';});</script>"]]></code>
+                </arg>
+              </method_call>
+            </def>
+          </block_def>
+        </function_def>
+        <function_def retType="void" name="putActiveApp">
+          <arg name=""/>
+          <block_def brackets="" name=""/>
+        </function_def>
+        <function_def retType="void" name="putBody">
+          <args_list name="">
+            <arg name=""/>
+          </args_list>
+          <block_def brackets="" name="">
+            <def name="">
+              <var name="">interfaces</var>
+              <method_call instanceName="" parent="" name="getInterfacesContainer">
+                <var name="">this</var>
+              </method_call>
+            </def>
+            <def name="">
+              <var name="">int_iter</var>
+              <method_call instanceName="" parent="" name="create">
+                <var name="">interfaces</var>
+              </method_call>
+            </def>
+            <def name="">
+              <var name="">int</var>
+              <method_call instanceName="" parent="" name="last">
+                <var name="">int_iter</var>
+              </method_call>
+            </def>
+            <def name="">
+              <method_call instanceName="" parent="" name="putData">
+                <var name="">int</var>
+              </method_call>
+            </def>
+          </block_def>
+        </function_def>
+      </block_def>
+    </class_def>
+  </block_def>
+</Items>

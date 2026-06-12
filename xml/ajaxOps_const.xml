@@ -1,0 +1,1742 @@
+<?xml version="1.0"?>
+<Items>
+  <sections name="SEZIONE ajaxOps consts">
+    <section name="AjaxOps consts">
+      <def name="">
+        <namespace name="">Cheope_ns\fw</namespace>
+      </def>
+      <block_def brackets="1" name="">
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_JAVASCRIPT_INJECTION'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">javascriptInjection</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_LOCALIZATION'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">localization</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_TEST_DIR'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">testDir</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_GET_SCROLL_DATA'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">getScrollData</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_GET_SHEET_DATA'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">getSheetData</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_GET_FILE'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">getFile</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_OP1'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">op1</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_OP2'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">op2</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_OP3'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">op3</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_OP4'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">op4</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_OP5'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">op5</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_OP6'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">op6</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_OP7'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">op7</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_SEND_FILE'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">sendFile</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_GET_DB_OBJS_DEF_PROPS'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">getDbObjsDefProps</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_SET_DB_OBJS_DEF_PROPS'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">setDbObjsDefProps</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_GET_ALL_FIELDS_DEF_PROPS'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">getAllFieldsDefProps</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_UNBLOCK_APP'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">unblockApp</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_SET_FIELDS_DEF_FIELDS_PROPS'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">setFieldsDefFieldsProps</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_SET_FIELDS_DEF_ALL_FIELDS_PROPS'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">setFieldsDefAllFieldsProps</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_SET_FIELDS_DEF_CAND_KEY_FIELDS_PROPS'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">setFieldsDefCandKeyFieldsProps</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_SET_FIELDS_DEF_EXT_KEY_FIELDS_PROPS'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">setFieldsDefExtKeyFieldsProps</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_SET1_N_RELATIONS_DEFINITION_PROPS'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">set1NRelationsDefinitionProps</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_GET1_N_RELATIONS'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">get1NRelations</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_GET_M_N_RELATIONS'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">getMNRelations</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_SET_M_N_RELATIONS_DEFINITION_PROPS'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">setMNRelationsDefinitionProps</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_CREATE_DB_STRUCT'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">createDbStruct</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_POST_SEND_INTERFACE_DATA'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">postSendInterfaceData</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_DELETE_FILE'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">deleteFile</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_CREATE_FILE'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">createFile</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_RENAME_FILE'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">renameFile</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_CREATE_PAGE'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">createPage</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_GET_QUERY'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">getQuery</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_SET_QUERY'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">setQuery</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_SET_ALL_QUERIES'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">setAllQueries</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_CREATE_QUERIES_STRUCT'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">createQueriesStruct</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_DUMP_AJAX_OPS_CONSTS_FILE'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">dumpAjaxOpsConstsFile</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_ADD_AJAX_OPS_FROM_PHP_ARRAY'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">addAjaxOpsFromPhpArray</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_GET_PARENTS'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">getParents</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_CHECK_IF_IS1_N_RELATION_FATHER'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">checkIfIs1NRelationFather</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_CHECK_IF_IS1_N_RELATION_FATHER_OF'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">checkIfIs1NRelationFatherOf</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_CHECK_IF_IS1_N_RELATION'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">checkIfIs1NRelation</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_CHECK_IF_EXIST_M_N_RELATION_LINK_TABLE'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">checkIfExistMNRelationLinkTable</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_GET_FIELDS_DEF_PROPS'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">getFieldsDefProps</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_GET_CAND_KEY_FIELDS_PROPS'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">getCandKeyFieldsProps</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_GET_EXT_KEY_FIELDS_PROPS'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">getExtKeyFieldsProps</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_GET_PK_KEY_FIELD'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">getPkKeyField</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_SET_PK'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">setPk</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_CHECK_IF_IS_SUITABLE_PK_KEY'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">checkIfIsSuitablePkKey</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_CHECK_IF_IS_SUITABLE_FIELD'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">checkIfIsSuitableField</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_SET_FIELDS_DEF'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">setFieldsDef</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_SET_FIELDS_CONSTS_DEF'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">setFieldsConstsDef</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_SET_FIELDS_DEF_WITHOUT_EXT_KEYS'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">setFieldsDefWithoutExtKeys</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_SQL_SERVER_IMPORT'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">sqlServerImport</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_TEST_CONNECTION'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">testConnection</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_VIEW_ALL_FIELDS_OP1'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">viewAllFieldsOp1</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_VIEW_ALL_FIELDS_OP2'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">viewAllFieldsOp2</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_SQL_SERVER_CREATE_TABLE'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">sqlServerCreateTable</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_CHECK_IF_KEY_COLLIDES'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">checkIfKeyCollides</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_VIEW_ALL_TABLES_OP1'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">viewAllTablesOp1</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_VIEW_ALL_TABLES_OP2'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">viewAllTablesOp2</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_VIEW_ALL_RELATIONS_OP1'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">viewAllRelationsOp1</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_VIEW_ALL_RELATIONS_OP2'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">viewAllRelationsOp2</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_RENAME_ALL_ITEMS'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">renameAllItems</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_CHECK_IF_KEY_COLLIDES_WITH_SONS_KEYS'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">checkIfKeyCollidesWithSonsKeys</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_CHECK_IF_IS_DATA_SOURCE_QUERY'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">checkIfIsDataSourceQuery</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_VIEW_ALL_QUERIES_OP1'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">viewAllQueriesOp1</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_VIEW_ALL_QUERIES_OP2'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">viewAllQueriesOp2</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_SET_SESSION_ACTIVE_APP'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">setSessionActiveApp</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_EXPORT_QUERY_TO_CSV'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">exportQueryToCsv</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_GET_DB_OP_PARS'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">getDbOpPars</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_GET_CONNECTION'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">getConnection</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_SET_CONNECTION'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">setConnection</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_CREATE_CONNECTIONS_STRUCT'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">createConnectionsStruct</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_VIEW_ALL_CONNECTIONS_OP2'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">viewAllConnectionsOp2</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_COPY_CONNECTION_TO_DB_PARS'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">copyConnectionToDbPars</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_VIEW_ALL_ALIASES_OP1'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">viewAllAliasesOp1</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_VIEW_ALL_ALIASES_OP2'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">viewAllAliasesOp2</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_SET_ALL_ALIASES'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">setAllAliases</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_CHECK_IF_ALIAS_EXISTS'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">checkIfAliasExists</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_CHECK_IF_TABLE_EXISTS'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">checkIfTableExists</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_VIEW_TABLES_AND_QUERIES_OP1'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">viewTablesAndQueriesOp1</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_VIEW_TABLES_AND_QUERIES_OP2'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">viewTablesAndQueriesOp2</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_VIEW_TABLES_AND_QUERIES_OP3'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">viewTablesAndQueriesOp3</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_GET_NODE_TYPE'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">getNodeType</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_SET_ALL_TABLES_AND_QUERIES_BINDS'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">setAllTablesAndQueriesBinds</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_CREATE_DB_BINDS'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">createDbBinds</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_UPDATE_BINDS'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">updateBinds</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_GET_TABLE_FROM_ALIAS'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">getTableFromAlias</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_GET_LAYOUTS'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">getLayouts</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_LAYOUTS_OP1'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">layoutsOp1</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_LAYOUTS_OP2'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">layoutsOp2</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_SAVE_LAYOUT'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">saveLayout</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_CREATE_LAYOUT_PREVIEW'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">createLayoutPreview</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_GET_LAYOUT'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">getLayout</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_CREATE_PREVIEW'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">createPreview</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_MANAGE_OP1'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">manageOp1</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_MANAGE_OP2'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">manageOp2</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_GET_NAMED_INTERFACE_CONTAINER'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">getNamedInterfacesContainer</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_GET_ALL_TABLE_FIELDS'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">getAllTableFields</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_GET_ALL_ALIAS_FIELDS'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">getAllAliasFields</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_GET_ALL_QUERY_FIELDS'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">getAllQueryFields</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_GET_ALL_MODULE_FIELDS'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">getAllModuleFields</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_GET_ALL_BIND_FIELDS'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">getAllBindFields</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_MANAGE_FIELDS_OP2'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">manageFieldsOp2</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_MANAGE_FIELDS_OP1'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">manageFieldsOp1</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_GET_ALL_INTERFACES_OF_PAGE'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">getAllInterfacesOfPage</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_FILTER_PARENTS_INTERFACES_FILES'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">filterParentsInterfacesFiles</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_GET_INTERFACE_IDS'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">getInterfaceIds</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_EXPORT'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">export</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_GET_SINGLE_MENUS'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">getSingleMenus</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_GET_MULTI_MENUS'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">getMultiMenus</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_VIEW_SINGLE_MENU_FIELDS_OP1'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">viewSingleMenuFieldsOp1</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_VIEW_SINGLE_MENU_FIELDS_OP2'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">viewSingleMenuFieldsOp2</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_SET_SINGLE_MENU'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">setSingleMenu</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_VIEW_MULTI_MENU_FIELDS_OP1'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">viewMultiMenuFieldsOp1</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_VIEW_MULTI_MENU_FIELDS_OP2'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">viewMultiMenuFieldsOp2</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_SET_MULTI_MENU'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">setMultiMenu</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_GET_FREE_INTERFACE_CANONICAL_NAME'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">getFreeInterfaceCanonicalName</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_VIEW_BINDS_OP1'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">viewBindsOp1</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_VIEW_BINDS_OP2'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">viewBindsOp2</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_VIEW_BINDS_OP3'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">viewBindsOp3</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_VIEW_BINDS_OP4'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">viewBindsOp4</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_SET_ALL_BINDS'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">setAllBinds</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_RENAME_ALIAS_NAME'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">renameAliasName</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_GET_BIND_NODE_NAME'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">getBindNodeName</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_GET_BIND_NODE_TYPE'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">getBindNodeType</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_CHECK_IF_NODE_IS_USED'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">checkIfNodeIsUsed</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_CHECK_IF_CONNECTION_IS_USED'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">checkIfConnectionIsUsed</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_VIEW_BOUND_INTERFACES_OP2'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">viewBoundInterfacesOp2</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_VIEW_BOUND_INTERFACES_OP3'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">viewBoundInterfacesOp3</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_SET_ALL_BOUND_INTERFACES'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">setAllBoundInterfaces</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_CATALOG_OP2'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">catalogOp2</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_CATALOG_OP3'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">catalogOp3</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_CATALOG_OP4'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">catalogOp4</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_SET_ALL_CATALOG_INTERFACES'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">setAllCatalogInterfaces</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_GET_INTERFACE_ITEMS_NUM'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">getInterfaceItemsNum</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_IS_INTERFACE_BUSY'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">isInterfaceBusy</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_EXPORT_CHANGES'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">exportChanges</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_SCAN_FOR_ITEM'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">scanForItem</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_MANAGE_AJAX_OP1'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">manageAjaxOp1</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_MANAGE_AJAX_OP2'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">manageAjaxOp2</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_SET_ALL_AJAX_OPS'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">setAllAjaxOps</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_MANAGE_AJAX_CLASSES_OP1'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">manageAjaxClassesOp1</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_MANAGE_AJAX_CLASSES_OP2'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">manageAjaxClassesOp2</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_SET_ALL_AJAX_OPS_CLASSES'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">setAllAjaxOpsClasses</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_GENERATE_AJAX_OPS_CONFIGURATION_FILES'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">generateAjaxOpsConfigurationFiles</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_GENERATE_AJAX_OPS_CLASSES_FILES'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">generateAjaxOpsClassesFiles</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_PAGES_INTERFACES_EXPORT_CHANGES'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">pagesInterfacesExportChanges</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_VIEW_FORMS_SECTION_GRID_OP1'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">viewFormsSectionGridOp1</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_SAVE_FORM_SECTION'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">saveFormSection</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_GET_FORM_SECTIONS'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">getFormSections</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_VIEW_PDF_TEMPLATE_GRID_OP1'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">viewPdfTemplateGridOp1</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_SAVE_PDF_TEMPLATE'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">savePdfTemplate</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_GET_PDF_TEMPLATES'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">getPdfTemplates</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_GET_OBJ_TYPE_BY_SHORT_NAME'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">getObjTypeByShortName</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_GET_FPDF_INT_PROPS'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">getFpdfIntProps</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_GET_PRED_INTERFACES'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">getPredInterfaces</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_INTERFACE_EXISTS'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">interfaceExists</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_CREATE_PDF'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">createPdf</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_DELETE_FILE2'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">deleteFile2</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_GET_PRED_INTERFACES2'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">getPredInterfaces2</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_FILE_EXISTS'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">fileExists</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_CREATE_PDF'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">createPdf</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_DELETE_FILE2'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">deleteFile2</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_GET_PDF_TEMPLATES'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">getPdfTemplates</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_DOJO_IN_PREVIEW'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">dojoInPreview</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_CHECK_IF_IS_IN_RELATION'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">checkIfIsInRelation</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_DELETE_RELATIONS_DEFS'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">deleteRelationsDefs</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_GET_PK_KEY_BY_TABLE_NAME'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">getPkKeyByTableName</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_LOG_ENABLE'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">logEnable</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_TEST_INT_FORMAT'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">testIntFormat</string>
+            </arg>
+          </function_call>
+        </def>
+        <def name="">
+          <function_call name="define">
+            <arg name="">
+              <expr name="">__NAMESPACE__ . '\AJAX_OP_FIX_DB_XML_FILES'</expr>
+            </arg>
+            <arg name="">
+              <string type="double_quoted" name="">fixDbXmlFiles</string>
+            </arg>
+          </function_call>
+        </def>
+      </block_def>
+    </section>
+  </sections>
+</Items>

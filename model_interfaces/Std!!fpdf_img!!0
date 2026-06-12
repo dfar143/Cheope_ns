@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<Items>
+  <ind_op type="scalar" id="op"><![CDATA[]]></ind_op>
+  <ind_type type="scalar" id="type"><![CDATA[fpdf_img]]></ind_type>
+  <ind_num type="scalar" id="num"><![CDATA[0]]></ind_num>
+  <ind_shortName type="scalar" id="shortName"><![CDATA[]]></ind_shortName>
+  <ind_bootstrapEnabled type="scalar" id="*bootstrapEnabled"><![CDATA[false]]></ind_bootstrapEnabled>
+  <ind_pageName type="scalar" id="pageName"><![CDATA[]]></ind_pageName>
+  <ind_appName type="scalar" id="appName"><![CDATA[Std]]></ind_appName>
+  <ind_xCoord type="scalar" id="xCoord"><![CDATA[]]></ind_xCoord>
+  <ind_yCoord type="scalar" id="yCoord"><![CDATA[]]></ind_yCoord>
+  <ind_height type="scalar" id="height"><![CDATA[]]></ind_height>
+  <ind_width type="scalar" id="width"><![CDATA[]]></ind_width>
+  <ind_fileName type="scalar" id="fileName"><![CDATA[]]></ind_fileName>
+  <ind_fileType type="scalar" id="fileType"><![CDATA[GIF]]></ind_fileType>
+</Items>

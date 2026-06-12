@@ -1,0 +1,23 @@
+.form
+{
+ border:0px;
+ background-color:#290094;
+ font-family:Verdana,Arial,"Times new roman";
+ font-size: 9pt;
+}
+
+.form_no_label_rows
+{
+	margin:8px 8px 8px 8px;
+}
+
+.form_label_rows
+{
+	margin:5px 5px 5px 5px;
+	padding:5px;
+}
+
+.form_labels
+{
+	float:left;
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<Items>
+  <sections name="BINDS CONTAINER SECTION">
+    <section name="">
+      <def name="">
+        <var name="">dbBindsContainer</var>
+        <method_call instanceName="" parent="1" name="create">
+          <code name="">Creator</code>
+          <arg name="">
+            <string type="double_quoted" name="">Db_items_container</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg>
+          <arg name="">
+            <const name="">CONTENITORE_BINDS_1</const>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <var name="">dbBindsContainer</var>
+          <arg name="">
+            <var name="">dbBindBind_1</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" parent="" name="add">
+          <var name="">dbBindsContainer</var>
+          <arg name="">
+            <var name="">dbBindBind_2</var>
+          </arg>
+        </method_call>
+      </def>
+    </section>
+  </sections>
+</Items>

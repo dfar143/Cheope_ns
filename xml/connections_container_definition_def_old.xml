@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<Items>
+  <sections name="">
+    <section name="">
+      <def name="">
+        <var name="">dbConnectionsContainer</var>
+        <constructor_call name="Db_ops_container">
+          <arg name="">
+            <const name="">CONTENITORE_CONNECTIONS_1</const>
+          </arg>
+        </constructor_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" name="add">
+          <var name="">dbConnectionsContainer</var>
+          <arg name="">
+            <var name="">dbConnectionProva_1</var>
+          </arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" name="add">
+          <var name="">dbConnectionsContainer</var>
+          <arg name="">
+            <var name="">dbConnectionProva_2</var>
+          </arg>
+        </method_call>
+      </def>
+    </section>
+  </sections>
+</Items>

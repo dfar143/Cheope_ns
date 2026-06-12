@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<Items>
+<section>
+ <code>
+<![CDATA[
+ class AjaxOpLocalization extends AjaxOp
+ {
+  function __construct()
+  {
+   parent::__construct(AJAX_OP_LOCALIZATION);
+  }
+  
+  function exec_1($actId):array|string|bool|null
+  {
+   session_start();
+   $ids = explode(STRING_SEMICOLON,$actId);
+   $locale = $ids[0];
+   $localeFile = $ids[1];
+   $appFileName = "." . DIR_SEP . JSON_DIR . 
+   DIR_SEP . $localeFile . FILE_NAME_ELEMENTS_SEP . JSON_SUFFIX;
+   $jsonSerializer = new Json_serializer($appFileName);
+   $jsonSerializer->loadData();
+   $items = $jsonSerializer->getItems();
+   $localizzazioni = $items;
+   $item=array();
+   foreach($localizzazioni as $locale1)
+   {
+   	if ($locale1["locale"] == $locale)
+   	 $item = $locale1["items"];
+   }
+   return $item;
+  }
+ }
+ ]]>	
+ </code>
+</section>
+</Items>	

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<Items>
+		<ind_Value1 type="array" id="Value1">
+		 <ind_Data1 type="array" id="Data1">
+		  <ind_AAA type="scalar" id="AAA">AAA</ind_AAA>
+		  <ind_BBB type="scalar" id="BBB">BBB</ind_BBB>
+		  <ind_CCC type="scalar" id="CCC">CCC</ind_CCC>
+		 </ind_Data1>
+		 <ind_Data2 type="scalar" id="Data2">BBB</ind_Data2>
+		 <ind_Data3 type="array" id="Data3">
+		  <ind_HHH1 type="scalar" id="HHH1">HHH2</ind_HHH1>
+		  <ind_KKK1 type="scalar" id="KKK1">KKK2</ind_KKK1>
+		 </ind_Data3>
+		</ind_Value1>
+</Items>

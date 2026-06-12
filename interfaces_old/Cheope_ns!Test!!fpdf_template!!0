@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Items>
+  <ind_op type="scalar" id="op"><![CDATA[]]></ind_op>
+  <ind_type type="scalar" id="type"><![CDATA[fpdf_template]]></ind_type>
+  <ind_num type="scalar" id="num"><![CDATA[0]]></ind_num>
+  <ind_shortName type="scalar" id="shortName"><![CDATA[]]></ind_shortName>
+  <ind_obj type="db_item" id="obj"><![CDATA[]]></ind_obj>
+  <ind_gridDimX type="scalar" id="gridDimX"><![CDATA[1]]></ind_gridDimX>
+  <ind_gridDimY type="scalar" id="gridDimY"><![CDATA[1]]></ind_gridDimY>
+  <ind_fileName type="scalar" id="fileName"><![CDATA[Cheope_ns!!!fpdf_template!!0]]></ind_fileName>
+  <ind_inheritData type="scalar" id="*inheritData"><![CDATA[false]]></ind_inheritData>
+  <ind_inheritDataFieldName type="scalar" id="*inheritDataFieldName"><![CDATA[false]]></ind_inheritDataFieldName>
+  <ind_fieldsFromDataSource type="scalar" id="*fieldsFromDataSource"><![CDATA[false]]></ind_fieldsFromDataSource>
+  <ind_dataFields type="array" id="dataFields">
+    <ind_0 type="scalar" id="0"><![CDATA[campo_0_0]]></ind_0>
+  </ind_dataFields>
+  <ind_dataFieldsDomains type="array" id="dataFieldsDomains">
+    <ind_0 type="scalar" id="0"><![CDATA[object]]></ind_0>
+  </ind_dataFieldsDomains>
+  <ind_dataFieldsDomainsValues type="array" id="dataFieldsDomainsValues">
+    <ind_0 type="interface" id="0"><![CDATA[Cheope_ns!!!fpdf_field_h!!0]]></ind_0>
+  </ind_dataFieldsDomainsValues>
+  <ind_pageName type="scalar" id="pageName"><![CDATA[Test]]></ind_pageName>
+</Items>

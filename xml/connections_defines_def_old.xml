@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<Items>
+  <sections name="DEFINES SECTION">
+    <section name="define">
+      <def name="">
+        <function_call name="define">
+          <arg name="">
+            <string type="single_quoted" name="">CONTENITORE_CONNECTIONS_1</string>
+          </arg>
+          <arg name="">
+            <string type="double_quoted" name="">Contenitore_connections_1</string>
+          </arg>
+        </function_call>
+      </def>
+      <def name="">
+        <function_call name="define">
+          <arg name="">
+            <string type="single_quoted" name="">CONNECTION_PROVA_1</string>
+          </arg>
+          <arg name="">
+            <string type="double_quoted" name="">prova_1</string>
+          </arg>
+        </function_call>
+      </def>
+      <def name="">
+        <function_call name="define">
+          <arg name="">
+            <string type="single_quoted" name="">CONNECTION_PROVA_2</string>
+          </arg>
+          <arg name="">
+            <string type="double_quoted" name="">prova_2</string>
+          </arg>
+        </function_call>
+      </def>
+    </section>
+  </sections>
+</Items>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<Items>
+    <ind_op type="scalar" id="op"></ind_op>
+   <ind_type type="scalar" id="type"><![CDATA[csv_table]]></ind_type>
+   <ind_num type="scalar" id="num"><![CDATA[0]]></ind_num>
+   <ind_shortName type="scalar" id="shortName"></ind_shortName>
+   <ind_obj type="db_item" id="obj"></ind_obj>
+   <ind_inheritData type="scalar" id="*inheritData"><![CDATA[true]]>
+   </ind_inheritData>
+   <ind_inheritDataFieldName type="scalar" id="*inheritDataFieldName"><![CDATA[false]]></ind_inheritDataFieldName>
+   <ind_dataFields type="array" id="dataFields">
+   </ind_dataFields>
+   <ind_dataFieldsDomains type="array" id="dataFieldsDomains">
+   </ind_dataFieldsDomains>
+   <ind_dataFieldsDomainsValues type="array" id="dataFieldsDomainsValues">
+   </ind_dataFieldsDomainsValues>
+   <ind_fieldsFromDataSource type="scalar" id="*fieldsFromDataSource"><![CDATA[false]]></ind_fieldsFromDataSource>
+  <ind_fileName type="scalar" id="fileName"><![CDATA[]]></ind_fileName>
+  <ind_dir type="scalar" id="dir"><![CDATA[./csv]]></ind_dir>
+</Items>

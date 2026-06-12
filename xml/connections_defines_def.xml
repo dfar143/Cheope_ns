@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<Items>
+  <sections name="DEFINES SECTION">
+    <section name="define">
+      <def name="">
+        <function_call name="define">
+          <arg name="">
+            <expr name="">__NAMESPACE__ . '\CONTENITORE_CONNECTIONS_1'</expr>
+          </arg>
+          <arg name="">
+            <string type="double_quoted" name="">Contenitore_connections_1</string>
+          </arg>
+        </function_call>
+      </def>
+      <def name="">
+        <function_call name="define">
+          <arg name="">
+            <expr name="">__NAMESPACE__ . '\CONNECTION_C_PROVA_1A'</expr>
+          </arg>
+          <arg name="">
+            <string type="double_quoted" name="">C_prova_1a</string>
+          </arg>
+        </function_call>
+      </def>
+      <def name="">
+        <function_call name="define">
+          <arg name="">
+            <expr name="">__NAMESPACE__ . '\CONNECTION_C_HOME'</expr>
+          </arg>
+          <arg name="">
+            <string type="double_quoted" name="">C_home</string>
+          </arg>
+        </function_call>
+      </def>
+      <def name="">
+        <function_call name="define">
+          <arg name="">
+            <expr name="">__NAMESPACE__ . '\CONNECTION_C_PROVA_3'</expr>
+          </arg>
+          <arg name="">
+            <string type="double_quoted" name="">C_prova_3</string>
+          </arg>
+        </function_call>
+      </def>
+      <def name="">
+        <function_call name="define">
+          <arg name="">
+            <expr name="">__NAMESPACE__ . '\CONNECTION_C_PROVA_2'</expr>
+          </arg>
+          <arg name="">
+            <string type="double_quoted" name="">C_prova_2</string>
+          </arg>
+        </function_call>
+      </def>
+    </section>
+  </sections>
+</Items>

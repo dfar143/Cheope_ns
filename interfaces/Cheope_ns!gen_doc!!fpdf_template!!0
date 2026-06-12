@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<Items>
+  <ind_op type="scalar" id="op"><![CDATA[]]></ind_op>
+  <ind_type type="scalar" id="type"><![CDATA[fpdf_template]]></ind_type>
+  <ind_num type="scalar" id="num"><![CDATA[4]]></ind_num>
+  <ind_pageName type="scalar" id="pageName"><![CDATA[gen_doc]]></ind_pageName>
+  <ind_shortName type="scalar" id="shortName"><![CDATA[Cheope_ns!gen_doc!!fpdf_template!!0]]></ind_shortName>
+  <ind_obj type="scalar" id="obj"><![CDATA[]]></ind_obj>
+  <ind_inheritData type="scalar" id="*inheritData"><![CDATA[false]]></ind_inheritData>
+  <ind_inheritDataFieldName type="scalar" id="*inheritDataFieldName"><![CDATA[false]]></ind_inheritDataFieldName>
+  <ind_fieldsFromDataSource type="scalar" id="*fieldsFromDataSource">false
+   </ind_fieldsFromDataSource>
+   <ind_dataSource type="array" id="dataSource"></ind_dataSource>
+  <ind_gridDimX type="scalar" id="gridDimX"><![CDATA[2]]></ind_gridDimX>
+  <ind_gridDimY type="scalar" id="gridDimY"><![CDATA[2]]></ind_gridDimY>
+  <ind_fileName type="scalar" id="fileName"><![CDATA[Cheope_ns!gen_doc!!fpdf_template!!0]]></ind_fileName>
+  <ind_dataFields type="array" id="dataFields">
+    <ind_0 type="scalar" id="0"><![CDATA[Campo0]]></ind_0>
+    <ind_1 type="scalar" id="1"><![CDATA[Campo1]]></ind_1>
+    <ind_2 type="scalar" id="2"><![CDATA[Campo2]]></ind_2>
+    <ind_3 type="scalar" id="3"><![CDATA[Campo3]]></ind_3>
+  </ind_dataFields>
+  <ind_dataFieldsDomains type="array" id="dataFieldsDomains">
+    <ind_0 type="scalar" id="0"><![CDATA[object]]></ind_0>
+    <ind_1 type="scalar" id="1"><![CDATA[object]]></ind_1>
+    <ind_2 type="scalar" id="2"><![CDATA[object]]></ind_2>
+    <ind_3 type="scalar" id="3"><![CDATA[object]]></ind_3>
+  </ind_dataFieldsDomains>
+  <ind_dataFieldsDomainsValues type="array" id="dataFieldsDomainsValues">
+    <ind_0 type="interface" id="0"><![CDATA[Cheope_ns!!!fpdf_field_h!!0]]></ind_0>
+    <ind_1 type="interface" id="1"><![CDATA[Cheope_ns!!fpdf_img!!0]]></ind_1>
+    <ind_2 type="interface" id="2"><![CDATA[Cheope_ns!!!fpdf_field_h!!0]]></ind_2>
+    <ind_3 type="interface" id="3"><![CDATA[Cheope_ns!!!fpdf_field_h!!0]]></ind_3>
+  </ind_dataFieldsDomainsValues>
+</Items>

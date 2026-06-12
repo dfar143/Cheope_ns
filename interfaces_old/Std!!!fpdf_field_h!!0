@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Items>
+  <ind_op type="scalar" id="op"><![CDATA[]]></ind_op>
+  <ind_type type="scalar" id="type"><![CDATA[fpdf_field_h]]></ind_type>
+  <ind_num type="scalar" id="num"><![CDATA[0]]></ind_num>
+  <ind_shortName type="scalar" id="shortName"><![CDATA[]]></ind_shortName>
+  <ind_pageName type="scalar" id="pageName"><![CDATA[]]></ind_pageName>
+  <ind_appName type="scalar" id="appName"><![CDATA[Std]]></ind_appName>
+  <ind_xCoord type="scalar" id="xCoord"><![CDATA[]]></ind_xCoord>
+  <ind_yCoord type="scalar" id="yCoord"><![CDATA[]]></ind_yCoord>
+  <ind_height type="scalar" id="height"><![CDATA[]]></ind_height>
+  <ind_font type="scalar" id="font"><![CDATA[Helvetica]]></ind_font>
+  <ind_fontStyle type="scalar" id="fontStyle"><![CDATA[B]]></ind_fontStyle>
+  <ind_fontSize type="scalar" id="fontSize"><![CDATA[10]]></ind_fontSize>
+  <ind_labelName type="scalar" id="labelName"><![CDATA[]]></ind_labelName>
+  <ind_obj type="db_item" id="obj"><![CDATA[]]></ind_obj>
+ <ind_inheritData type="scalar" id="*inheritData"><![CDATA[false]]></ind_inheritData>
+  <ind_inheritDataFieldName type="scalar" id="*inheritDataFieldName"><![CDATA[false]]></ind_inheritDataFieldName>
+  <ind_fieldsFromDataSource type="scalar" id="*fieldsFromDataSource"><![CDATA[false]]>
+   </ind_fieldsFromDataSource>
+  <ind_dataFields type="array" id="dataFields">
+  </ind_dataFields>
+  <ind_dataFieldsDomains type="array" id="dataFieldsDomains">
+  </ind_dataFieldsDomains>
+  <ind_dataFieldsDomainsValues type="array" id="dataFieldsDomainsValues">
+  </ind_dataFieldsDomainsValues>
+</Items>

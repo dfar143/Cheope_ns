@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Items>
+   <ind_op type="scalar" id="op"></ind_op>
+   <ind_type type="scalar" id="type"><![CDATA[sendMail]]></ind_type>
+   <ind_num type="scalar" id="num"></ind_num>
+   <ind_shortName type="scalar" id="shortName"></ind_shortName>
+   <ind_destinatario type="array" id="destinatario">
+   </ind_destinatario>
+   <ind_oggetto type="scalar" id="oggetto">
+   </ind_oggetto>
+   <ind_messaggio type="scalar" id="messaggio">
+   </ind_messaggio>
+   <ind_mimeVersion type="scalar" id="mimeVersion"><![CDATA[1.0]]>
+   </ind_mimeVersion>
+   <ind_contentType type="scalar" id="contentType"><![CDATA[text/html]]>
+   </ind_contentType>
+   <ind_charSet type="scalar" id="charSet"><![CDATA[iso-8859-1]]>
+   </ind_charSet>
+   <ind_to type="array" id="to">
+   </ind_to>
+   <ind_from type="scalar" id="from">
+   </ind_from>
+   <ind_cc type="scalar" id="cc">
+   </ind_cc>
+   <ind_bcc type="scalar" id="bcc">
+   </ind_bcc>
+</Items>

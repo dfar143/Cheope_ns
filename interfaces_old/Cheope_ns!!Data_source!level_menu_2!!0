@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<Items>
+  <ind_op type="scalar" id="op"><![CDATA[]]></ind_op>
+  <ind_type type="scalar" id="type"><![CDATA[level_menu_2]]></ind_type>
+  <ind_num type="scalar" id="num"><![CDATA[0]]></ind_num>
+  <ind_shortName type="scalar" id="shortName"><![CDATA[]]></ind_shortName>
+  <ind_cssClass type="scalar" id="cssClass"><![CDATA[level_menu_2]]></ind_cssClass>
+  <ind_voicesField type="scalar" id="voicesField"><![CDATA[Data1]]></ind_voicesField>
+  <ind_pagesField type="scalar" id="pagesField"><![CDATA[Data2]]></ind_pagesField>
+  <ind_idsField type="scalar" id="idsField"><![CDATA[Data3]]></ind_idsField>
+  <ind_targetsField type="scalar" id="targetsField"><![CDATA[Data4]]></ind_targetsField>
+  <ind_onClicksField type="scalar" id="onClicksField"><![CDATA[Data5]]></ind_onClicksField>
+  <ind_obj type="xml_node" id="obj"><![CDATA[cheope_ns__level_menu_2__0__data_source.xml]]></ind_obj>
+  <ind_inheritData type="scalar" id="*inheritData"><![CDATA[false]]></ind_inheritData>
+  <ind_inheritDataFieldName type="scalar" id="*inheritDataFieldName"><![CDATA[false]]></ind_inheritDataFieldName>
+  <ind_fieldsFromDataSource type="scalar" id="*fieldsFromDataSource"><![CDATA[false]]></ind_fieldsFromDataSource>
+  <ind_mainLabel type="scalar" id="mainLabel"><![CDATA[]]></ind_mainLabel>
+  <ind_itemsClass type="scalar" id="itemsClass"><![CDATA[level_menu_2_items]]></ind_itemsClass>
+  <ind_ordered type="scalar" id="*ordered"><![CDATA[false]]></ind_ordered>
+  <ind_gesPage type="scalar" id="gesPage"><![CDATA[]]></ind_gesPage>
+  <ind_target type="scalar" id="target"><![CDATA[]]></ind_target>
+  <ind_cssModule type="scalar" id="cssModule"><![CDATA[./css/level_menu_2.css]]></ind_cssModule>
+  <ind_style type="scalar" id="@style"><![CDATA[]]></ind_style>
+  <ind_dispFields type="array" id="dispFields"/>
+  <ind_dataFields type="array" id="dataFields">
+    <ind_0 type="scalar" id="0"><![CDATA[Data1]]></ind_0>
+    <ind_1 type="scalar" id="1"><![CDATA[Data2]]></ind_1>
+    <ind_2 type="scalar" id="2"><![CDATA[Data3]]></ind_2>
+    <ind_3 type="scalar" id="3"><![CDATA[Data4]]></ind_3>
+    <ind_4 type="scalar" id="4"><![CDATA[Data5]]></ind_4>
+  </ind_dataFields>
+  <ind_dataFieldsDomains type="array" id="dataFieldsDomains">
+    <ind_0 type="scalar" id="0"><![CDATA[atomic]]></ind_0>
+    <ind_1 type="scalar" id="1"><![CDATA[atomic]]></ind_1>
+    <ind_2 type="scalar" id="2"><![CDATA[atomic]]></ind_2>
+    <ind_3 type="scalar" id="3"><![CDATA[atomic]]></ind_3>
+    <ind_4 type="scalar" id="4"><![CDATA[atomic]]></ind_4>
+  </ind_dataFieldsDomains>
+  <ind_dataFieldsDomainsValues type="array" id="dataFieldsDomainsValues">
+    <ind_0 type="scalar" id="0"><![CDATA[]]></ind_0>
+    <ind_1 type="scalar" id="1"><![CDATA[]]></ind_1>
+    <ind_2 type="scalar" id="2"><![CDATA[]]></ind_2>
+    <ind_3 type="scalar" id="3"><![CDATA[]]></ind_3>
+    <ind_4 type="scalar" id="4"><![CDATA[]]></ind_4>
+  </ind_dataFieldsDomainsValues>
+</Items>

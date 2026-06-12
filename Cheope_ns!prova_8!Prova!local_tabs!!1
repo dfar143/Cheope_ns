@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<Items>
+  <ind_appName type="scalar" id="appName"><![CDATA[Cheope]]></ind_appName>
+  <ind_pageName type="scalar" id="pageName"><![CDATA[Cheope]]></ind_pageName>
+  <ind_op type="scalar" id="op"><![CDATA[]]></ind_op>
+  <ind_type type="scalar" id="type"><![CDATA[local_tabs]]></ind_type>
+  <ind_num type="scalar" id="num"><![CDATA[1]]></ind_num>
+  <ind_shortName type="scalar" id="shortName"><![CDATA[]]></ind_shortName>
+  <ind_cssClass type="scalar" id="cssClass"><![CDATA[local_tabs]]></ind_cssClass>
+  <ind_style type="scalar" id="@style"><![CDATA[]]></ind_style>
+  <ind_dispFields type="array" id="dispFields"/>
+  <ind_obj type="db_item" id="obj">Prova</ind_obj>
+  <ind_inheritData type="scalar" id="inheritData"><![CDATA[false]]></ind_inheritData>
+  <ind_inheritDataFieldName type="scalar" id="inheritDataFieldName"><![CDATA[false]]></ind_inheritDataFieldName>
+  <ind_dataFields type="array" id="dataFields">
+    <ind_0 type="scalar" id="0"><![CDATA[Data_1]]></ind_0>
+    <ind_1 type="scalar" id="1"><![CDATA[Data_2]]></ind_1>
+    <ind_2 type="scalar" id="2"><![CDATA[Data_3]]></ind_2>
+    <ind_3 type="scalar" id="3"><![CDATA[Data_4]]></ind_3>
+  </ind_dataFields>
+  <ind_dataFieldsDomains type="array" id="dataFieldsDomains">
+    <ind_0 type="scalar" id="0"><![CDATA[atomic]]></ind_0>
+    <ind_1 type="scalar" id="1"><![CDATA[atomic]]></ind_1>
+    <ind_2 type="scalar" id="2"><![CDATA[atomic]]></ind_2>
+    <ind_3 type="scalar" id="3"><![CDATA[atomic]]></ind_3>
+  </ind_dataFieldsDomains>
+  <ind_dataFieldsDomainsValues type="array" id="dataFieldsDomainsValues">
+    <ind_0 type="scalar" id="0"><![CDATA[]]></ind_0>
+    <ind_1 type="scalar" id="1"><![CDATA[]]></ind_1>
+    <ind_2 type="scalar" id="2"><![CDATA[]]></ind_2>
+    <ind_3 type="scalar" id="3"><![CDATA[]]></ind_3>
+  </ind_dataFieldsDomainsValues>
+  <ind_dataSource type="array" id="dataSource">
+    <ind_0 type="array" id="0">
+      <ind_Id_prova type="scalar" id="Id_prova"><![CDATA[1]]></ind_Id_prova>
+      <ind_Data_1 type="scalar" id="Data_1"><![CDATA[zzzz]]></ind_Data_1>
+      <ind_Data_2 type="scalar" id="Data_2"><![CDATA[0.2]]></ind_Data_2>
+      <ind_Data_3 type="scalar" id="Data_3"><![CDATA[Ciao_3]]></ind_Data_3>
+      <ind_Data_4 type="scalar" id="Data_4"><![CDATA[Ciao_4]]></ind_Data_4>
+      <ind_Id_prova_2 type="scalar" id="Id_prova_2"><![CDATA[1]]></ind_Id_prova_2>
+      <ind_Id_prova_4 type="scalar" id="Id_prova_4"><![CDATA[]]></ind_Id_prova_4>
+      <ind_Id_prova_3 type="scalar" id="Id_prova_3"><![CDATA[]]></ind_Id_prova_3>
+      <ind_Id_prova_5 type="scalar" id="Id_prova_5"><![CDATA[]]></ind_Id_prova_5>
+      <ind_Id_prova_6 type="scalar" id="Id_prova_6"><![CDATA[]]></ind_Id_prova_6>
+    </ind_0>
+    <ind_1 type="array" id="1">
+      <ind_Id_prova type="scalar" id="Id_prova"><![CDATA[2]]></ind_Id_prova>
+      <ind_Data_1 type="scalar" id="Data_1"><![CDATA[Via_1]]></ind_Data_1>
+      <ind_Data_2 type="scalar" id="Data_2"><![CDATA[0.3]]></ind_Data_2>
+      <ind_Data_3 type="scalar" id="Data_3"><![CDATA[Via_3]]></ind_Data_3>
+      <ind_Data_4 type="scalar" id="Data_4"><![CDATA[Via_4]]></ind_Data_4>
+      <ind_Id_prova_2 type="scalar" id="Id_prova_2"><![CDATA[2]]></ind_Id_prova_2>
+      <ind_Id_prova_4 type="scalar" id="Id_prova_4"><![CDATA[]]></ind_Id_prova_4>
+      <ind_Id_prova_3 type="scalar" id="Id_prova_3"><![CDATA[]]></ind_Id_prova_3>
+      <ind_Id_prova_5 type="scalar" id="Id_prova_5"><![CDATA[]]></ind_Id_prova_5>
+      <ind_Id_prova_6 type="scalar" id="Id_prova_6"><![CDATA[]]></ind_Id_prova_6>
+    </ind_1>
+    <ind_2 type="array" id="2">
+      <ind_Id_prova type="scalar" id="Id_prova"><![CDATA[6]]></ind_Id_prova>
+      <ind_Data_1 type="scalar" id="Data_1"><![CDATA[Go_1]]></ind_Data_1>
+      <ind_Data_2 type="scalar" id="Data_2"><![CDATA[0.4]]></ind_Data_2>
+      <ind_Data_3 type="scalar" id="Data_3"><![CDATA[Go_3]]></ind_Data_3>
+      <ind_Data_4 type="scalar" id="Data_4"><![CDATA[Go_4]]></ind_Data_4>
+      <ind_Id_prova_2 type="scalar" id="Id_prova_2"><![CDATA[2]]></ind_Id_prova_2>
+      <ind_Id_prova_4 type="scalar" id="Id_prova_4"><![CDATA[]]></ind_Id_prova_4>
+      <ind_Id_prova_3 type="scalar" id="Id_prova_3"><![CDATA[]]></ind_Id_prova_3>
+      <ind_Id_prova_5 type="scalar" id="Id_prova_5"><![CDATA[]]></ind_Id_prova_5>
+      <ind_Id_prova_6 type="scalar" id="Id_prova_6"><![CDATA[]]></ind_Id_prova_6>
+    </ind_2>
+    <ind_3 type="array" id="3">
+      <ind_Id_prova type="scalar" id="Id_prova"><![CDATA[7]]></ind_Id_prova>
+      <ind_Data_1 type="scalar" id="Data_1"><![CDATA[hhh]]></ind_Data_1>
+      <ind_Data_2 type="scalar" id="Data_2"><![CDATA[0.45]]></ind_Data_2>
+      <ind_Data_3 type="scalar" id="Data_3"><![CDATA[ttt_3]]></ind_Data_3>
+      <ind_Data_4 type="scalar" id="Data_4"><![CDATA[Ro_4]]></ind_Data_4>
+      <ind_Id_prova_2 type="scalar" id="Id_prova_2"><![CDATA[4]]></ind_Id_prova_2>
+      <ind_Id_prova_4 type="scalar" id="Id_prova_4"><![CDATA[]]></ind_Id_prova_4>
+      <ind_Id_prova_3 type="scalar" id="Id_prova_3"><![CDATA[]]></ind_Id_prova_3>
+      <ind_Id_prova_5 type="scalar" id="Id_prova_5"><![CDATA[]]></ind_Id_prova_5>
+      <ind_Id_prova_6 type="scalar" id="Id_prova_6"><![CDATA[]]></ind_Id_prova_6>
+    </ind_3>
+    <ind_4 type="array" id="4">
+      <ind_Id_prova type="scalar" id="Id_prova"><![CDATA[8]]></ind_Id_prova>
+      <ind_Data_1 type="scalar" id="Data_1"><![CDATA[hhh]]></ind_Data_1>
+      <ind_Data_2 type="scalar" id="Data_2"><![CDATA[0.7]]></ind_Data_2>
+      <ind_Data_3 type="scalar" id="Data_3"><![CDATA[jjj_3]]></ind_Data_3>
+      <ind_Data_4 type="scalar" id="Data_4"><![CDATA[Po_4]]></ind_Data_4>
+      <ind_Id_prova_2 type="scalar" id="Id_prova_2"><![CDATA[2]]></ind_Id_prova_2>
+      <ind_Id_prova_4 type="scalar" id="Id_prova_4"><![CDATA[]]></ind_Id_prova_4>
+      <ind_Id_prova_3 type="scalar" id="Id_prova_3"><![CDATA[]]></ind_Id_prova_3>
+      <ind_Id_prova_5 type="scalar" id="Id_prova_5"><![CDATA[]]></ind_Id_prova_5>
+      <ind_Id_prova_6 type="scalar" id="Id_prova_6"><![CDATA[]]></ind_Id_prova_6>
+    </ind_4>
+  </ind_dataSource>
+  <ind_fieldsFromDataSource type="scalar" id="fieldsFromDataSource"><![CDATA[false]]></ind_fieldsFromDataSource>
+  <ind_selectedTab type="scalar" id="selectedTab"><![CDATA[0]]></ind_selectedTab>
+  <ind_voicesField type="scalar" id="voicesField"><![CDATA[]]></ind_voicesField>
+  <ind_interfacesContainer type="container" id="interfacesContainer"/>
+</Items>

@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<Items>
+  <sections name="">
+    <section name="">
+      <def name="">
+        <var name="">dbObjProva_3</var>
+        <method_call instanceName = "" parent="1" name="create"> 
+          <expr name="">Creator</expr>
+          <arg name="">
+            <string type="double_quoted" name="">Db_node</string>
+          </arg>
+          <arg name="">
+            <const name="">STRING_NULL</const>
+          </arg> 
+          <arg name="">
+            <const name="">TABELLA_PROVA_3</const>
+          </arg>     	
+        </method_call>
+      </def>
+      <def name="">
+        <var name="">dbObjProva_4</var>
+        <constructor_call name="Db_node">
+          <arg name="">
+            <const name="">TABELLA_PROVA_4</const>
+          </arg>
+        </constructor_call>
+      </def>
+      <def name="">
+        <var name="">dbObjProva</var>
+        <constructor_call name="Db_node">
+          <arg name="">
+            <const name="">TABELLA_PROVA</const>
+          </arg>
+        </constructor_call>
+      </def>
+      <def name="">
+        <var name="">dbObjProva_2</var>
+        <constructor_call name="Db_node">
+          <arg name="">
+            <const name="">TABELLA_PROVA_2</const>
+          </arg>
+        </constructor_call>
+      </def>
+    </section>
+  </sections>
+</Items>

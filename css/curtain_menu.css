@@ -1,0 +1,26 @@
+.curtain_menu
+{
+ position:absolute;
+ visibility:hidden;
+ background-color:#290094;
+ color:white;
+ padding:5px 2px 5px 5px;
+ border:1px solid white;
+ width:120px;
+ z-index:5000;
+}
+
+.curtain_menu_voice_item
+{
+ font-family:Verdana,Arial,"Times new roman";
+ font-size: 10pt;
+ font-weight:normal;
+ padding:3px 0px 3px 0px;
+ margin-right:5px;
+}
+
+.curtain_menu_img_item
+{
+ padding:3px 0px 3px 0px;
+}
+

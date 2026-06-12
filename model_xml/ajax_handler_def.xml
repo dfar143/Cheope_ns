@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<Items>
+	<sections>
+	<section name="Header.">
+    <def name="">
+      <namespace name="">
+  			Std\fw
+  		</namespace>
+    </def>
+   <def>
+  <function_call name="header">
+  	<arg name="">
+  		<string type="double_quoted" name="">Content-type:text/xml</string>
+  	</arg>
+    </function_call>
+  </def>
+  </section>
+  <section name="Require onces.">
+  <def>
+  <function_call name="require_once">
+  	<arg name="">
+  		<string type="single_quoted" name="">root.const.php</string>
+  	</arg>
+  </function_call>
+  </def>
+  <def>
+  <function_call name="require_once">
+  	<arg name="">
+  		<expr name="">
+  			FRAMEWORK_PATH . "Std_ajaxOps.class.php"
+  		</expr>
+  	</arg>
+  </function_call>
+  </def>
+  <def>
+  <function_call name="require_once">
+  	<arg name="">
+  		<expr name="">
+  			FRAMEWORK_PATH . "Std_ajax_handler.class.php"
+  		</expr>
+  	</arg>
+  </function_call>
+  </def>       
+  </section>  
+  <section name="Defines.">
+  <def>
+  <function_call name="define">
+  	<arg name="">
+  		<string type="single_quoted">AJAX_OP_CONTAINER_1</string>
+  	</arg>
+  	<arg name="">
+  		<string type="double_quoted">ajaxOpContainer1</string>
+  	</arg>
+  </function_call>
+  </def>
+  <def>  
+  <function_call name="define">
+  	<arg name="">
+  		<string type="single_quoted">AJAX_HANDLER_1</string>
+  	</arg>
+  	<arg name="">
+  		<string type="double_quoted">ajaxHandler1</string>
+  	</arg>
+  </function_call>
+  </def>    	  
+  </section>
+  <section name="Generates instances.">
+    <ref >
+    ajaxOps_generate_instances_def
+	 </ref>  	
+  </section>
+  <section name="Adds instances to container.">
+  	<def>
+  		<var name=""> 		
+  			ajaxOps	
+  		</var>
+  		<constructor_call name="AjaxOps_container">
+  			<const name="">AJAX_OP_CONTAINER_1</const>
+  		</constructor_call>
+  	</def>
+   <ref >
+    ajaxOps_add_instances_to_container_def
+	 </ref> 
+  </section>
+  <section name="Set Json enabled flags.">
+   <ref >
+    ajaxOps_set_json_enabled_flags_def
+	 </ref> 
+  </section>
+  <section name="Generate ajax handler instance.">
+  	<def name="">
+  		<var name="">
+  			ajaxHandler
+  		</var>
+  		<constructor_call name="Std_ajax_handler">
+  			<const name="">AJAX_HANDLER_1</const>
+  		</constructor_call>
+  	</def> 
+	 </section>
+	 <section name="Call ajax handler putData.">
+	  <def>
+    <method_call instanceName="" name="setOpsContainer">
+     <var name="">ajaxHandler</var>
+     <arg name="">
+       <var name="">ajaxOps</var>
+     </arg>
+   </method_call>
+   </def>
+   <def>	
+    <method_call instanceName="" name="putData">
+     <var name="">ajaxHandler</var>
+   </method_call>
+  </def>
+  </section>
+  </sections>
+</Items>

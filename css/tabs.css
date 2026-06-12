@@ -1,0 +1,76 @@
+.tabs_container 
+{
+ font-family:Verdana,Arial,"Times new roman";
+ font-size: 9pt;
+ width:100%;
+}
+
+.tabs_container td 
+{
+ font-family:Verdana,Arial,"Times new roman";
+ font-size: 9pt;
+ height: 24px;
+ padding: 4px 2px 4px 2px;
+}
+
+.tab
+{
+background-color:#295a94;
+border:1px solid white;
+font-family:Verdana,Arial,"Times new roman";
+font-size: 9pt;
+cursor:pointer;
+}
+
+.tab_label
+{
+font-family:Verdana,Arial,"Times new roman";
+font-size: 9pt;
+}
+
+.selected_tab
+{
+font-family:Verdana,Arial,"Times new roman";
+font-size: 9pt;
+background-color:#290094;
+border-top: 1px solid white;
+border-left: 1px solid white;
+border-right: 1px solid white;
+border-bottom: 1px solid #290094;
+}
+
+.selected_tab_label
+{
+font-family:Verdana,Arial,"Times new roman";
+font-size: 9pt;
+}
+
+.void_tab
+{
+font-family:Verdana,Arial,"Times new roman";
+font-size: 9pt;
+background-color:#8F0004;
+border-bottom: 1px solid white;
+}
+
+
+.tab_body
+{
+background-color:#290094;
+font-family:Verdana,Arial,"Times new roman";
+font-size: 9pt;
+border-left: 1px solid white;
+border-right: 1px solid white;
+border-bottom: 1px solid white;
+}
+
+.tab_body td 
+{
+ vertical-align: top;
+}
+
+.tab_inner_table
+{
+ 
+ width:100%;
+}

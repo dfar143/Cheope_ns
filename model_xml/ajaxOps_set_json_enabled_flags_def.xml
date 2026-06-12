@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Items>
+  <sections name="SEZIONE Set Json enabled flags.">
+  	<section name="Set Json enabled flags.">
+     <def name="">
+        <method_call instanceName="" name="setIsJsonEnabled">
+          <arg><var name="">ajaxOpJavascriptInjection</var></arg>
+          <arg><string type="no_quoted" name="">true</string></arg>
+        </method_call>
+      </def>
+      <def name="">
+        <method_call instanceName="" name="setIsJsonEnabled">
+          <arg><var name="">ajaxOpLocalization</var></arg>
+          <arg><string type="no_quoted" name="">true</string></arg>
+        </method_call>
+      </def>
+	 </section>
+	</sections>
+</Items>

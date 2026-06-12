@@ -1,0 +1,136 @@
+<@ 
+ <obj action="exec_page_method" method="putXmlPrologString"></obj>
+@>
+<@ 
+ <obj action="exec_page_method" method="putDocTypeString"></obj>
+@>
+<@ 
+ <obj action="exec_page_method" method="putHtmlOpenTag"></obj>
+@>
+<head>	
+<@ 
+ <obj action="exec_page_method" method="putTitleTag"></obj>
+@>
+<@ 
+ <obj action="create_from_normal_name">Cheope_ns!Pagina_9!Prova_2!accordion!!1</obj>
+ @>
+<?
+ $jQueryEnabled = array(true);
+?>
+<@ 
+ <obj action="exec_page_method" method="setJQueryEnabled" parametersVar="jQueryEnabled"></obj>
+@>
+<@ 
+ <obj action="exec_page_method" method="putLinkTags"></obj>
+@>
+<@ 
+ <obj action="exec_page_method" method="putClientScriptIncludeCode"></obj>
+@>
+</head>
+<? 
+echo "www";
+$a=-1;
+if($a<0)
+ echo "dddd";
+
+for($i=5;$i<=40;$i++)
+{
+	$obj = new Html_button_tag(OP_NONE,$i);
+ $obj->setShortName("HtmlButtonTag$i");
+ $interfacesContainer->add($obj);
+}
+
+$obj = new Html_button_tag(OP_NONE,1);
+$obj->setShortName('HtmlButtonTag1');
+$interfacesContainer->add($obj);
+$obj = new Html_button_tag(OP_NONE,2);
+$obj->setShortName('HtmlButtonTag2');
+$interfacesContainer->add($obj);
+$obj = new Html_button_tag(OP_NONE,3);
+$obj->setShortName('HtmlButtonTag3');
+$interfacesContainer->add($obj);
+$obj = new Html_button_tag(OP_NONE,4);
+$obj->setShortName('HtmlButtonTag4');
+
+$obj4 = $obj;
+
+$interfacesContainer->add($obj);
+$obj = new Html_data_template(OBJ_NONE,OP_NONE,NUM_1);
+$obj->setShortName('Template1');
+$interfacesContainer->add($obj);
+$obj = new Cheope_ns_temp_msg();
+$obj->setShortName('Msg1');
+$interfacesContainer->add($obj);
+ ?>
+<body>
+<table border="1">
+<tr>
+<td>
+	<br/>
+	<br/>
+	<br/>
+	n.,m.m.-mhjlòkòlk
+</td>
+<? for($i=4;$i<=20;$i++){?>
+<td>
+<@ 
+ <obj shortName="HtmlButtonTag$i" action="display"></obj>
+ @>
+ </td>
+ <?}?>
+ <td>
+<td>
+<@ 
+ <obj shortName="Template1" action="template">{AAA},{@HtmlButtonTag4},{CCC},{@DDD}</obj>
+ @>
+ </td>
+</td>
+ </tr>
+ <tr>
+ 	<td>
+<@ 
+ <obj action="create_from_normal_name_and_display">Cheope_ns!Pagina_9!Prova_2!accordion!!1</obj>
+ @> 		
+</td>
+ 	<td>
+<@ 
+ <obj action="load_and_display" shortName="HtmlButtonTag1"></obj>
+ @> 		
+</td>
+ 	<td>
+<@ 
+ <obj action="load_from_embed_and_display" shortName="HtmlButtonTag1">
+  <ind_op type="scalar" id="op"></ind_op>
+  <ind_type type="scalar" id="type">html_tags</ind_type>
+  <ind_num type="scalar" id="num">1</ind_num>
+  <ind_dispFields type="array" id="dispFields"/>
+  <ind_cssClass type="scalar" id="cssClass"></ind_cssClass>
+  <ind_id type="scalar" id="id">html_tags__1</ind_id>
+  <ind_tag type="scalar" id="tag">button</ind_tag>
+  <ind_tagBody type="scalar" id="tagBody">AAAAAAA</ind_tagBody>
+  <ind_tagBodyPos type="scalar" id="tagBodyPos">prePos</ind_tagBodyPos>
+  <ind_attribs type="array" id="attribs">
+  <ind_href type="scalar" id="href">#</ind_href>
+  </ind_attribs>
+  <ind_interfacesContainer type="container" id="interfacesContainer"></ind_interfacesContainer>
+ </obj>
+ @> 		
+</td>
+<td>
+	<? $newLabel = "BBBBB"; ?>
+	<@
+	<obj action="set_property" shortName="HtmlButtonTag1" prop="tagBody" propVal="newLabel"></obj>
+	@>
+	<@
+	 <obj action="display" shortName="HtmlButtonTag1"></obj>
+	@>
+</td>
+ 	<td>
+<@ 
+ <obj action="display" objVar="obj4"></obj>
+ @> 		
+</td>
+</tr>
+ </table>
+</body>
+</html>

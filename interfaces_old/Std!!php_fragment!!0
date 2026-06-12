@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Items>
+  <ind_op type="scalar" id="op"></ind_op>
+  <ind_type type="scalar" id="type"><![CDATA[php_fragment]]></ind_type>
+  <ind_num type="scalar" id="num"><![CDATA[0]]></ind_num>
+  <ind_phpFragment type="scalar" id="@phpFragment">
+  </ind_phpFragment>
+</Items>

@@ -1,0 +1,11 @@
+[19-Apr-2012 15:06:28] PHP Warning:  require_once(php_arrays_def.class.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in C:\PHP\Scripts\Cheope\fw\esempio_parser.php on line 2
+[19-Apr-2012 15:06:28] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'php_arrays_def.class.php' (include_path='.;C:\PHP\pear') in C:\PHP\Scripts\Cheope\fw\esempio_parser.php on line 2
+[19-Apr-2012 15:07:02] PHP Notice:  Use of undefined constant LEX_RULE_CLASS - assumed 'LEX_RULE_CLASS' in C:\PHP\Scripts\Cheope\fw\Lex_rules_container.class.php on line 48
+[19-Apr-2012 15:08:46] PHP Notice:  Undefined variable: profiler in C:\PHP\Scripts\Cheope\fw\esempio_parser.php on line 40
+[19-Apr-2012 15:08:46] PHP Fatal error:  Call to a member function print_profile() on a non-object in C:\PHP\Scripts\Cheope\fw\esempio_parser.php on line 40
+[19-Apr-2012 15:10:03] PHP Notice:  Undefined variable: profiler in C:\PHP\Scripts\Cheope\fw\esempio_parser.php on line 40
+[19-Apr-2012 15:10:03] PHP Fatal error:  Call to a member function print_profile() on a non-object in C:\PHP\Scripts\Cheope\fw\esempio_parser.php on line 40
+[19-Apr-2012 15:12:06] PHP Notice:  Undefined variable: profiler in C:\PHP\Scripts\Cheope\fw\esempio_parser.php on line 40
+[19-Apr-2012 15:12:06] PHP Fatal error:  Call to a member function print_profile() on a non-object in C:\PHP\Scripts\Cheope\fw\esempio_parser.php on line 40
+[19-Apr-2012 15:14:15] PHP Notice:  Undefined variable: profiler in C:\PHP\Scripts\Cheope\fw\esempio_parser.php on line 40
+[19-Apr-2012 15:14:15] PHP Fatal error:  Call to a member function print_profile() on a non-object in C:\PHP\Scripts\Cheope\fw\esempio_parser.php on line 40
